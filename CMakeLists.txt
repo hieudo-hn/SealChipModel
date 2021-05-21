@@ -31,7 +31,7 @@ include(${DLIB_PATH}/dlib/cmake)
 # files you would simply list them here in the add_executable() statement.  
 
 
-add_executable(compileModel dnn_mmod_dog_hipsterizer.cpp)
+add_executable(compileModel dnn_mmod_seal.cpp)
 
 
 # Finally, you need to tell CMake that this program, assignment_learning_ex,
