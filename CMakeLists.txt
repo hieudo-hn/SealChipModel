@@ -124,10 +124,10 @@ endmacro()
 #   cmake .. -G "Visual Studio 14 2015 Win64" -T host=x64 
 
 
-if (NOT USING_OLD_VISUAL_STUDIO_COMPILER)
-   add_gui_example(dnn_mmod_dog_hipsterizer)
-   #add_gui_example(dnn_mmod_seal)
-endif()
+# if (NOT USING_OLD_VISUAL_STUDIO_COMPILER)
+#    add_gui_example(dnn_mmod_dog_hipsterizer)
+#    #add_gui_example(dnn_mmod_seal)
+# endif()
 
 if (DLIB_LINK_WITH_SQLITE3)
    add_example(sqlite_ex)
