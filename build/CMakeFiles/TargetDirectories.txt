@@ -1,0 +1,6 @@
+/Users/Hieudo/Documents/SealChipModel/build/CMakeFiles/rebuild_cache.dir
+/Users/Hieudo/Documents/SealChipModel/build/CMakeFiles/edit_cache.dir
+/Users/Hieudo/Documents/SealChipModel/build/CMakeFiles/compileModel.dir
+/Users/Hieudo/Documents/SealChipModel/build/dlib_build/CMakeFiles/rebuild_cache.dir
+/Users/Hieudo/Documents/SealChipModel/build/dlib_build/CMakeFiles/edit_cache.dir
+/Users/Hieudo/Documents/SealChipModel/build/dlib_build/CMakeFiles/dlib.dir
