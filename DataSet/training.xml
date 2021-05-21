@@ -30,7 +30,7 @@
     <box top='218' left='232' width='63' height='63'/>
     <box top='155' left='344' width='90' height='90'/>
   </image>
-  <image file='1.jpg'>
+  <image file='1.JPG'>
     <box top='286' left='184' width='72' height='58'/>
     <box top='336' left='182' width='154' height='160'/>
     <box top='252' left='296' width='74' height='72'/>
@@ -41,19 +41,19 @@
     <box top='224' left='1290' width='72' height='76'/>
     <box top='210' left='1742' width='52' height='52'/>
   </image>
-  <image file='2.jpg'>
+  <image file='2.JPG'>
     <box top='250' left='266' width='79' height='62'/>
     <box top='205' left='708' width='61' height='59'/>
     <box top='340' left='844' width='65' height='70'/>
     <box top='206' left='1425' width='67' height='72'/>
   </image>
-  <image file='3.jpg'>
+  <image file='3.JPG'>
     <box top='88' left='548' width='64' height='66'/>
     <box top='234' left='681' width='63' height='71'/>
     <box top='76' left='1488' width='69' height='60'/>
     <box top='109' left='1906' width='50' height='47'/>
   </image>
-    <image file='4.jpg'>
+    <image file='4.JPG'>
     <box top='96' left='836' width='100' height='106'/>
     <box top='70' left='1101' width='87' height='94'/>
     <box top='290' left='1081' width='93' height='98'/>
