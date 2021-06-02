@@ -17,11 +17,7 @@ set(THREADS_PREFER_PTHREAD_FLAG ON)
 # cmake --build . --config Release
 
 if (NOT DEFINED DLIB_PATH)
-<<<<<<< HEAD
    set(DLIB_PATH "../dlib-19.22")
-=======
-   set(DLIB_PATH "./dlib-19.22")
->>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 endif()
 
 include(${DLIB_PATH}/dlib/cmake)
@@ -35,22 +31,14 @@ include(${DLIB_PATH}/dlib/cmake)
 # files you would simply list them here in the add_executable() statement.  
 
 
-<<<<<<< HEAD
-add_executable(train_model dnn_mmod_dog_seal.cpp)
-=======
 add_executable(compileModel dnn_mmod_seal.cpp)
->>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 
 
 # Finally, you need to tell CMake that this program, assignment_learning_ex,
 # depends on dlib.  You do that with this statement: 
 
 
-<<<<<<< HEAD
-target_link_libraries(train_model dlib::dlib)
-=======
 target_link_libraries(compileModel dlib::dlib)
->>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 
 
 
@@ -75,36 +63,3 @@ target_link_libraries(compileModel dlib::dlib)
 # arguments to -G to see what kinds of projects cmake can generate for you.  It
 # probably includes your favorite IDE in the list.
 
-<<<<<<< HEAD
-
-
-
-#################################################################################
-#################################################################################
-#  A CMakeLists.txt file can compile more than just one program.  So below we
-#  tell it to compile the other dlib example programs using pretty much the
-#  same CMake commands we used above.
-#################################################################################
-#################################################################################
-
-
-# Since there are a lot of examples I'm going to use a macro to simplify this
-# CMakeLists.txt file.  However, usually you will create only one executable in
-# your cmake projects and use the syntax shown above.
-
-macro(add_example name)
-   add_executable(${name} ${name}.cpp)
-   target_link_libraries(${name} dlib::dlib )
-endmacro()
-
-# if an example requires GUI, call this macro to check DLIB_NO_GUI_SUPPORT to include or exclude
-macro(add_gui_example name)
-   if (DLIB_NO_GUI_SUPPORT)
-      message("No GUI support, so we won't build the ${name} example.")
-   else()
-      add_example(${name})
-   endif()
-endmacro()
-
-=======
->>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
