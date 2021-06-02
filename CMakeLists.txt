@@ -63,36 +63,3 @@ target_link_libraries(compileModel dlib::dlib)
 # arguments to -G to see what kinds of projects cmake can generate for you.  It
 # probably includes your favorite IDE in the list.
 
-<<<<<<< HEAD
-=======
-
-
-
-#################################################################################
-#################################################################################
-#  A CMakeLists.txt file can compile more than just one program.  So below we
-#  tell it to compile the other dlib example programs using pretty much the
-#  same CMake commands we used above.
-#################################################################################
-#################################################################################
-
-
-# Since there are a lot of examples I'm going to use a macro to simplify this
-# CMakeLists.txt file.  However, usually you will create only one executable in
-# your cmake projects and use the syntax shown above.
-
-macro(add_example name)
-   add_executable(${name} ${name}.cpp)
-   target_link_libraries(${name} dlib::dlib )
-endmacro()
-
-# if an example requires GUI, call this macro to check DLIB_NO_GUI_SUPPORT to include or exclude
-macro(add_gui_example name)
-   if (DLIB_NO_GUI_SUPPORT)
-      message("No GUI support, so we won't build the ${name} example.")
-   else()
-      add_example(${name})
-   endif()
-endmacro()
-
->>>>>>> 42a6b8471e2b536c3332ed02bfca5ecae3ea199f
