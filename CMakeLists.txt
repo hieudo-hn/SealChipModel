@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.12)
-# Every project needs a name.  We call this the "examples" project.
-project(SealNet)
+
+project(SealChipModel)
 
 set(CMAKE_THREAD_LIBS_INIT "-lpthread")
 set(CMAKE_HAVE_THREADS_LIBRARY 1)
@@ -17,21 +17,14 @@ set(THREADS_PREFER_PTHREAD_FLAG ON)
 # cmake --build . --config Release
 
 if (NOT DEFINED DLIB_PATH)
+<<<<<<< HEAD
    set(DLIB_PATH "../dlib-19.22")
+=======
+   set(DLIB_PATH "./dlib-19.22")
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 endif()
 
 include(${DLIB_PATH}/dlib/cmake)
-
-# If you have cmake 3.14 or newer you can even use FetchContent instead of
-# add_subdirectory() to pull in dlib as a dependency.  So instead of using the
-# above add_subdirectory() command, you could use the following three commands
-# to make dlib available:
-#  include(FetchContent)
-#  FetchContent_Declare(dlib
-#      GIT_REPOSITORY https://github.com/davisking/dlib.git
-#      GIT_TAG        v19.18
-#  )
-#  FetchContent_MakeAvailable(dlib)
 
 
 # The next thing we need to do is tell CMake about the code you want to
@@ -42,14 +35,22 @@ include(${DLIB_PATH}/dlib/cmake)
 # files you would simply list them here in the add_executable() statement.  
 
 
+<<<<<<< HEAD
 add_executable(train_model dnn_mmod_dog_seal.cpp)
+=======
+add_executable(compileModel dnn_mmod_seal.cpp)
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 
 
 # Finally, you need to tell CMake that this program, assignment_learning_ex,
 # depends on dlib.  You do that with this statement: 
 
 
+<<<<<<< HEAD
 target_link_libraries(train_model dlib::dlib)
+=======
+target_link_libraries(compileModel dlib::dlib)
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 
 
 
@@ -74,6 +75,7 @@ target_link_libraries(train_model dlib::dlib)
 # arguments to -G to see what kinds of projects cmake can generate for you.  It
 # probably includes your favorite IDE in the list.
 
+<<<<<<< HEAD
 
 
 
@@ -104,3 +106,5 @@ macro(add_gui_example name)
    endif()
 endmacro()
 
+=======
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8

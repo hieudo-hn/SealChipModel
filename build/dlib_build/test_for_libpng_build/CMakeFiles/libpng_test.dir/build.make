@@ -44,19 +44,33 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
+<<<<<<< HEAD
 CMAKE_COMMAND = /Applications/CMake.app/Contents/bin/cmake
 
 # The command to remove a file.
 RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
+=======
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.20.2/bin/cmake
+
+# The command to remove a file.
+RM = /usr/local/Cellar/cmake/3.20.2/bin/cmake -E rm -f
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /Users/aylab/Documents/Hieu/dlib-19.22/dlib/cmake_utils/test_for_libpng
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/test_for_libpng_build
+=======
+CMAKE_SOURCE_DIR = /Users/Hieudo/Documents/SealChipModel/dlib-19.22/dlib/cmake_utils/test_for_libpng
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /Users/Hieudo/Documents/SealChipModel/build/dlib_build/test_for_libpng_build
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 
 # Include any dependencies generated for this target.
 include CMakeFiles/libpng_test.dir/depend.make
@@ -70,6 +84,7 @@ include CMakeFiles/libpng_test.dir/progress.make
 include CMakeFiles/libpng_test.dir/flags.make
 
 CMakeFiles/libpng_test.dir/libpng_test.cpp.o: CMakeFiles/libpng_test.dir/flags.make
+<<<<<<< HEAD
 CMakeFiles/libpng_test.dir/libpng_test.cpp.o: /Users/aylab/Documents/Hieu/dlib-19.22/dlib/cmake_utils/test_for_libpng/libpng_test.cpp
 CMakeFiles/libpng_test.dir/libpng_test.cpp.o: CMakeFiles/libpng_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/test_for_libpng_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/libpng_test.dir/libpng_test.cpp.o"
@@ -82,6 +97,20 @@ CMakeFiles/libpng_test.dir/libpng_test.cpp.i: cmake_force
 CMakeFiles/libpng_test.dir/libpng_test.cpp.s: cmake_force
 	@echo "Compiling CXX source to assembly CMakeFiles/libpng_test.dir/libpng_test.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aylab/Documents/Hieu/dlib-19.22/dlib/cmake_utils/test_for_libpng/libpng_test.cpp -o CMakeFiles/libpng_test.dir/libpng_test.cpp.s
+=======
+CMakeFiles/libpng_test.dir/libpng_test.cpp.o: /Users/Hieudo/Documents/SealChipModel/dlib-19.22/dlib/cmake_utils/test_for_libpng/libpng_test.cpp
+CMakeFiles/libpng_test.dir/libpng_test.cpp.o: CMakeFiles/libpng_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Hieudo/Documents/SealChipModel/build/dlib_build/test_for_libpng_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/libpng_test.dir/libpng_test.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libpng_test.dir/libpng_test.cpp.o -MF CMakeFiles/libpng_test.dir/libpng_test.cpp.o.d -o CMakeFiles/libpng_test.dir/libpng_test.cpp.o -c /Users/Hieudo/Documents/SealChipModel/dlib-19.22/dlib/cmake_utils/test_for_libpng/libpng_test.cpp
+
+CMakeFiles/libpng_test.dir/libpng_test.cpp.i: cmake_force
+	@echo "Preprocessing CXX source to CMakeFiles/libpng_test.dir/libpng_test.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Hieudo/Documents/SealChipModel/dlib-19.22/dlib/cmake_utils/test_for_libpng/libpng_test.cpp > CMakeFiles/libpng_test.dir/libpng_test.cpp.i
+
+CMakeFiles/libpng_test.dir/libpng_test.cpp.s: cmake_force
+	@echo "Compiling CXX source to assembly CMakeFiles/libpng_test.dir/libpng_test.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Hieudo/Documents/SealChipModel/dlib-19.22/dlib/cmake_utils/test_for_libpng/libpng_test.cpp -o CMakeFiles/libpng_test.dir/libpng_test.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 
 # Object files for target libpng_test
 libpng_test_OBJECTS = \
@@ -93,9 +122,15 @@ libpng_test_EXTERNAL_OBJECTS =
 libpng_test: CMakeFiles/libpng_test.dir/libpng_test.cpp.o
 libpng_test: CMakeFiles/libpng_test.dir/build.make
 libpng_test: /usr/X11R6/lib/libpng.dylib
+<<<<<<< HEAD
 libpng_test: /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib/libz.tbd
 libpng_test: CMakeFiles/libpng_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/test_for_libpng_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable libpng_test"
+=======
+libpng_test: /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/lib/libz.tbd
+libpng_test: CMakeFiles/libpng_test.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Hieudo/Documents/SealChipModel/build/dlib_build/test_for_libpng_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable libpng_test"
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libpng_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -107,6 +142,10 @@ CMakeFiles/libpng_test.dir/clean:
 .PHONY : CMakeFiles/libpng_test.dir/clean
 
 CMakeFiles/libpng_test.dir/depend:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/test_for_libpng_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aylab/Documents/Hieu/dlib-19.22/dlib/cmake_utils/test_for_libpng /Users/aylab/Documents/Hieu/dlib-19.22/dlib/cmake_utils/test_for_libpng /Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/test_for_libpng_build /Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/test_for_libpng_build /Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/DependInfo.cmake
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build/dlib_build/test_for_libpng_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Hieudo/Documents/SealChipModel/dlib-19.22/dlib/cmake_utils/test_for_libpng /Users/Hieudo/Documents/SealChipModel/dlib-19.22/dlib/cmake_utils/test_for_libpng /Users/Hieudo/Documents/SealChipModel/build/dlib_build/test_for_libpng_build /Users/Hieudo/Documents/SealChipModel/build/dlib_build/test_for_libpng_build /Users/Hieudo/Documents/SealChipModel/build/dlib_build/test_for_libpng_build/CMakeFiles/libpng_test.dir/DependInfo.cmake
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : CMakeFiles/libpng_test.dir/depend
 

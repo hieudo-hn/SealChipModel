@@ -48,19 +48,33 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
+<<<<<<< HEAD
 CMAKE_COMMAND = /Applications/CMake.app/Contents/bin/cmake
 
 # The command to remove a file.
 RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
+=======
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.20.2/bin/cmake
+
+# The command to remove a file.
+RM = /usr/local/Cellar/cmake/3.20.2/bin/cmake -E rm -f
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /Users/aylab/Documents/Hieu/SealChipModel
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/aylab/Documents/Hieu/SealChipModel/build
+=======
+CMAKE_SOURCE_DIR = /Users/Hieudo/Documents/SealChipModel
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /Users/Hieudo/Documents/SealChipModel/build
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +82,11 @@ CMAKE_BINARY_DIR = /Users/aylab/Documents/Hieu/SealChipModel/build
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+<<<<<<< HEAD
 	/Applications/CMake.app/Contents/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+=======
+	/usr/local/Cellar/cmake/3.20.2/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +96,11 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+<<<<<<< HEAD
 	/Applications/CMake.app/Contents/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+=======
+	/usr/local/Cellar/cmake/3.20.2/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -87,14 +109,24 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aylab/Documents/Hieu/SealChipModel/build/CMakeFiles /Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build//CMakeFiles/progress.marks
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dlib_build/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aylab/Documents/Hieu/SealChipModel/build/CMakeFiles 0
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/Hieudo/Documents/SealChipModel/build/CMakeFiles /Users/Hieudo/Documents/SealChipModel/build/dlib_build//CMakeFiles/progress.marks
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dlib_build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Hieudo/Documents/SealChipModel/build/CMakeFiles 0
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : all
 
 # The main clean target
 clean:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dlib_build/clean
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dlib_build/clean
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +135,38 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dlib_build/preinstall
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dlib_build/preinstall
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dlib_build/preinstall
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dlib_build/preinstall
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : depend
 
 # Convenience name for target.
 dlib_build/CMakeFiles/dlib.dir/rule:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dlib_build/CMakeFiles/dlib.dir/rule
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dlib_build/CMakeFiles/dlib.dir/rule
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : dlib_build/CMakeFiles/dlib.dir/rule
 
 # Convenience name for target.
@@ -127,7 +175,11 @@ dlib: dlib_build/CMakeFiles/dlib.dir/rule
 
 # fast build rule for target.
 dlib/fast:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/build
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/build
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : dlib/fast
 
 base64/base64_kernel_1.o: base64/base64_kernel_1.cpp.o
@@ -135,7 +187,11 @@ base64/base64_kernel_1.o: base64/base64_kernel_1.cpp.o
 
 # target to build an object file
 base64/base64_kernel_1.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : base64/base64_kernel_1.cpp.o
 
 base64/base64_kernel_1.i: base64/base64_kernel_1.cpp.i
@@ -143,7 +199,11 @@ base64/base64_kernel_1.i: base64/base64_kernel_1.cpp.i
 
 # target to preprocess a source file
 base64/base64_kernel_1.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : base64/base64_kernel_1.cpp.i
 
 base64/base64_kernel_1.s: base64/base64_kernel_1.cpp.s
@@ -151,7 +211,11 @@ base64/base64_kernel_1.s: base64/base64_kernel_1.cpp.s
 
 # target to generate assembly for a file
 base64/base64_kernel_1.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : base64/base64_kernel_1.cpp.s
 
 bigint/bigint_kernel_1.o: bigint/bigint_kernel_1.cpp.o
@@ -159,7 +223,11 @@ bigint/bigint_kernel_1.o: bigint/bigint_kernel_1.cpp.o
 
 # target to build an object file
 bigint/bigint_kernel_1.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : bigint/bigint_kernel_1.cpp.o
 
 bigint/bigint_kernel_1.i: bigint/bigint_kernel_1.cpp.i
@@ -167,7 +235,11 @@ bigint/bigint_kernel_1.i: bigint/bigint_kernel_1.cpp.i
 
 # target to preprocess a source file
 bigint/bigint_kernel_1.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : bigint/bigint_kernel_1.cpp.i
 
 bigint/bigint_kernel_1.s: bigint/bigint_kernel_1.cpp.s
@@ -175,7 +247,11 @@ bigint/bigint_kernel_1.s: bigint/bigint_kernel_1.cpp.s
 
 # target to generate assembly for a file
 bigint/bigint_kernel_1.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : bigint/bigint_kernel_1.cpp.s
 
 bigint/bigint_kernel_2.o: bigint/bigint_kernel_2.cpp.o
@@ -183,7 +259,11 @@ bigint/bigint_kernel_2.o: bigint/bigint_kernel_2.cpp.o
 
 # target to build an object file
 bigint/bigint_kernel_2.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : bigint/bigint_kernel_2.cpp.o
 
 bigint/bigint_kernel_2.i: bigint/bigint_kernel_2.cpp.i
@@ -191,7 +271,11 @@ bigint/bigint_kernel_2.i: bigint/bigint_kernel_2.cpp.i
 
 # target to preprocess a source file
 bigint/bigint_kernel_2.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : bigint/bigint_kernel_2.cpp.i
 
 bigint/bigint_kernel_2.s: bigint/bigint_kernel_2.cpp.s
@@ -199,7 +283,11 @@ bigint/bigint_kernel_2.s: bigint/bigint_kernel_2.cpp.s
 
 # target to generate assembly for a file
 bigint/bigint_kernel_2.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : bigint/bigint_kernel_2.cpp.s
 
 bit_stream/bit_stream_kernel_1.o: bit_stream/bit_stream_kernel_1.cpp.o
@@ -207,7 +295,11 @@ bit_stream/bit_stream_kernel_1.o: bit_stream/bit_stream_kernel_1.cpp.o
 
 # target to build an object file
 bit_stream/bit_stream_kernel_1.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : bit_stream/bit_stream_kernel_1.cpp.o
 
 bit_stream/bit_stream_kernel_1.i: bit_stream/bit_stream_kernel_1.cpp.i
@@ -215,7 +307,11 @@ bit_stream/bit_stream_kernel_1.i: bit_stream/bit_stream_kernel_1.cpp.i
 
 # target to preprocess a source file
 bit_stream/bit_stream_kernel_1.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : bit_stream/bit_stream_kernel_1.cpp.i
 
 bit_stream/bit_stream_kernel_1.s: bit_stream/bit_stream_kernel_1.cpp.s
@@ -223,7 +319,11 @@ bit_stream/bit_stream_kernel_1.s: bit_stream/bit_stream_kernel_1.cpp.s
 
 # target to generate assembly for a file
 bit_stream/bit_stream_kernel_1.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : bit_stream/bit_stream_kernel_1.cpp.s
 
 bsp/bsp.o: bsp/bsp.cpp.o
@@ -231,7 +331,11 @@ bsp/bsp.o: bsp/bsp.cpp.o
 
 # target to build an object file
 bsp/bsp.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : bsp/bsp.cpp.o
 
 bsp/bsp.i: bsp/bsp.cpp.i
@@ -239,7 +343,11 @@ bsp/bsp.i: bsp/bsp.cpp.i
 
 # target to preprocess a source file
 bsp/bsp.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : bsp/bsp.cpp.i
 
 bsp/bsp.s: bsp/bsp.cpp.s
@@ -247,7 +355,11 @@ bsp/bsp.s: bsp/bsp.cpp.s
 
 # target to generate assembly for a file
 bsp/bsp.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/bsp/bsp.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : bsp/bsp.cpp.s
 
 cuda/cpu_dlib.o: cuda/cpu_dlib.cpp.o
@@ -255,7 +367,11 @@ cuda/cpu_dlib.o: cuda/cpu_dlib.cpp.o
 
 # target to build an object file
 cuda/cpu_dlib.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : cuda/cpu_dlib.cpp.o
 
 cuda/cpu_dlib.i: cuda/cpu_dlib.cpp.i
@@ -263,7 +379,11 @@ cuda/cpu_dlib.i: cuda/cpu_dlib.cpp.i
 
 # target to preprocess a source file
 cuda/cpu_dlib.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : cuda/cpu_dlib.cpp.i
 
 cuda/cpu_dlib.s: cuda/cpu_dlib.cpp.s
@@ -271,7 +391,11 @@ cuda/cpu_dlib.s: cuda/cpu_dlib.cpp.s
 
 # target to generate assembly for a file
 cuda/cpu_dlib.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : cuda/cpu_dlib.cpp.s
 
 cuda/tensor_tools.o: cuda/tensor_tools.cpp.o
@@ -279,7 +403,11 @@ cuda/tensor_tools.o: cuda/tensor_tools.cpp.o
 
 # target to build an object file
 cuda/tensor_tools.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : cuda/tensor_tools.cpp.o
 
 cuda/tensor_tools.i: cuda/tensor_tools.cpp.i
@@ -287,7 +415,11 @@ cuda/tensor_tools.i: cuda/tensor_tools.cpp.i
 
 # target to preprocess a source file
 cuda/tensor_tools.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : cuda/tensor_tools.cpp.i
 
 cuda/tensor_tools.s: cuda/tensor_tools.cpp.s
@@ -295,7 +427,11 @@ cuda/tensor_tools.s: cuda/tensor_tools.cpp.s
 
 # target to generate assembly for a file
 cuda/tensor_tools.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : cuda/tensor_tools.cpp.s
 
 data_io/cifar.o: data_io/cifar.cpp.o
@@ -303,7 +439,11 @@ data_io/cifar.o: data_io/cifar.cpp.o
 
 # target to build an object file
 data_io/cifar.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/cifar.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/cifar.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : data_io/cifar.cpp.o
 
 data_io/cifar.i: data_io/cifar.cpp.i
@@ -311,7 +451,11 @@ data_io/cifar.i: data_io/cifar.cpp.i
 
 # target to preprocess a source file
 data_io/cifar.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/cifar.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/cifar.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : data_io/cifar.cpp.i
 
 data_io/cifar.s: data_io/cifar.cpp.s
@@ -319,7 +463,11 @@ data_io/cifar.s: data_io/cifar.cpp.s
 
 # target to generate assembly for a file
 data_io/cifar.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/cifar.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/cifar.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : data_io/cifar.cpp.s
 
 data_io/image_dataset_metadata.o: data_io/image_dataset_metadata.cpp.o
@@ -327,7 +475,11 @@ data_io/image_dataset_metadata.o: data_io/image_dataset_metadata.cpp.o
 
 # target to build an object file
 data_io/image_dataset_metadata.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : data_io/image_dataset_metadata.cpp.o
 
 data_io/image_dataset_metadata.i: data_io/image_dataset_metadata.cpp.i
@@ -335,7 +487,11 @@ data_io/image_dataset_metadata.i: data_io/image_dataset_metadata.cpp.i
 
 # target to preprocess a source file
 data_io/image_dataset_metadata.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : data_io/image_dataset_metadata.cpp.i
 
 data_io/image_dataset_metadata.s: data_io/image_dataset_metadata.cpp.s
@@ -343,7 +499,11 @@ data_io/image_dataset_metadata.s: data_io/image_dataset_metadata.cpp.s
 
 # target to generate assembly for a file
 data_io/image_dataset_metadata.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : data_io/image_dataset_metadata.cpp.s
 
 data_io/mnist.o: data_io/mnist.cpp.o
@@ -351,7 +511,11 @@ data_io/mnist.o: data_io/mnist.cpp.o
 
 # target to build an object file
 data_io/mnist.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : data_io/mnist.cpp.o
 
 data_io/mnist.i: data_io/mnist.cpp.i
@@ -359,7 +523,11 @@ data_io/mnist.i: data_io/mnist.cpp.i
 
 # target to preprocess a source file
 data_io/mnist.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : data_io/mnist.cpp.i
 
 data_io/mnist.s: data_io/mnist.cpp.s
@@ -367,7 +535,11 @@ data_io/mnist.s: data_io/mnist.cpp.s
 
 # target to generate assembly for a file
 data_io/mnist.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/data_io/mnist.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : data_io/mnist.cpp.s
 
 dir_nav/dir_nav_extensions.o: dir_nav/dir_nav_extensions.cpp.o
@@ -375,7 +547,11 @@ dir_nav/dir_nav_extensions.o: dir_nav/dir_nav_extensions.cpp.o
 
 # target to build an object file
 dir_nav/dir_nav_extensions.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : dir_nav/dir_nav_extensions.cpp.o
 
 dir_nav/dir_nav_extensions.i: dir_nav/dir_nav_extensions.cpp.i
@@ -383,7 +559,11 @@ dir_nav/dir_nav_extensions.i: dir_nav/dir_nav_extensions.cpp.i
 
 # target to preprocess a source file
 dir_nav/dir_nav_extensions.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : dir_nav/dir_nav_extensions.cpp.i
 
 dir_nav/dir_nav_extensions.s: dir_nav/dir_nav_extensions.cpp.s
@@ -391,7 +571,11 @@ dir_nav/dir_nav_extensions.s: dir_nav/dir_nav_extensions.cpp.s
 
 # target to generate assembly for a file
 dir_nav/dir_nav_extensions.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : dir_nav/dir_nav_extensions.cpp.s
 
 dir_nav/dir_nav_kernel_1.o: dir_nav/dir_nav_kernel_1.cpp.o
@@ -399,7 +583,11 @@ dir_nav/dir_nav_kernel_1.o: dir_nav/dir_nav_kernel_1.cpp.o
 
 # target to build an object file
 dir_nav/dir_nav_kernel_1.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : dir_nav/dir_nav_kernel_1.cpp.o
 
 dir_nav/dir_nav_kernel_1.i: dir_nav/dir_nav_kernel_1.cpp.i
@@ -407,7 +595,11 @@ dir_nav/dir_nav_kernel_1.i: dir_nav/dir_nav_kernel_1.cpp.i
 
 # target to preprocess a source file
 dir_nav/dir_nav_kernel_1.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : dir_nav/dir_nav_kernel_1.cpp.i
 
 dir_nav/dir_nav_kernel_1.s: dir_nav/dir_nav_kernel_1.cpp.s
@@ -415,7 +607,11 @@ dir_nav/dir_nav_kernel_1.s: dir_nav/dir_nav_kernel_1.cpp.s
 
 # target to generate assembly for a file
 dir_nav/dir_nav_kernel_1.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : dir_nav/dir_nav_kernel_1.cpp.s
 
 dir_nav/dir_nav_kernel_2.o: dir_nav/dir_nav_kernel_2.cpp.o
@@ -423,7 +619,11 @@ dir_nav/dir_nav_kernel_2.o: dir_nav/dir_nav_kernel_2.cpp.o
 
 # target to build an object file
 dir_nav/dir_nav_kernel_2.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : dir_nav/dir_nav_kernel_2.cpp.o
 
 dir_nav/dir_nav_kernel_2.i: dir_nav/dir_nav_kernel_2.cpp.i
@@ -431,7 +631,11 @@ dir_nav/dir_nav_kernel_2.i: dir_nav/dir_nav_kernel_2.cpp.i
 
 # target to preprocess a source file
 dir_nav/dir_nav_kernel_2.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : dir_nav/dir_nav_kernel_2.cpp.i
 
 dir_nav/dir_nav_kernel_2.s: dir_nav/dir_nav_kernel_2.cpp.s
@@ -439,7 +643,11 @@ dir_nav/dir_nav_kernel_2.s: dir_nav/dir_nav_kernel_2.cpp.s
 
 # target to generate assembly for a file
 dir_nav/dir_nav_kernel_2.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : dir_nav/dir_nav_kernel_2.cpp.s
 
 entropy_decoder/entropy_decoder_kernel_1.o: entropy_decoder/entropy_decoder_kernel_1.cpp.o
@@ -447,7 +655,11 @@ entropy_decoder/entropy_decoder_kernel_1.o: entropy_decoder/entropy_decoder_kern
 
 # target to build an object file
 entropy_decoder/entropy_decoder_kernel_1.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : entropy_decoder/entropy_decoder_kernel_1.cpp.o
 
 entropy_decoder/entropy_decoder_kernel_1.i: entropy_decoder/entropy_decoder_kernel_1.cpp.i
@@ -455,7 +667,11 @@ entropy_decoder/entropy_decoder_kernel_1.i: entropy_decoder/entropy_decoder_kern
 
 # target to preprocess a source file
 entropy_decoder/entropy_decoder_kernel_1.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : entropy_decoder/entropy_decoder_kernel_1.cpp.i
 
 entropy_decoder/entropy_decoder_kernel_1.s: entropy_decoder/entropy_decoder_kernel_1.cpp.s
@@ -463,7 +679,11 @@ entropy_decoder/entropy_decoder_kernel_1.s: entropy_decoder/entropy_decoder_kern
 
 # target to generate assembly for a file
 entropy_decoder/entropy_decoder_kernel_1.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : entropy_decoder/entropy_decoder_kernel_1.cpp.s
 
 entropy_decoder/entropy_decoder_kernel_2.o: entropy_decoder/entropy_decoder_kernel_2.cpp.o
@@ -471,7 +691,11 @@ entropy_decoder/entropy_decoder_kernel_2.o: entropy_decoder/entropy_decoder_kern
 
 # target to build an object file
 entropy_decoder/entropy_decoder_kernel_2.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : entropy_decoder/entropy_decoder_kernel_2.cpp.o
 
 entropy_decoder/entropy_decoder_kernel_2.i: entropy_decoder/entropy_decoder_kernel_2.cpp.i
@@ -479,7 +703,11 @@ entropy_decoder/entropy_decoder_kernel_2.i: entropy_decoder/entropy_decoder_kern
 
 # target to preprocess a source file
 entropy_decoder/entropy_decoder_kernel_2.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : entropy_decoder/entropy_decoder_kernel_2.cpp.i
 
 entropy_decoder/entropy_decoder_kernel_2.s: entropy_decoder/entropy_decoder_kernel_2.cpp.s
@@ -487,7 +715,11 @@ entropy_decoder/entropy_decoder_kernel_2.s: entropy_decoder/entropy_decoder_kern
 
 # target to generate assembly for a file
 entropy_decoder/entropy_decoder_kernel_2.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : entropy_decoder/entropy_decoder_kernel_2.cpp.s
 
 entropy_encoder/entropy_encoder_kernel_1.o: entropy_encoder/entropy_encoder_kernel_1.cpp.o
@@ -495,7 +727,11 @@ entropy_encoder/entropy_encoder_kernel_1.o: entropy_encoder/entropy_encoder_kern
 
 # target to build an object file
 entropy_encoder/entropy_encoder_kernel_1.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : entropy_encoder/entropy_encoder_kernel_1.cpp.o
 
 entropy_encoder/entropy_encoder_kernel_1.i: entropy_encoder/entropy_encoder_kernel_1.cpp.i
@@ -503,7 +739,11 @@ entropy_encoder/entropy_encoder_kernel_1.i: entropy_encoder/entropy_encoder_kern
 
 # target to preprocess a source file
 entropy_encoder/entropy_encoder_kernel_1.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : entropy_encoder/entropy_encoder_kernel_1.cpp.i
 
 entropy_encoder/entropy_encoder_kernel_1.s: entropy_encoder/entropy_encoder_kernel_1.cpp.s
@@ -511,7 +751,11 @@ entropy_encoder/entropy_encoder_kernel_1.s: entropy_encoder/entropy_encoder_kern
 
 # target to generate assembly for a file
 entropy_encoder/entropy_encoder_kernel_1.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : entropy_encoder/entropy_encoder_kernel_1.cpp.s
 
 entropy_encoder/entropy_encoder_kernel_2.o: entropy_encoder/entropy_encoder_kernel_2.cpp.o
@@ -519,7 +763,11 @@ entropy_encoder/entropy_encoder_kernel_2.o: entropy_encoder/entropy_encoder_kern
 
 # target to build an object file
 entropy_encoder/entropy_encoder_kernel_2.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : entropy_encoder/entropy_encoder_kernel_2.cpp.o
 
 entropy_encoder/entropy_encoder_kernel_2.i: entropy_encoder/entropy_encoder_kernel_2.cpp.i
@@ -527,7 +775,11 @@ entropy_encoder/entropy_encoder_kernel_2.i: entropy_encoder/entropy_encoder_kern
 
 # target to preprocess a source file
 entropy_encoder/entropy_encoder_kernel_2.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : entropy_encoder/entropy_encoder_kernel_2.cpp.i
 
 entropy_encoder/entropy_encoder_kernel_2.s: entropy_encoder/entropy_encoder_kernel_2.cpp.s
@@ -535,7 +787,11 @@ entropy_encoder/entropy_encoder_kernel_2.s: entropy_encoder/entropy_encoder_kern
 
 # target to generate assembly for a file
 entropy_encoder/entropy_encoder_kernel_2.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : entropy_encoder/entropy_encoder_kernel_2.cpp.s
 
 external/libjpeg/jaricom.o: external/libjpeg/jaricom.c.o
@@ -543,7 +799,11 @@ external/libjpeg/jaricom.o: external/libjpeg/jaricom.c.o
 
 # target to build an object file
 external/libjpeg/jaricom.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jaricom.c.o
 
 external/libjpeg/jaricom.i: external/libjpeg/jaricom.c.i
@@ -551,7 +811,11 @@ external/libjpeg/jaricom.i: external/libjpeg/jaricom.c.i
 
 # target to preprocess a source file
 external/libjpeg/jaricom.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jaricom.c.i
 
 external/libjpeg/jaricom.s: external/libjpeg/jaricom.c.s
@@ -559,7 +823,11 @@ external/libjpeg/jaricom.s: external/libjpeg/jaricom.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jaricom.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jaricom.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jaricom.c.s
 
 external/libjpeg/jcapimin.o: external/libjpeg/jcapimin.c.o
@@ -567,7 +835,11 @@ external/libjpeg/jcapimin.o: external/libjpeg/jcapimin.c.o
 
 # target to build an object file
 external/libjpeg/jcapimin.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcapimin.c.o
 
 external/libjpeg/jcapimin.i: external/libjpeg/jcapimin.c.i
@@ -575,7 +847,11 @@ external/libjpeg/jcapimin.i: external/libjpeg/jcapimin.c.i
 
 # target to preprocess a source file
 external/libjpeg/jcapimin.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcapimin.c.i
 
 external/libjpeg/jcapimin.s: external/libjpeg/jcapimin.c.s
@@ -583,7 +859,11 @@ external/libjpeg/jcapimin.s: external/libjpeg/jcapimin.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jcapimin.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapimin.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcapimin.c.s
 
 external/libjpeg/jcapistd.o: external/libjpeg/jcapistd.c.o
@@ -591,7 +871,11 @@ external/libjpeg/jcapistd.o: external/libjpeg/jcapistd.c.o
 
 # target to build an object file
 external/libjpeg/jcapistd.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcapistd.c.o
 
 external/libjpeg/jcapistd.i: external/libjpeg/jcapistd.c.i
@@ -599,7 +883,11 @@ external/libjpeg/jcapistd.i: external/libjpeg/jcapistd.c.i
 
 # target to preprocess a source file
 external/libjpeg/jcapistd.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcapistd.c.i
 
 external/libjpeg/jcapistd.s: external/libjpeg/jcapistd.c.s
@@ -607,7 +895,11 @@ external/libjpeg/jcapistd.s: external/libjpeg/jcapistd.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jcapistd.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcapistd.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcapistd.c.s
 
 external/libjpeg/jcarith.o: external/libjpeg/jcarith.c.o
@@ -615,7 +907,11 @@ external/libjpeg/jcarith.o: external/libjpeg/jcarith.c.o
 
 # target to build an object file
 external/libjpeg/jcarith.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcarith.c.o
 
 external/libjpeg/jcarith.i: external/libjpeg/jcarith.c.i
@@ -623,7 +919,11 @@ external/libjpeg/jcarith.i: external/libjpeg/jcarith.c.i
 
 # target to preprocess a source file
 external/libjpeg/jcarith.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcarith.c.i
 
 external/libjpeg/jcarith.s: external/libjpeg/jcarith.c.s
@@ -631,7 +931,11 @@ external/libjpeg/jcarith.s: external/libjpeg/jcarith.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jcarith.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcarith.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcarith.c.s
 
 external/libjpeg/jccoefct.o: external/libjpeg/jccoefct.c.o
@@ -639,7 +943,11 @@ external/libjpeg/jccoefct.o: external/libjpeg/jccoefct.c.o
 
 # target to build an object file
 external/libjpeg/jccoefct.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jccoefct.c.o
 
 external/libjpeg/jccoefct.i: external/libjpeg/jccoefct.c.i
@@ -647,7 +955,11 @@ external/libjpeg/jccoefct.i: external/libjpeg/jccoefct.c.i
 
 # target to preprocess a source file
 external/libjpeg/jccoefct.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jccoefct.c.i
 
 external/libjpeg/jccoefct.s: external/libjpeg/jccoefct.c.s
@@ -655,7 +967,11 @@ external/libjpeg/jccoefct.s: external/libjpeg/jccoefct.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jccoefct.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccoefct.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jccoefct.c.s
 
 external/libjpeg/jccolor.o: external/libjpeg/jccolor.c.o
@@ -663,7 +979,11 @@ external/libjpeg/jccolor.o: external/libjpeg/jccolor.c.o
 
 # target to build an object file
 external/libjpeg/jccolor.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jccolor.c.o
 
 external/libjpeg/jccolor.i: external/libjpeg/jccolor.c.i
@@ -671,7 +991,11 @@ external/libjpeg/jccolor.i: external/libjpeg/jccolor.c.i
 
 # target to preprocess a source file
 external/libjpeg/jccolor.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jccolor.c.i
 
 external/libjpeg/jccolor.s: external/libjpeg/jccolor.c.s
@@ -679,7 +1003,11 @@ external/libjpeg/jccolor.s: external/libjpeg/jccolor.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jccolor.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jccolor.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jccolor.c.s
 
 external/libjpeg/jcdctmgr.o: external/libjpeg/jcdctmgr.c.o
@@ -687,7 +1015,11 @@ external/libjpeg/jcdctmgr.o: external/libjpeg/jcdctmgr.c.o
 
 # target to build an object file
 external/libjpeg/jcdctmgr.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcdctmgr.c.o
 
 external/libjpeg/jcdctmgr.i: external/libjpeg/jcdctmgr.c.i
@@ -695,7 +1027,11 @@ external/libjpeg/jcdctmgr.i: external/libjpeg/jcdctmgr.c.i
 
 # target to preprocess a source file
 external/libjpeg/jcdctmgr.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcdctmgr.c.i
 
 external/libjpeg/jcdctmgr.s: external/libjpeg/jcdctmgr.c.s
@@ -703,7 +1039,11 @@ external/libjpeg/jcdctmgr.s: external/libjpeg/jcdctmgr.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jcdctmgr.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcdctmgr.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcdctmgr.c.s
 
 external/libjpeg/jchuff.o: external/libjpeg/jchuff.c.o
@@ -711,7 +1051,11 @@ external/libjpeg/jchuff.o: external/libjpeg/jchuff.c.o
 
 # target to build an object file
 external/libjpeg/jchuff.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jchuff.c.o
 
 external/libjpeg/jchuff.i: external/libjpeg/jchuff.c.i
@@ -719,7 +1063,11 @@ external/libjpeg/jchuff.i: external/libjpeg/jchuff.c.i
 
 # target to preprocess a source file
 external/libjpeg/jchuff.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jchuff.c.i
 
 external/libjpeg/jchuff.s: external/libjpeg/jchuff.c.s
@@ -727,7 +1075,11 @@ external/libjpeg/jchuff.s: external/libjpeg/jchuff.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jchuff.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jchuff.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jchuff.c.s
 
 external/libjpeg/jcinit.o: external/libjpeg/jcinit.c.o
@@ -735,7 +1087,11 @@ external/libjpeg/jcinit.o: external/libjpeg/jcinit.c.o
 
 # target to build an object file
 external/libjpeg/jcinit.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcinit.c.o
 
 external/libjpeg/jcinit.i: external/libjpeg/jcinit.c.i
@@ -743,7 +1099,11 @@ external/libjpeg/jcinit.i: external/libjpeg/jcinit.c.i
 
 # target to preprocess a source file
 external/libjpeg/jcinit.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcinit.c.i
 
 external/libjpeg/jcinit.s: external/libjpeg/jcinit.c.s
@@ -751,7 +1111,11 @@ external/libjpeg/jcinit.s: external/libjpeg/jcinit.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jcinit.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcinit.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcinit.c.s
 
 external/libjpeg/jcmainct.o: external/libjpeg/jcmainct.c.o
@@ -759,7 +1123,11 @@ external/libjpeg/jcmainct.o: external/libjpeg/jcmainct.c.o
 
 # target to build an object file
 external/libjpeg/jcmainct.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcmainct.c.o
 
 external/libjpeg/jcmainct.i: external/libjpeg/jcmainct.c.i
@@ -767,7 +1135,11 @@ external/libjpeg/jcmainct.i: external/libjpeg/jcmainct.c.i
 
 # target to preprocess a source file
 external/libjpeg/jcmainct.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcmainct.c.i
 
 external/libjpeg/jcmainct.s: external/libjpeg/jcmainct.c.s
@@ -775,7 +1147,11 @@ external/libjpeg/jcmainct.s: external/libjpeg/jcmainct.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jcmainct.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmainct.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcmainct.c.s
 
 external/libjpeg/jcmarker.o: external/libjpeg/jcmarker.c.o
@@ -783,7 +1159,11 @@ external/libjpeg/jcmarker.o: external/libjpeg/jcmarker.c.o
 
 # target to build an object file
 external/libjpeg/jcmarker.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcmarker.c.o
 
 external/libjpeg/jcmarker.i: external/libjpeg/jcmarker.c.i
@@ -791,7 +1171,11 @@ external/libjpeg/jcmarker.i: external/libjpeg/jcmarker.c.i
 
 # target to preprocess a source file
 external/libjpeg/jcmarker.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcmarker.c.i
 
 external/libjpeg/jcmarker.s: external/libjpeg/jcmarker.c.s
@@ -799,7 +1183,11 @@ external/libjpeg/jcmarker.s: external/libjpeg/jcmarker.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jcmarker.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmarker.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcmarker.c.s
 
 external/libjpeg/jcmaster.o: external/libjpeg/jcmaster.c.o
@@ -807,7 +1195,11 @@ external/libjpeg/jcmaster.o: external/libjpeg/jcmaster.c.o
 
 # target to build an object file
 external/libjpeg/jcmaster.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcmaster.c.o
 
 external/libjpeg/jcmaster.i: external/libjpeg/jcmaster.c.i
@@ -815,7 +1207,11 @@ external/libjpeg/jcmaster.i: external/libjpeg/jcmaster.c.i
 
 # target to preprocess a source file
 external/libjpeg/jcmaster.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcmaster.c.i
 
 external/libjpeg/jcmaster.s: external/libjpeg/jcmaster.c.s
@@ -823,7 +1219,11 @@ external/libjpeg/jcmaster.s: external/libjpeg/jcmaster.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jcmaster.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcmaster.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcmaster.c.s
 
 external/libjpeg/jcomapi.o: external/libjpeg/jcomapi.c.o
@@ -831,7 +1231,11 @@ external/libjpeg/jcomapi.o: external/libjpeg/jcomapi.c.o
 
 # target to build an object file
 external/libjpeg/jcomapi.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcomapi.c.o
 
 external/libjpeg/jcomapi.i: external/libjpeg/jcomapi.c.i
@@ -839,7 +1243,11 @@ external/libjpeg/jcomapi.i: external/libjpeg/jcomapi.c.i
 
 # target to preprocess a source file
 external/libjpeg/jcomapi.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcomapi.c.i
 
 external/libjpeg/jcomapi.s: external/libjpeg/jcomapi.c.s
@@ -847,7 +1255,11 @@ external/libjpeg/jcomapi.s: external/libjpeg/jcomapi.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jcomapi.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcomapi.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcomapi.c.s
 
 external/libjpeg/jcparam.o: external/libjpeg/jcparam.c.o
@@ -855,7 +1267,11 @@ external/libjpeg/jcparam.o: external/libjpeg/jcparam.c.o
 
 # target to build an object file
 external/libjpeg/jcparam.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcparam.c.o
 
 external/libjpeg/jcparam.i: external/libjpeg/jcparam.c.i
@@ -863,7 +1279,11 @@ external/libjpeg/jcparam.i: external/libjpeg/jcparam.c.i
 
 # target to preprocess a source file
 external/libjpeg/jcparam.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcparam.c.i
 
 external/libjpeg/jcparam.s: external/libjpeg/jcparam.c.s
@@ -871,7 +1291,11 @@ external/libjpeg/jcparam.s: external/libjpeg/jcparam.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jcparam.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcparam.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcparam.c.s
 
 external/libjpeg/jcprepct.o: external/libjpeg/jcprepct.c.o
@@ -879,7 +1303,11 @@ external/libjpeg/jcprepct.o: external/libjpeg/jcprepct.c.o
 
 # target to build an object file
 external/libjpeg/jcprepct.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcprepct.c.o
 
 external/libjpeg/jcprepct.i: external/libjpeg/jcprepct.c.i
@@ -887,7 +1315,11 @@ external/libjpeg/jcprepct.i: external/libjpeg/jcprepct.c.i
 
 # target to preprocess a source file
 external/libjpeg/jcprepct.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcprepct.c.i
 
 external/libjpeg/jcprepct.s: external/libjpeg/jcprepct.c.s
@@ -895,7 +1327,11 @@ external/libjpeg/jcprepct.s: external/libjpeg/jcprepct.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jcprepct.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcprepct.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcprepct.c.s
 
 external/libjpeg/jcsample.o: external/libjpeg/jcsample.c.o
@@ -903,7 +1339,11 @@ external/libjpeg/jcsample.o: external/libjpeg/jcsample.c.o
 
 # target to build an object file
 external/libjpeg/jcsample.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcsample.c.o
 
 external/libjpeg/jcsample.i: external/libjpeg/jcsample.c.i
@@ -911,7 +1351,11 @@ external/libjpeg/jcsample.i: external/libjpeg/jcsample.c.i
 
 # target to preprocess a source file
 external/libjpeg/jcsample.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcsample.c.i
 
 external/libjpeg/jcsample.s: external/libjpeg/jcsample.c.s
@@ -919,7 +1363,11 @@ external/libjpeg/jcsample.s: external/libjpeg/jcsample.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jcsample.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jcsample.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jcsample.c.s
 
 external/libjpeg/jdapimin.o: external/libjpeg/jdapimin.c.o
@@ -927,7 +1375,11 @@ external/libjpeg/jdapimin.o: external/libjpeg/jdapimin.c.o
 
 # target to build an object file
 external/libjpeg/jdapimin.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdapimin.c.o
 
 external/libjpeg/jdapimin.i: external/libjpeg/jdapimin.c.i
@@ -935,7 +1387,11 @@ external/libjpeg/jdapimin.i: external/libjpeg/jdapimin.c.i
 
 # target to preprocess a source file
 external/libjpeg/jdapimin.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdapimin.c.i
 
 external/libjpeg/jdapimin.s: external/libjpeg/jdapimin.c.s
@@ -943,7 +1399,11 @@ external/libjpeg/jdapimin.s: external/libjpeg/jdapimin.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jdapimin.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapimin.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdapimin.c.s
 
 external/libjpeg/jdapistd.o: external/libjpeg/jdapistd.c.o
@@ -951,7 +1411,11 @@ external/libjpeg/jdapistd.o: external/libjpeg/jdapistd.c.o
 
 # target to build an object file
 external/libjpeg/jdapistd.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdapistd.c.o
 
 external/libjpeg/jdapistd.i: external/libjpeg/jdapistd.c.i
@@ -959,7 +1423,11 @@ external/libjpeg/jdapistd.i: external/libjpeg/jdapistd.c.i
 
 # target to preprocess a source file
 external/libjpeg/jdapistd.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdapistd.c.i
 
 external/libjpeg/jdapistd.s: external/libjpeg/jdapistd.c.s
@@ -967,7 +1435,11 @@ external/libjpeg/jdapistd.s: external/libjpeg/jdapistd.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jdapistd.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdapistd.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdapistd.c.s
 
 external/libjpeg/jdarith.o: external/libjpeg/jdarith.c.o
@@ -975,7 +1447,11 @@ external/libjpeg/jdarith.o: external/libjpeg/jdarith.c.o
 
 # target to build an object file
 external/libjpeg/jdarith.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdarith.c.o
 
 external/libjpeg/jdarith.i: external/libjpeg/jdarith.c.i
@@ -983,7 +1459,11 @@ external/libjpeg/jdarith.i: external/libjpeg/jdarith.c.i
 
 # target to preprocess a source file
 external/libjpeg/jdarith.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdarith.c.i
 
 external/libjpeg/jdarith.s: external/libjpeg/jdarith.c.s
@@ -991,7 +1471,11 @@ external/libjpeg/jdarith.s: external/libjpeg/jdarith.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jdarith.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdarith.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdarith.c.s
 
 external/libjpeg/jdatadst.o: external/libjpeg/jdatadst.c.o
@@ -999,7 +1483,11 @@ external/libjpeg/jdatadst.o: external/libjpeg/jdatadst.c.o
 
 # target to build an object file
 external/libjpeg/jdatadst.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdatadst.c.o
 
 external/libjpeg/jdatadst.i: external/libjpeg/jdatadst.c.i
@@ -1007,7 +1495,11 @@ external/libjpeg/jdatadst.i: external/libjpeg/jdatadst.c.i
 
 # target to preprocess a source file
 external/libjpeg/jdatadst.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdatadst.c.i
 
 external/libjpeg/jdatadst.s: external/libjpeg/jdatadst.c.s
@@ -1015,7 +1507,11 @@ external/libjpeg/jdatadst.s: external/libjpeg/jdatadst.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jdatadst.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatadst.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdatadst.c.s
 
 external/libjpeg/jdatasrc.o: external/libjpeg/jdatasrc.c.o
@@ -1023,7 +1519,11 @@ external/libjpeg/jdatasrc.o: external/libjpeg/jdatasrc.c.o
 
 # target to build an object file
 external/libjpeg/jdatasrc.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdatasrc.c.o
 
 external/libjpeg/jdatasrc.i: external/libjpeg/jdatasrc.c.i
@@ -1031,7 +1531,11 @@ external/libjpeg/jdatasrc.i: external/libjpeg/jdatasrc.c.i
 
 # target to preprocess a source file
 external/libjpeg/jdatasrc.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdatasrc.c.i
 
 external/libjpeg/jdatasrc.s: external/libjpeg/jdatasrc.c.s
@@ -1039,7 +1543,11 @@ external/libjpeg/jdatasrc.s: external/libjpeg/jdatasrc.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jdatasrc.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdatasrc.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdatasrc.c.s
 
 external/libjpeg/jdcoefct.o: external/libjpeg/jdcoefct.c.o
@@ -1047,7 +1555,11 @@ external/libjpeg/jdcoefct.o: external/libjpeg/jdcoefct.c.o
 
 # target to build an object file
 external/libjpeg/jdcoefct.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdcoefct.c.o
 
 external/libjpeg/jdcoefct.i: external/libjpeg/jdcoefct.c.i
@@ -1055,7 +1567,11 @@ external/libjpeg/jdcoefct.i: external/libjpeg/jdcoefct.c.i
 
 # target to preprocess a source file
 external/libjpeg/jdcoefct.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdcoefct.c.i
 
 external/libjpeg/jdcoefct.s: external/libjpeg/jdcoefct.c.s
@@ -1063,7 +1579,11 @@ external/libjpeg/jdcoefct.s: external/libjpeg/jdcoefct.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jdcoefct.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcoefct.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdcoefct.c.s
 
 external/libjpeg/jdcolor.o: external/libjpeg/jdcolor.c.o
@@ -1071,7 +1591,11 @@ external/libjpeg/jdcolor.o: external/libjpeg/jdcolor.c.o
 
 # target to build an object file
 external/libjpeg/jdcolor.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdcolor.c.o
 
 external/libjpeg/jdcolor.i: external/libjpeg/jdcolor.c.i
@@ -1079,7 +1603,11 @@ external/libjpeg/jdcolor.i: external/libjpeg/jdcolor.c.i
 
 # target to preprocess a source file
 external/libjpeg/jdcolor.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdcolor.c.i
 
 external/libjpeg/jdcolor.s: external/libjpeg/jdcolor.c.s
@@ -1087,7 +1615,11 @@ external/libjpeg/jdcolor.s: external/libjpeg/jdcolor.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jdcolor.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdcolor.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdcolor.c.s
 
 external/libjpeg/jddctmgr.o: external/libjpeg/jddctmgr.c.o
@@ -1095,7 +1627,11 @@ external/libjpeg/jddctmgr.o: external/libjpeg/jddctmgr.c.o
 
 # target to build an object file
 external/libjpeg/jddctmgr.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jddctmgr.c.o
 
 external/libjpeg/jddctmgr.i: external/libjpeg/jddctmgr.c.i
@@ -1103,7 +1639,11 @@ external/libjpeg/jddctmgr.i: external/libjpeg/jddctmgr.c.i
 
 # target to preprocess a source file
 external/libjpeg/jddctmgr.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jddctmgr.c.i
 
 external/libjpeg/jddctmgr.s: external/libjpeg/jddctmgr.c.s
@@ -1111,7 +1651,11 @@ external/libjpeg/jddctmgr.s: external/libjpeg/jddctmgr.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jddctmgr.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jddctmgr.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jddctmgr.c.s
 
 external/libjpeg/jdhuff.o: external/libjpeg/jdhuff.c.o
@@ -1119,7 +1663,11 @@ external/libjpeg/jdhuff.o: external/libjpeg/jdhuff.c.o
 
 # target to build an object file
 external/libjpeg/jdhuff.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdhuff.c.o
 
 external/libjpeg/jdhuff.i: external/libjpeg/jdhuff.c.i
@@ -1127,7 +1675,11 @@ external/libjpeg/jdhuff.i: external/libjpeg/jdhuff.c.i
 
 # target to preprocess a source file
 external/libjpeg/jdhuff.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdhuff.c.i
 
 external/libjpeg/jdhuff.s: external/libjpeg/jdhuff.c.s
@@ -1135,7 +1687,11 @@ external/libjpeg/jdhuff.s: external/libjpeg/jdhuff.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jdhuff.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdhuff.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdhuff.c.s
 
 external/libjpeg/jdinput.o: external/libjpeg/jdinput.c.o
@@ -1143,7 +1699,11 @@ external/libjpeg/jdinput.o: external/libjpeg/jdinput.c.o
 
 # target to build an object file
 external/libjpeg/jdinput.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdinput.c.o
 
 external/libjpeg/jdinput.i: external/libjpeg/jdinput.c.i
@@ -1151,7 +1711,11 @@ external/libjpeg/jdinput.i: external/libjpeg/jdinput.c.i
 
 # target to preprocess a source file
 external/libjpeg/jdinput.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdinput.c.i
 
 external/libjpeg/jdinput.s: external/libjpeg/jdinput.c.s
@@ -1159,7 +1723,11 @@ external/libjpeg/jdinput.s: external/libjpeg/jdinput.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jdinput.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdinput.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdinput.c.s
 
 external/libjpeg/jdmainct.o: external/libjpeg/jdmainct.c.o
@@ -1167,7 +1735,11 @@ external/libjpeg/jdmainct.o: external/libjpeg/jdmainct.c.o
 
 # target to build an object file
 external/libjpeg/jdmainct.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdmainct.c.o
 
 external/libjpeg/jdmainct.i: external/libjpeg/jdmainct.c.i
@@ -1175,7 +1747,11 @@ external/libjpeg/jdmainct.i: external/libjpeg/jdmainct.c.i
 
 # target to preprocess a source file
 external/libjpeg/jdmainct.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdmainct.c.i
 
 external/libjpeg/jdmainct.s: external/libjpeg/jdmainct.c.s
@@ -1183,7 +1759,11 @@ external/libjpeg/jdmainct.s: external/libjpeg/jdmainct.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jdmainct.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmainct.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdmainct.c.s
 
 external/libjpeg/jdmarker.o: external/libjpeg/jdmarker.c.o
@@ -1191,7 +1771,11 @@ external/libjpeg/jdmarker.o: external/libjpeg/jdmarker.c.o
 
 # target to build an object file
 external/libjpeg/jdmarker.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdmarker.c.o
 
 external/libjpeg/jdmarker.i: external/libjpeg/jdmarker.c.i
@@ -1199,7 +1783,11 @@ external/libjpeg/jdmarker.i: external/libjpeg/jdmarker.c.i
 
 # target to preprocess a source file
 external/libjpeg/jdmarker.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdmarker.c.i
 
 external/libjpeg/jdmarker.s: external/libjpeg/jdmarker.c.s
@@ -1207,7 +1795,11 @@ external/libjpeg/jdmarker.s: external/libjpeg/jdmarker.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jdmarker.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmarker.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdmarker.c.s
 
 external/libjpeg/jdmaster.o: external/libjpeg/jdmaster.c.o
@@ -1215,7 +1807,11 @@ external/libjpeg/jdmaster.o: external/libjpeg/jdmaster.c.o
 
 # target to build an object file
 external/libjpeg/jdmaster.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdmaster.c.o
 
 external/libjpeg/jdmaster.i: external/libjpeg/jdmaster.c.i
@@ -1223,7 +1819,11 @@ external/libjpeg/jdmaster.i: external/libjpeg/jdmaster.c.i
 
 # target to preprocess a source file
 external/libjpeg/jdmaster.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdmaster.c.i
 
 external/libjpeg/jdmaster.s: external/libjpeg/jdmaster.c.s
@@ -1231,7 +1831,11 @@ external/libjpeg/jdmaster.s: external/libjpeg/jdmaster.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jdmaster.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmaster.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdmaster.c.s
 
 external/libjpeg/jdmerge.o: external/libjpeg/jdmerge.c.o
@@ -1239,7 +1843,11 @@ external/libjpeg/jdmerge.o: external/libjpeg/jdmerge.c.o
 
 # target to build an object file
 external/libjpeg/jdmerge.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdmerge.c.o
 
 external/libjpeg/jdmerge.i: external/libjpeg/jdmerge.c.i
@@ -1247,7 +1855,11 @@ external/libjpeg/jdmerge.i: external/libjpeg/jdmerge.c.i
 
 # target to preprocess a source file
 external/libjpeg/jdmerge.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdmerge.c.i
 
 external/libjpeg/jdmerge.s: external/libjpeg/jdmerge.c.s
@@ -1255,7 +1867,11 @@ external/libjpeg/jdmerge.s: external/libjpeg/jdmerge.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jdmerge.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdmerge.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdmerge.c.s
 
 external/libjpeg/jdpostct.o: external/libjpeg/jdpostct.c.o
@@ -1263,7 +1879,11 @@ external/libjpeg/jdpostct.o: external/libjpeg/jdpostct.c.o
 
 # target to build an object file
 external/libjpeg/jdpostct.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdpostct.c.o
 
 external/libjpeg/jdpostct.i: external/libjpeg/jdpostct.c.i
@@ -1271,7 +1891,11 @@ external/libjpeg/jdpostct.i: external/libjpeg/jdpostct.c.i
 
 # target to preprocess a source file
 external/libjpeg/jdpostct.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdpostct.c.i
 
 external/libjpeg/jdpostct.s: external/libjpeg/jdpostct.c.s
@@ -1279,7 +1903,11 @@ external/libjpeg/jdpostct.s: external/libjpeg/jdpostct.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jdpostct.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdpostct.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdpostct.c.s
 
 external/libjpeg/jdsample.o: external/libjpeg/jdsample.c.o
@@ -1287,7 +1915,11 @@ external/libjpeg/jdsample.o: external/libjpeg/jdsample.c.o
 
 # target to build an object file
 external/libjpeg/jdsample.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdsample.c.o
 
 external/libjpeg/jdsample.i: external/libjpeg/jdsample.c.i
@@ -1295,7 +1927,11 @@ external/libjpeg/jdsample.i: external/libjpeg/jdsample.c.i
 
 # target to preprocess a source file
 external/libjpeg/jdsample.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdsample.c.i
 
 external/libjpeg/jdsample.s: external/libjpeg/jdsample.c.s
@@ -1303,7 +1939,11 @@ external/libjpeg/jdsample.s: external/libjpeg/jdsample.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jdsample.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jdsample.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jdsample.c.s
 
 external/libjpeg/jerror.o: external/libjpeg/jerror.c.o
@@ -1311,7 +1951,11 @@ external/libjpeg/jerror.o: external/libjpeg/jerror.c.o
 
 # target to build an object file
 external/libjpeg/jerror.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jerror.c.o
 
 external/libjpeg/jerror.i: external/libjpeg/jerror.c.i
@@ -1319,7 +1963,11 @@ external/libjpeg/jerror.i: external/libjpeg/jerror.c.i
 
 # target to preprocess a source file
 external/libjpeg/jerror.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jerror.c.i
 
 external/libjpeg/jerror.s: external/libjpeg/jerror.c.s
@@ -1327,7 +1975,11 @@ external/libjpeg/jerror.s: external/libjpeg/jerror.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jerror.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jerror.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jerror.c.s
 
 external/libjpeg/jfdctflt.o: external/libjpeg/jfdctflt.c.o
@@ -1335,7 +1987,11 @@ external/libjpeg/jfdctflt.o: external/libjpeg/jfdctflt.c.o
 
 # target to build an object file
 external/libjpeg/jfdctflt.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jfdctflt.c.o
 
 external/libjpeg/jfdctflt.i: external/libjpeg/jfdctflt.c.i
@@ -1343,7 +1999,11 @@ external/libjpeg/jfdctflt.i: external/libjpeg/jfdctflt.c.i
 
 # target to preprocess a source file
 external/libjpeg/jfdctflt.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jfdctflt.c.i
 
 external/libjpeg/jfdctflt.s: external/libjpeg/jfdctflt.c.s
@@ -1351,7 +2011,11 @@ external/libjpeg/jfdctflt.s: external/libjpeg/jfdctflt.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jfdctflt.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctflt.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jfdctflt.c.s
 
 external/libjpeg/jfdctfst.o: external/libjpeg/jfdctfst.c.o
@@ -1359,7 +2023,11 @@ external/libjpeg/jfdctfst.o: external/libjpeg/jfdctfst.c.o
 
 # target to build an object file
 external/libjpeg/jfdctfst.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jfdctfst.c.o
 
 external/libjpeg/jfdctfst.i: external/libjpeg/jfdctfst.c.i
@@ -1367,7 +2035,11 @@ external/libjpeg/jfdctfst.i: external/libjpeg/jfdctfst.c.i
 
 # target to preprocess a source file
 external/libjpeg/jfdctfst.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jfdctfst.c.i
 
 external/libjpeg/jfdctfst.s: external/libjpeg/jfdctfst.c.s
@@ -1375,7 +2047,11 @@ external/libjpeg/jfdctfst.s: external/libjpeg/jfdctfst.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jfdctfst.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctfst.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jfdctfst.c.s
 
 external/libjpeg/jfdctint.o: external/libjpeg/jfdctint.c.o
@@ -1383,7 +2059,11 @@ external/libjpeg/jfdctint.o: external/libjpeg/jfdctint.c.o
 
 # target to build an object file
 external/libjpeg/jfdctint.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jfdctint.c.o
 
 external/libjpeg/jfdctint.i: external/libjpeg/jfdctint.c.i
@@ -1391,7 +2071,11 @@ external/libjpeg/jfdctint.i: external/libjpeg/jfdctint.c.i
 
 # target to preprocess a source file
 external/libjpeg/jfdctint.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jfdctint.c.i
 
 external/libjpeg/jfdctint.s: external/libjpeg/jfdctint.c.s
@@ -1399,7 +2083,11 @@ external/libjpeg/jfdctint.s: external/libjpeg/jfdctint.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jfdctint.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jfdctint.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jfdctint.c.s
 
 external/libjpeg/jidctflt.o: external/libjpeg/jidctflt.c.o
@@ -1407,7 +2095,11 @@ external/libjpeg/jidctflt.o: external/libjpeg/jidctflt.c.o
 
 # target to build an object file
 external/libjpeg/jidctflt.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jidctflt.c.o
 
 external/libjpeg/jidctflt.i: external/libjpeg/jidctflt.c.i
@@ -1415,7 +2107,11 @@ external/libjpeg/jidctflt.i: external/libjpeg/jidctflt.c.i
 
 # target to preprocess a source file
 external/libjpeg/jidctflt.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jidctflt.c.i
 
 external/libjpeg/jidctflt.s: external/libjpeg/jidctflt.c.s
@@ -1423,7 +2119,11 @@ external/libjpeg/jidctflt.s: external/libjpeg/jidctflt.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jidctflt.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctflt.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jidctflt.c.s
 
 external/libjpeg/jidctfst.o: external/libjpeg/jidctfst.c.o
@@ -1431,7 +2131,11 @@ external/libjpeg/jidctfst.o: external/libjpeg/jidctfst.c.o
 
 # target to build an object file
 external/libjpeg/jidctfst.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jidctfst.c.o
 
 external/libjpeg/jidctfst.i: external/libjpeg/jidctfst.c.i
@@ -1439,7 +2143,11 @@ external/libjpeg/jidctfst.i: external/libjpeg/jidctfst.c.i
 
 # target to preprocess a source file
 external/libjpeg/jidctfst.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jidctfst.c.i
 
 external/libjpeg/jidctfst.s: external/libjpeg/jidctfst.c.s
@@ -1447,7 +2155,11 @@ external/libjpeg/jidctfst.s: external/libjpeg/jidctfst.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jidctfst.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctfst.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jidctfst.c.s
 
 external/libjpeg/jidctint.o: external/libjpeg/jidctint.c.o
@@ -1455,7 +2167,11 @@ external/libjpeg/jidctint.o: external/libjpeg/jidctint.c.o
 
 # target to build an object file
 external/libjpeg/jidctint.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jidctint.c.o
 
 external/libjpeg/jidctint.i: external/libjpeg/jidctint.c.i
@@ -1463,7 +2179,11 @@ external/libjpeg/jidctint.i: external/libjpeg/jidctint.c.i
 
 # target to preprocess a source file
 external/libjpeg/jidctint.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jidctint.c.i
 
 external/libjpeg/jidctint.s: external/libjpeg/jidctint.c.s
@@ -1471,7 +2191,11 @@ external/libjpeg/jidctint.s: external/libjpeg/jidctint.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jidctint.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jidctint.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jidctint.c.s
 
 external/libjpeg/jmemmgr.o: external/libjpeg/jmemmgr.c.o
@@ -1479,7 +2203,11 @@ external/libjpeg/jmemmgr.o: external/libjpeg/jmemmgr.c.o
 
 # target to build an object file
 external/libjpeg/jmemmgr.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jmemmgr.c.o
 
 external/libjpeg/jmemmgr.i: external/libjpeg/jmemmgr.c.i
@@ -1487,7 +2215,11 @@ external/libjpeg/jmemmgr.i: external/libjpeg/jmemmgr.c.i
 
 # target to preprocess a source file
 external/libjpeg/jmemmgr.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jmemmgr.c.i
 
 external/libjpeg/jmemmgr.s: external/libjpeg/jmemmgr.c.s
@@ -1495,7 +2227,11 @@ external/libjpeg/jmemmgr.s: external/libjpeg/jmemmgr.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jmemmgr.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemmgr.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jmemmgr.c.s
 
 external/libjpeg/jmemnobs.o: external/libjpeg/jmemnobs.c.o
@@ -1503,7 +2239,11 @@ external/libjpeg/jmemnobs.o: external/libjpeg/jmemnobs.c.o
 
 # target to build an object file
 external/libjpeg/jmemnobs.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jmemnobs.c.o
 
 external/libjpeg/jmemnobs.i: external/libjpeg/jmemnobs.c.i
@@ -1511,7 +2251,11 @@ external/libjpeg/jmemnobs.i: external/libjpeg/jmemnobs.c.i
 
 # target to preprocess a source file
 external/libjpeg/jmemnobs.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jmemnobs.c.i
 
 external/libjpeg/jmemnobs.s: external/libjpeg/jmemnobs.c.s
@@ -1519,7 +2263,11 @@ external/libjpeg/jmemnobs.s: external/libjpeg/jmemnobs.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jmemnobs.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jmemnobs.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jmemnobs.c.s
 
 external/libjpeg/jquant1.o: external/libjpeg/jquant1.c.o
@@ -1527,7 +2275,11 @@ external/libjpeg/jquant1.o: external/libjpeg/jquant1.c.o
 
 # target to build an object file
 external/libjpeg/jquant1.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jquant1.c.o
 
 external/libjpeg/jquant1.i: external/libjpeg/jquant1.c.i
@@ -1535,7 +2287,11 @@ external/libjpeg/jquant1.i: external/libjpeg/jquant1.c.i
 
 # target to preprocess a source file
 external/libjpeg/jquant1.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jquant1.c.i
 
 external/libjpeg/jquant1.s: external/libjpeg/jquant1.c.s
@@ -1543,7 +2299,11 @@ external/libjpeg/jquant1.s: external/libjpeg/jquant1.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jquant1.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant1.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jquant1.c.s
 
 external/libjpeg/jquant2.o: external/libjpeg/jquant2.c.o
@@ -1551,7 +2311,11 @@ external/libjpeg/jquant2.o: external/libjpeg/jquant2.c.o
 
 # target to build an object file
 external/libjpeg/jquant2.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jquant2.c.o
 
 external/libjpeg/jquant2.i: external/libjpeg/jquant2.c.i
@@ -1559,7 +2323,11 @@ external/libjpeg/jquant2.i: external/libjpeg/jquant2.c.i
 
 # target to preprocess a source file
 external/libjpeg/jquant2.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jquant2.c.i
 
 external/libjpeg/jquant2.s: external/libjpeg/jquant2.c.s
@@ -1567,7 +2335,11 @@ external/libjpeg/jquant2.s: external/libjpeg/jquant2.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jquant2.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jquant2.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jquant2.c.s
 
 external/libjpeg/jutils.o: external/libjpeg/jutils.c.o
@@ -1575,7 +2347,11 @@ external/libjpeg/jutils.o: external/libjpeg/jutils.c.o
 
 # target to build an object file
 external/libjpeg/jutils.c.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jutils.c.o
 
 external/libjpeg/jutils.i: external/libjpeg/jutils.c.i
@@ -1583,7 +2359,11 @@ external/libjpeg/jutils.i: external/libjpeg/jutils.c.i
 
 # target to preprocess a source file
 external/libjpeg/jutils.c.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jutils.c.i
 
 external/libjpeg/jutils.s: external/libjpeg/jutils.c.s
@@ -1591,7 +2371,11 @@ external/libjpeg/jutils.s: external/libjpeg/jutils.c.s
 
 # target to generate assembly for a file
 external/libjpeg/jutils.c.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/external/libjpeg/jutils.c.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : external/libjpeg/jutils.c.s
 
 filtering/kalman_filter.o: filtering/kalman_filter.cpp.o
@@ -1599,7 +2383,11 @@ filtering/kalman_filter.o: filtering/kalman_filter.cpp.o
 
 # target to build an object file
 filtering/kalman_filter.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : filtering/kalman_filter.cpp.o
 
 filtering/kalman_filter.i: filtering/kalman_filter.cpp.i
@@ -1607,7 +2395,11 @@ filtering/kalman_filter.i: filtering/kalman_filter.cpp.i
 
 # target to preprocess a source file
 filtering/kalman_filter.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : filtering/kalman_filter.cpp.i
 
 filtering/kalman_filter.s: filtering/kalman_filter.cpp.s
@@ -1615,7 +2407,11 @@ filtering/kalman_filter.s: filtering/kalman_filter.cpp.s
 
 # target to generate assembly for a file
 filtering/kalman_filter.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : filtering/kalman_filter.cpp.s
 
 global_optimization/global_function_search.o: global_optimization/global_function_search.cpp.o
@@ -1623,7 +2419,11 @@ global_optimization/global_function_search.o: global_optimization/global_functio
 
 # target to build an object file
 global_optimization/global_function_search.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : global_optimization/global_function_search.cpp.o
 
 global_optimization/global_function_search.i: global_optimization/global_function_search.cpp.i
@@ -1631,7 +2431,11 @@ global_optimization/global_function_search.i: global_optimization/global_functio
 
 # target to preprocess a source file
 global_optimization/global_function_search.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : global_optimization/global_function_search.cpp.i
 
 global_optimization/global_function_search.s: global_optimization/global_function_search.cpp.s
@@ -1639,7 +2443,11 @@ global_optimization/global_function_search.s: global_optimization/global_functio
 
 # target to generate assembly for a file
 global_optimization/global_function_search.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : global_optimization/global_function_search.cpp.s
 
 gui_core/gui_core_kernel_1.o: gui_core/gui_core_kernel_1.cpp.o
@@ -1647,7 +2455,11 @@ gui_core/gui_core_kernel_1.o: gui_core/gui_core_kernel_1.cpp.o
 
 # target to build an object file
 gui_core/gui_core_kernel_1.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_core/gui_core_kernel_1.cpp.o
 
 gui_core/gui_core_kernel_1.i: gui_core/gui_core_kernel_1.cpp.i
@@ -1655,7 +2467,11 @@ gui_core/gui_core_kernel_1.i: gui_core/gui_core_kernel_1.cpp.i
 
 # target to preprocess a source file
 gui_core/gui_core_kernel_1.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_core/gui_core_kernel_1.cpp.i
 
 gui_core/gui_core_kernel_1.s: gui_core/gui_core_kernel_1.cpp.s
@@ -1663,7 +2479,11 @@ gui_core/gui_core_kernel_1.s: gui_core/gui_core_kernel_1.cpp.s
 
 # target to generate assembly for a file
 gui_core/gui_core_kernel_1.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_core/gui_core_kernel_1.cpp.s
 
 gui_core/gui_core_kernel_2.o: gui_core/gui_core_kernel_2.cpp.o
@@ -1671,7 +2491,11 @@ gui_core/gui_core_kernel_2.o: gui_core/gui_core_kernel_2.cpp.o
 
 # target to build an object file
 gui_core/gui_core_kernel_2.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_core/gui_core_kernel_2.cpp.o
 
 gui_core/gui_core_kernel_2.i: gui_core/gui_core_kernel_2.cpp.i
@@ -1679,7 +2503,11 @@ gui_core/gui_core_kernel_2.i: gui_core/gui_core_kernel_2.cpp.i
 
 # target to preprocess a source file
 gui_core/gui_core_kernel_2.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_core/gui_core_kernel_2.cpp.i
 
 gui_core/gui_core_kernel_2.s: gui_core/gui_core_kernel_2.cpp.s
@@ -1687,7 +2515,11 @@ gui_core/gui_core_kernel_2.s: gui_core/gui_core_kernel_2.cpp.s
 
 # target to generate assembly for a file
 gui_core/gui_core_kernel_2.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_core/gui_core_kernel_2.cpp.s
 
 gui_widgets/base_widgets.o: gui_widgets/base_widgets.cpp.o
@@ -1695,7 +2527,11 @@ gui_widgets/base_widgets.o: gui_widgets/base_widgets.cpp.o
 
 # target to build an object file
 gui_widgets/base_widgets.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_widgets/base_widgets.cpp.o
 
 gui_widgets/base_widgets.i: gui_widgets/base_widgets.cpp.i
@@ -1703,7 +2539,11 @@ gui_widgets/base_widgets.i: gui_widgets/base_widgets.cpp.i
 
 # target to preprocess a source file
 gui_widgets/base_widgets.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_widgets/base_widgets.cpp.i
 
 gui_widgets/base_widgets.s: gui_widgets/base_widgets.cpp.s
@@ -1711,7 +2551,11 @@ gui_widgets/base_widgets.s: gui_widgets/base_widgets.cpp.s
 
 # target to generate assembly for a file
 gui_widgets/base_widgets.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_widgets/base_widgets.cpp.s
 
 gui_widgets/canvas_drawing.o: gui_widgets/canvas_drawing.cpp.o
@@ -1719,7 +2563,11 @@ gui_widgets/canvas_drawing.o: gui_widgets/canvas_drawing.cpp.o
 
 # target to build an object file
 gui_widgets/canvas_drawing.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_widgets/canvas_drawing.cpp.o
 
 gui_widgets/canvas_drawing.i: gui_widgets/canvas_drawing.cpp.i
@@ -1727,7 +2575,11 @@ gui_widgets/canvas_drawing.i: gui_widgets/canvas_drawing.cpp.i
 
 # target to preprocess a source file
 gui_widgets/canvas_drawing.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_widgets/canvas_drawing.cpp.i
 
 gui_widgets/canvas_drawing.s: gui_widgets/canvas_drawing.cpp.s
@@ -1735,7 +2587,11 @@ gui_widgets/canvas_drawing.s: gui_widgets/canvas_drawing.cpp.s
 
 # target to generate assembly for a file
 gui_widgets/canvas_drawing.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_widgets/canvas_drawing.cpp.s
 
 gui_widgets/drawable.o: gui_widgets/drawable.cpp.o
@@ -1743,7 +2599,11 @@ gui_widgets/drawable.o: gui_widgets/drawable.cpp.o
 
 # target to build an object file
 gui_widgets/drawable.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_widgets/drawable.cpp.o
 
 gui_widgets/drawable.i: gui_widgets/drawable.cpp.i
@@ -1751,7 +2611,11 @@ gui_widgets/drawable.i: gui_widgets/drawable.cpp.i
 
 # target to preprocess a source file
 gui_widgets/drawable.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_widgets/drawable.cpp.i
 
 gui_widgets/drawable.s: gui_widgets/drawable.cpp.s
@@ -1759,7 +2623,11 @@ gui_widgets/drawable.s: gui_widgets/drawable.cpp.s
 
 # target to generate assembly for a file
 gui_widgets/drawable.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_widgets/drawable.cpp.s
 
 gui_widgets/fonts.o: gui_widgets/fonts.cpp.o
@@ -1767,7 +2635,11 @@ gui_widgets/fonts.o: gui_widgets/fonts.cpp.o
 
 # target to build an object file
 gui_widgets/fonts.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_widgets/fonts.cpp.o
 
 gui_widgets/fonts.i: gui_widgets/fonts.cpp.i
@@ -1775,7 +2647,11 @@ gui_widgets/fonts.i: gui_widgets/fonts.cpp.i
 
 # target to preprocess a source file
 gui_widgets/fonts.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_widgets/fonts.cpp.i
 
 gui_widgets/fonts.s: gui_widgets/fonts.cpp.s
@@ -1783,7 +2659,11 @@ gui_widgets/fonts.s: gui_widgets/fonts.cpp.s
 
 # target to generate assembly for a file
 gui_widgets/fonts.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_widgets/fonts.cpp.s
 
 gui_widgets/style.o: gui_widgets/style.cpp.o
@@ -1791,7 +2671,11 @@ gui_widgets/style.o: gui_widgets/style.cpp.o
 
 # target to build an object file
 gui_widgets/style.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_widgets/style.cpp.o
 
 gui_widgets/style.i: gui_widgets/style.cpp.i
@@ -1799,7 +2683,11 @@ gui_widgets/style.i: gui_widgets/style.cpp.i
 
 # target to preprocess a source file
 gui_widgets/style.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_widgets/style.cpp.i
 
 gui_widgets/style.s: gui_widgets/style.cpp.s
@@ -1807,7 +2695,11 @@ gui_widgets/style.s: gui_widgets/style.cpp.s
 
 # target to generate assembly for a file
 gui_widgets/style.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/style.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_widgets/style.cpp.s
 
 gui_widgets/widgets.o: gui_widgets/widgets.cpp.o
@@ -1815,7 +2707,11 @@ gui_widgets/widgets.o: gui_widgets/widgets.cpp.o
 
 # target to build an object file
 gui_widgets/widgets.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_widgets/widgets.cpp.o
 
 gui_widgets/widgets.i: gui_widgets/widgets.cpp.i
@@ -1823,7 +2719,11 @@ gui_widgets/widgets.i: gui_widgets/widgets.cpp.i
 
 # target to preprocess a source file
 gui_widgets/widgets.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_widgets/widgets.cpp.i
 
 gui_widgets/widgets.s: gui_widgets/widgets.cpp.s
@@ -1831,7 +2731,11 @@ gui_widgets/widgets.s: gui_widgets/widgets.cpp.s
 
 # target to generate assembly for a file
 gui_widgets/widgets.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : gui_widgets/widgets.cpp.s
 
 image_loader/jpeg_loader.o: image_loader/jpeg_loader.cpp.o
@@ -1839,7 +2743,11 @@ image_loader/jpeg_loader.o: image_loader/jpeg_loader.cpp.o
 
 # target to build an object file
 image_loader/jpeg_loader.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : image_loader/jpeg_loader.cpp.o
 
 image_loader/jpeg_loader.i: image_loader/jpeg_loader.cpp.i
@@ -1847,7 +2755,11 @@ image_loader/jpeg_loader.i: image_loader/jpeg_loader.cpp.i
 
 # target to preprocess a source file
 image_loader/jpeg_loader.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : image_loader/jpeg_loader.cpp.i
 
 image_loader/jpeg_loader.s: image_loader/jpeg_loader.cpp.s
@@ -1855,7 +2767,11 @@ image_loader/jpeg_loader.s: image_loader/jpeg_loader.cpp.s
 
 # target to generate assembly for a file
 image_loader/jpeg_loader.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : image_loader/jpeg_loader.cpp.s
 
 image_loader/png_loader.o: image_loader/png_loader.cpp.o
@@ -1863,7 +2779,11 @@ image_loader/png_loader.o: image_loader/png_loader.cpp.o
 
 # target to build an object file
 image_loader/png_loader.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : image_loader/png_loader.cpp.o
 
 image_loader/png_loader.i: image_loader/png_loader.cpp.i
@@ -1871,7 +2791,11 @@ image_loader/png_loader.i: image_loader/png_loader.cpp.i
 
 # target to preprocess a source file
 image_loader/png_loader.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : image_loader/png_loader.cpp.i
 
 image_loader/png_loader.s: image_loader/png_loader.cpp.s
@@ -1879,7 +2803,11 @@ image_loader/png_loader.s: image_loader/png_loader.cpp.s
 
 # target to generate assembly for a file
 image_loader/png_loader.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_loader/png_loader.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : image_loader/png_loader.cpp.s
 
 image_saver/save_jpeg.o: image_saver/save_jpeg.cpp.o
@@ -1887,7 +2815,11 @@ image_saver/save_jpeg.o: image_saver/save_jpeg.cpp.o
 
 # target to build an object file
 image_saver/save_jpeg.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : image_saver/save_jpeg.cpp.o
 
 image_saver/save_jpeg.i: image_saver/save_jpeg.cpp.i
@@ -1895,7 +2827,11 @@ image_saver/save_jpeg.i: image_saver/save_jpeg.cpp.i
 
 # target to preprocess a source file
 image_saver/save_jpeg.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : image_saver/save_jpeg.cpp.i
 
 image_saver/save_jpeg.s: image_saver/save_jpeg.cpp.s
@@ -1903,7 +2839,11 @@ image_saver/save_jpeg.s: image_saver/save_jpeg.cpp.s
 
 # target to generate assembly for a file
 image_saver/save_jpeg.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : image_saver/save_jpeg.cpp.s
 
 image_saver/save_png.o: image_saver/save_png.cpp.o
@@ -1911,7 +2851,11 @@ image_saver/save_png.o: image_saver/save_png.cpp.o
 
 # target to build an object file
 image_saver/save_png.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : image_saver/save_png.cpp.o
 
 image_saver/save_png.i: image_saver/save_png.cpp.i
@@ -1919,7 +2863,11 @@ image_saver/save_png.i: image_saver/save_png.cpp.i
 
 # target to preprocess a source file
 image_saver/save_png.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : image_saver/save_png.cpp.i
 
 image_saver/save_png.s: image_saver/save_png.cpp.s
@@ -1927,7 +2875,11 @@ image_saver/save_png.s: image_saver/save_png.cpp.s
 
 # target to generate assembly for a file
 image_saver/save_png.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/image_saver/save_png.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : image_saver/save_png.cpp.s
 
 linker/linker_kernel_1.o: linker/linker_kernel_1.cpp.o
@@ -1935,7 +2887,11 @@ linker/linker_kernel_1.o: linker/linker_kernel_1.cpp.o
 
 # target to build an object file
 linker/linker_kernel_1.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : linker/linker_kernel_1.cpp.o
 
 linker/linker_kernel_1.i: linker/linker_kernel_1.cpp.i
@@ -1943,7 +2899,11 @@ linker/linker_kernel_1.i: linker/linker_kernel_1.cpp.i
 
 # target to preprocess a source file
 linker/linker_kernel_1.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : linker/linker_kernel_1.cpp.i
 
 linker/linker_kernel_1.s: linker/linker_kernel_1.cpp.s
@@ -1951,7 +2911,11 @@ linker/linker_kernel_1.s: linker/linker_kernel_1.cpp.s
 
 # target to generate assembly for a file
 linker/linker_kernel_1.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : linker/linker_kernel_1.cpp.s
 
 logger/extra_logger_headers.o: logger/extra_logger_headers.cpp.o
@@ -1959,7 +2923,11 @@ logger/extra_logger_headers.o: logger/extra_logger_headers.cpp.o
 
 # target to build an object file
 logger/extra_logger_headers.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : logger/extra_logger_headers.cpp.o
 
 logger/extra_logger_headers.i: logger/extra_logger_headers.cpp.i
@@ -1967,7 +2935,11 @@ logger/extra_logger_headers.i: logger/extra_logger_headers.cpp.i
 
 # target to preprocess a source file
 logger/extra_logger_headers.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : logger/extra_logger_headers.cpp.i
 
 logger/extra_logger_headers.s: logger/extra_logger_headers.cpp.s
@@ -1975,7 +2947,11 @@ logger/extra_logger_headers.s: logger/extra_logger_headers.cpp.s
 
 # target to generate assembly for a file
 logger/extra_logger_headers.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : logger/extra_logger_headers.cpp.s
 
 logger/logger_config_file.o: logger/logger_config_file.cpp.o
@@ -1983,7 +2959,11 @@ logger/logger_config_file.o: logger/logger_config_file.cpp.o
 
 # target to build an object file
 logger/logger_config_file.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : logger/logger_config_file.cpp.o
 
 logger/logger_config_file.i: logger/logger_config_file.cpp.i
@@ -1991,7 +2971,11 @@ logger/logger_config_file.i: logger/logger_config_file.cpp.i
 
 # target to preprocess a source file
 logger/logger_config_file.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : logger/logger_config_file.cpp.i
 
 logger/logger_config_file.s: logger/logger_config_file.cpp.s
@@ -1999,7 +2983,11 @@ logger/logger_config_file.s: logger/logger_config_file.cpp.s
 
 # target to generate assembly for a file
 logger/logger_config_file.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_config_file.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : logger/logger_config_file.cpp.s
 
 logger/logger_kernel_1.o: logger/logger_kernel_1.cpp.o
@@ -2007,7 +2995,11 @@ logger/logger_kernel_1.o: logger/logger_kernel_1.cpp.o
 
 # target to build an object file
 logger/logger_kernel_1.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : logger/logger_kernel_1.cpp.o
 
 logger/logger_kernel_1.i: logger/logger_kernel_1.cpp.i
@@ -2015,7 +3007,11 @@ logger/logger_kernel_1.i: logger/logger_kernel_1.cpp.i
 
 # target to preprocess a source file
 logger/logger_kernel_1.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : logger/logger_kernel_1.cpp.i
 
 logger/logger_kernel_1.s: logger/logger_kernel_1.cpp.s
@@ -2023,7 +3019,11 @@ logger/logger_kernel_1.s: logger/logger_kernel_1.cpp.s
 
 # target to generate assembly for a file
 logger/logger_kernel_1.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : logger/logger_kernel_1.cpp.s
 
 md5/md5_kernel_1.o: md5/md5_kernel_1.cpp.o
@@ -2031,7 +3031,11 @@ md5/md5_kernel_1.o: md5/md5_kernel_1.cpp.o
 
 # target to build an object file
 md5/md5_kernel_1.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : md5/md5_kernel_1.cpp.o
 
 md5/md5_kernel_1.i: md5/md5_kernel_1.cpp.i
@@ -2039,7 +3043,11 @@ md5/md5_kernel_1.i: md5/md5_kernel_1.cpp.i
 
 # target to preprocess a source file
 md5/md5_kernel_1.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : md5/md5_kernel_1.cpp.i
 
 md5/md5_kernel_1.s: md5/md5_kernel_1.cpp.s
@@ -2047,7 +3055,11 @@ md5/md5_kernel_1.s: md5/md5_kernel_1.cpp.s
 
 # target to generate assembly for a file
 md5/md5_kernel_1.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : md5/md5_kernel_1.cpp.s
 
 misc_api/misc_api_kernel_1.o: misc_api/misc_api_kernel_1.cpp.o
@@ -2055,7 +3067,11 @@ misc_api/misc_api_kernel_1.o: misc_api/misc_api_kernel_1.cpp.o
 
 # target to build an object file
 misc_api/misc_api_kernel_1.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : misc_api/misc_api_kernel_1.cpp.o
 
 misc_api/misc_api_kernel_1.i: misc_api/misc_api_kernel_1.cpp.i
@@ -2063,7 +3079,11 @@ misc_api/misc_api_kernel_1.i: misc_api/misc_api_kernel_1.cpp.i
 
 # target to preprocess a source file
 misc_api/misc_api_kernel_1.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : misc_api/misc_api_kernel_1.cpp.i
 
 misc_api/misc_api_kernel_1.s: misc_api/misc_api_kernel_1.cpp.s
@@ -2071,7 +3091,11 @@ misc_api/misc_api_kernel_1.s: misc_api/misc_api_kernel_1.cpp.s
 
 # target to generate assembly for a file
 misc_api/misc_api_kernel_1.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : misc_api/misc_api_kernel_1.cpp.s
 
 misc_api/misc_api_kernel_2.o: misc_api/misc_api_kernel_2.cpp.o
@@ -2079,7 +3103,11 @@ misc_api/misc_api_kernel_2.o: misc_api/misc_api_kernel_2.cpp.o
 
 # target to build an object file
 misc_api/misc_api_kernel_2.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : misc_api/misc_api_kernel_2.cpp.o
 
 misc_api/misc_api_kernel_2.i: misc_api/misc_api_kernel_2.cpp.i
@@ -2087,7 +3115,11 @@ misc_api/misc_api_kernel_2.i: misc_api/misc_api_kernel_2.cpp.i
 
 # target to preprocess a source file
 misc_api/misc_api_kernel_2.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : misc_api/misc_api_kernel_2.cpp.i
 
 misc_api/misc_api_kernel_2.s: misc_api/misc_api_kernel_2.cpp.s
@@ -2095,7 +3127,11 @@ misc_api/misc_api_kernel_2.s: misc_api/misc_api_kernel_2.cpp.s
 
 # target to generate assembly for a file
 misc_api/misc_api_kernel_2.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : misc_api/misc_api_kernel_2.cpp.s
 
 server/server_http.o: server/server_http.cpp.o
@@ -2103,7 +3139,11 @@ server/server_http.o: server/server_http.cpp.o
 
 # target to build an object file
 server/server_http.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : server/server_http.cpp.o
 
 server/server_http.i: server/server_http.cpp.i
@@ -2111,7 +3151,11 @@ server/server_http.i: server/server_http.cpp.i
 
 # target to preprocess a source file
 server/server_http.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : server/server_http.cpp.i
 
 server/server_http.s: server/server_http.cpp.s
@@ -2119,7 +3163,11 @@ server/server_http.s: server/server_http.cpp.s
 
 # target to generate assembly for a file
 server/server_http.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_http.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : server/server_http.cpp.s
 
 server/server_iostream.o: server/server_iostream.cpp.o
@@ -2127,7 +3175,11 @@ server/server_iostream.o: server/server_iostream.cpp.o
 
 # target to build an object file
 server/server_iostream.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : server/server_iostream.cpp.o
 
 server/server_iostream.i: server/server_iostream.cpp.i
@@ -2135,7 +3187,11 @@ server/server_iostream.i: server/server_iostream.cpp.i
 
 # target to preprocess a source file
 server/server_iostream.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : server/server_iostream.cpp.i
 
 server/server_iostream.s: server/server_iostream.cpp.s
@@ -2143,7 +3199,11 @@ server/server_iostream.s: server/server_iostream.cpp.s
 
 # target to generate assembly for a file
 server/server_iostream.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_iostream.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : server/server_iostream.cpp.s
 
 server/server_kernel.o: server/server_kernel.cpp.o
@@ -2151,7 +3211,11 @@ server/server_kernel.o: server/server_kernel.cpp.o
 
 # target to build an object file
 server/server_kernel.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : server/server_kernel.cpp.o
 
 server/server_kernel.i: server/server_kernel.cpp.i
@@ -2159,7 +3223,11 @@ server/server_kernel.i: server/server_kernel.cpp.i
 
 # target to preprocess a source file
 server/server_kernel.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : server/server_kernel.cpp.i
 
 server/server_kernel.s: server/server_kernel.cpp.s
@@ -2167,7 +3235,11 @@ server/server_kernel.s: server/server_kernel.cpp.s
 
 # target to generate assembly for a file
 server/server_kernel.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/server/server_kernel.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : server/server_kernel.cpp.s
 
 sockets/sockets_extensions.o: sockets/sockets_extensions.cpp.o
@@ -2175,7 +3247,11 @@ sockets/sockets_extensions.o: sockets/sockets_extensions.cpp.o
 
 # target to build an object file
 sockets/sockets_extensions.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : sockets/sockets_extensions.cpp.o
 
 sockets/sockets_extensions.i: sockets/sockets_extensions.cpp.i
@@ -2183,7 +3259,11 @@ sockets/sockets_extensions.i: sockets/sockets_extensions.cpp.i
 
 # target to preprocess a source file
 sockets/sockets_extensions.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : sockets/sockets_extensions.cpp.i
 
 sockets/sockets_extensions.s: sockets/sockets_extensions.cpp.s
@@ -2191,7 +3271,11 @@ sockets/sockets_extensions.s: sockets/sockets_extensions.cpp.s
 
 # target to generate assembly for a file
 sockets/sockets_extensions.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : sockets/sockets_extensions.cpp.s
 
 sockets/sockets_kernel_1.o: sockets/sockets_kernel_1.cpp.o
@@ -2199,7 +3283,11 @@ sockets/sockets_kernel_1.o: sockets/sockets_kernel_1.cpp.o
 
 # target to build an object file
 sockets/sockets_kernel_1.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : sockets/sockets_kernel_1.cpp.o
 
 sockets/sockets_kernel_1.i: sockets/sockets_kernel_1.cpp.i
@@ -2207,7 +3295,11 @@ sockets/sockets_kernel_1.i: sockets/sockets_kernel_1.cpp.i
 
 # target to preprocess a source file
 sockets/sockets_kernel_1.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : sockets/sockets_kernel_1.cpp.i
 
 sockets/sockets_kernel_1.s: sockets/sockets_kernel_1.cpp.s
@@ -2215,7 +3307,11 @@ sockets/sockets_kernel_1.s: sockets/sockets_kernel_1.cpp.s
 
 # target to generate assembly for a file
 sockets/sockets_kernel_1.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : sockets/sockets_kernel_1.cpp.s
 
 sockets/sockets_kernel_2.o: sockets/sockets_kernel_2.cpp.o
@@ -2223,7 +3319,11 @@ sockets/sockets_kernel_2.o: sockets/sockets_kernel_2.cpp.o
 
 # target to build an object file
 sockets/sockets_kernel_2.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : sockets/sockets_kernel_2.cpp.o
 
 sockets/sockets_kernel_2.i: sockets/sockets_kernel_2.cpp.i
@@ -2231,7 +3331,11 @@ sockets/sockets_kernel_2.i: sockets/sockets_kernel_2.cpp.i
 
 # target to preprocess a source file
 sockets/sockets_kernel_2.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : sockets/sockets_kernel_2.cpp.i
 
 sockets/sockets_kernel_2.s: sockets/sockets_kernel_2.cpp.s
@@ -2239,7 +3343,11 @@ sockets/sockets_kernel_2.s: sockets/sockets_kernel_2.cpp.s
 
 # target to generate assembly for a file
 sockets/sockets_kernel_2.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : sockets/sockets_kernel_2.cpp.s
 
 sockstreambuf/sockstreambuf.o: sockstreambuf/sockstreambuf.cpp.o
@@ -2247,7 +3355,11 @@ sockstreambuf/sockstreambuf.o: sockstreambuf/sockstreambuf.cpp.o
 
 # target to build an object file
 sockstreambuf/sockstreambuf.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : sockstreambuf/sockstreambuf.cpp.o
 
 sockstreambuf/sockstreambuf.i: sockstreambuf/sockstreambuf.cpp.i
@@ -2255,7 +3367,11 @@ sockstreambuf/sockstreambuf.i: sockstreambuf/sockstreambuf.cpp.i
 
 # target to preprocess a source file
 sockstreambuf/sockstreambuf.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : sockstreambuf/sockstreambuf.cpp.i
 
 sockstreambuf/sockstreambuf.s: sockstreambuf/sockstreambuf.cpp.s
@@ -2263,7 +3379,11 @@ sockstreambuf/sockstreambuf.s: sockstreambuf/sockstreambuf.cpp.s
 
 # target to generate assembly for a file
 sockstreambuf/sockstreambuf.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : sockstreambuf/sockstreambuf.cpp.s
 
 sockstreambuf/sockstreambuf_unbuffered.o: sockstreambuf/sockstreambuf_unbuffered.cpp.o
@@ -2271,7 +3391,11 @@ sockstreambuf/sockstreambuf_unbuffered.o: sockstreambuf/sockstreambuf_unbuffered
 
 # target to build an object file
 sockstreambuf/sockstreambuf_unbuffered.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : sockstreambuf/sockstreambuf_unbuffered.cpp.o
 
 sockstreambuf/sockstreambuf_unbuffered.i: sockstreambuf/sockstreambuf_unbuffered.cpp.i
@@ -2279,7 +3403,11 @@ sockstreambuf/sockstreambuf_unbuffered.i: sockstreambuf/sockstreambuf_unbuffered
 
 # target to preprocess a source file
 sockstreambuf/sockstreambuf_unbuffered.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : sockstreambuf/sockstreambuf_unbuffered.cpp.i
 
 sockstreambuf/sockstreambuf_unbuffered.s: sockstreambuf/sockstreambuf_unbuffered.cpp.s
@@ -2287,7 +3415,11 @@ sockstreambuf/sockstreambuf_unbuffered.s: sockstreambuf/sockstreambuf_unbuffered
 
 # target to generate assembly for a file
 sockstreambuf/sockstreambuf_unbuffered.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : sockstreambuf/sockstreambuf_unbuffered.cpp.s
 
 stack_trace.o: stack_trace.cpp.o
@@ -2295,7 +3427,11 @@ stack_trace.o: stack_trace.cpp.o
 
 # target to build an object file
 stack_trace.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : stack_trace.cpp.o
 
 stack_trace.i: stack_trace.cpp.i
@@ -2303,7 +3439,11 @@ stack_trace.i: stack_trace.cpp.i
 
 # target to preprocess a source file
 stack_trace.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : stack_trace.cpp.i
 
 stack_trace.s: stack_trace.cpp.s
@@ -2311,7 +3451,11 @@ stack_trace.s: stack_trace.cpp.s
 
 # target to generate assembly for a file
 stack_trace.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/stack_trace.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : stack_trace.cpp.s
 
 svm/auto.o: svm/auto.cpp.o
@@ -2319,7 +3463,11 @@ svm/auto.o: svm/auto.cpp.o
 
 # target to build an object file
 svm/auto.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : svm/auto.cpp.o
 
 svm/auto.i: svm/auto.cpp.i
@@ -2327,7 +3475,11 @@ svm/auto.i: svm/auto.cpp.i
 
 # target to preprocess a source file
 svm/auto.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : svm/auto.cpp.i
 
 svm/auto.s: svm/auto.cpp.s
@@ -2335,7 +3487,11 @@ svm/auto.s: svm/auto.cpp.s
 
 # target to generate assembly for a file
 svm/auto.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/svm/auto.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : svm/auto.cpp.s
 
 test_for_odr_violations.o: test_for_odr_violations.cpp.o
@@ -2343,7 +3499,11 @@ test_for_odr_violations.o: test_for_odr_violations.cpp.o
 
 # target to build an object file
 test_for_odr_violations.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : test_for_odr_violations.cpp.o
 
 test_for_odr_violations.i: test_for_odr_violations.cpp.i
@@ -2351,7 +3511,11 @@ test_for_odr_violations.i: test_for_odr_violations.cpp.i
 
 # target to preprocess a source file
 test_for_odr_violations.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : test_for_odr_violations.cpp.i
 
 test_for_odr_violations.s: test_for_odr_violations.cpp.s
@@ -2359,7 +3523,11 @@ test_for_odr_violations.s: test_for_odr_violations.cpp.s
 
 # target to generate assembly for a file
 test_for_odr_violations.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/test_for_odr_violations.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : test_for_odr_violations.cpp.s
 
 threads/async.o: threads/async.cpp.o
@@ -2367,7 +3535,11 @@ threads/async.o: threads/async.cpp.o
 
 # target to build an object file
 threads/async.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/async.cpp.o
 
 threads/async.i: threads/async.cpp.i
@@ -2375,7 +3547,11 @@ threads/async.i: threads/async.cpp.i
 
 # target to preprocess a source file
 threads/async.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/async.cpp.i
 
 threads/async.s: threads/async.cpp.s
@@ -2383,7 +3559,11 @@ threads/async.s: threads/async.cpp.s
 
 # target to generate assembly for a file
 threads/async.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/async.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/async.cpp.s
 
 threads/multithreaded_object_extension.o: threads/multithreaded_object_extension.cpp.o
@@ -2391,7 +3571,11 @@ threads/multithreaded_object_extension.o: threads/multithreaded_object_extension
 
 # target to build an object file
 threads/multithreaded_object_extension.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/multithreaded_object_extension.cpp.o
 
 threads/multithreaded_object_extension.i: threads/multithreaded_object_extension.cpp.i
@@ -2399,7 +3583,11 @@ threads/multithreaded_object_extension.i: threads/multithreaded_object_extension
 
 # target to preprocess a source file
 threads/multithreaded_object_extension.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/multithreaded_object_extension.cpp.i
 
 threads/multithreaded_object_extension.s: threads/multithreaded_object_extension.cpp.s
@@ -2407,7 +3595,11 @@ threads/multithreaded_object_extension.s: threads/multithreaded_object_extension
 
 # target to generate assembly for a file
 threads/multithreaded_object_extension.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/multithreaded_object_extension.cpp.s
 
 threads/thread_pool_extension.o: threads/thread_pool_extension.cpp.o
@@ -2415,7 +3607,11 @@ threads/thread_pool_extension.o: threads/thread_pool_extension.cpp.o
 
 # target to build an object file
 threads/thread_pool_extension.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/thread_pool_extension.cpp.o
 
 threads/thread_pool_extension.i: threads/thread_pool_extension.cpp.i
@@ -2423,7 +3619,11 @@ threads/thread_pool_extension.i: threads/thread_pool_extension.cpp.i
 
 # target to preprocess a source file
 threads/thread_pool_extension.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/thread_pool_extension.cpp.i
 
 threads/thread_pool_extension.s: threads/thread_pool_extension.cpp.s
@@ -2431,7 +3631,11 @@ threads/thread_pool_extension.s: threads/thread_pool_extension.cpp.s
 
 # target to generate assembly for a file
 threads/thread_pool_extension.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/thread_pool_extension.cpp.s
 
 threads/threaded_object_extension.o: threads/threaded_object_extension.cpp.o
@@ -2439,7 +3643,11 @@ threads/threaded_object_extension.o: threads/threaded_object_extension.cpp.o
 
 # target to build an object file
 threads/threaded_object_extension.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/threaded_object_extension.cpp.o
 
 threads/threaded_object_extension.i: threads/threaded_object_extension.cpp.i
@@ -2447,7 +3655,11 @@ threads/threaded_object_extension.i: threads/threaded_object_extension.cpp.i
 
 # target to preprocess a source file
 threads/threaded_object_extension.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/threaded_object_extension.cpp.i
 
 threads/threaded_object_extension.s: threads/threaded_object_extension.cpp.s
@@ -2455,7 +3667,11 @@ threads/threaded_object_extension.s: threads/threaded_object_extension.cpp.s
 
 # target to generate assembly for a file
 threads/threaded_object_extension.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/threaded_object_extension.cpp.s
 
 threads/threads_kernel_1.o: threads/threads_kernel_1.cpp.o
@@ -2463,7 +3679,11 @@ threads/threads_kernel_1.o: threads/threads_kernel_1.cpp.o
 
 # target to build an object file
 threads/threads_kernel_1.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/threads_kernel_1.cpp.o
 
 threads/threads_kernel_1.i: threads/threads_kernel_1.cpp.i
@@ -2471,7 +3691,11 @@ threads/threads_kernel_1.i: threads/threads_kernel_1.cpp.i
 
 # target to preprocess a source file
 threads/threads_kernel_1.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/threads_kernel_1.cpp.i
 
 threads/threads_kernel_1.s: threads/threads_kernel_1.cpp.s
@@ -2479,7 +3703,11 @@ threads/threads_kernel_1.s: threads/threads_kernel_1.cpp.s
 
 # target to generate assembly for a file
 threads/threads_kernel_1.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/threads_kernel_1.cpp.s
 
 threads/threads_kernel_2.o: threads/threads_kernel_2.cpp.o
@@ -2487,7 +3715,11 @@ threads/threads_kernel_2.o: threads/threads_kernel_2.cpp.o
 
 # target to build an object file
 threads/threads_kernel_2.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/threads_kernel_2.cpp.o
 
 threads/threads_kernel_2.i: threads/threads_kernel_2.cpp.i
@@ -2495,7 +3727,11 @@ threads/threads_kernel_2.i: threads/threads_kernel_2.cpp.i
 
 # target to preprocess a source file
 threads/threads_kernel_2.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/threads_kernel_2.cpp.i
 
 threads/threads_kernel_2.s: threads/threads_kernel_2.cpp.s
@@ -2503,7 +3739,11 @@ threads/threads_kernel_2.s: threads/threads_kernel_2.cpp.s
 
 # target to generate assembly for a file
 threads/threads_kernel_2.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/threads_kernel_2.cpp.s
 
 threads/threads_kernel_shared.o: threads/threads_kernel_shared.cpp.o
@@ -2511,7 +3751,11 @@ threads/threads_kernel_shared.o: threads/threads_kernel_shared.cpp.o
 
 # target to build an object file
 threads/threads_kernel_shared.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/threads_kernel_shared.cpp.o
 
 threads/threads_kernel_shared.i: threads/threads_kernel_shared.cpp.i
@@ -2519,7 +3763,11 @@ threads/threads_kernel_shared.i: threads/threads_kernel_shared.cpp.i
 
 # target to preprocess a source file
 threads/threads_kernel_shared.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/threads_kernel_shared.cpp.i
 
 threads/threads_kernel_shared.s: threads/threads_kernel_shared.cpp.s
@@ -2527,7 +3775,11 @@ threads/threads_kernel_shared.s: threads/threads_kernel_shared.cpp.s
 
 # target to generate assembly for a file
 threads/threads_kernel_shared.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : threads/threads_kernel_shared.cpp.s
 
 timer/timer.o: timer/timer.cpp.o
@@ -2535,7 +3787,11 @@ timer/timer.o: timer/timer.cpp.o
 
 # target to build an object file
 timer/timer.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : timer/timer.cpp.o
 
 timer/timer.i: timer/timer.cpp.i
@@ -2543,7 +3799,11 @@ timer/timer.i: timer/timer.cpp.i
 
 # target to preprocess a source file
 timer/timer.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : timer/timer.cpp.i
 
 timer/timer.s: timer/timer.cpp.s
@@ -2551,7 +3811,11 @@ timer/timer.s: timer/timer.cpp.s
 
 # target to generate assembly for a file
 timer/timer.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/timer/timer.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : timer/timer.cpp.s
 
 tokenizer/tokenizer_kernel_1.o: tokenizer/tokenizer_kernel_1.cpp.o
@@ -2559,7 +3823,11 @@ tokenizer/tokenizer_kernel_1.o: tokenizer/tokenizer_kernel_1.cpp.o
 
 # target to build an object file
 tokenizer/tokenizer_kernel_1.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : tokenizer/tokenizer_kernel_1.cpp.o
 
 tokenizer/tokenizer_kernel_1.i: tokenizer/tokenizer_kernel_1.cpp.i
@@ -2567,7 +3835,11 @@ tokenizer/tokenizer_kernel_1.i: tokenizer/tokenizer_kernel_1.cpp.i
 
 # target to preprocess a source file
 tokenizer/tokenizer_kernel_1.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : tokenizer/tokenizer_kernel_1.cpp.i
 
 tokenizer/tokenizer_kernel_1.s: tokenizer/tokenizer_kernel_1.cpp.s
@@ -2575,7 +3847,11 @@ tokenizer/tokenizer_kernel_1.s: tokenizer/tokenizer_kernel_1.cpp.s
 
 # target to generate assembly for a file
 tokenizer/tokenizer_kernel_1.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : tokenizer/tokenizer_kernel_1.cpp.s
 
 unicode/unicode.o: unicode/unicode.cpp.o
@@ -2583,7 +3859,11 @@ unicode/unicode.o: unicode/unicode.cpp.o
 
 # target to build an object file
 unicode/unicode.cpp.o:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.o
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.o
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : unicode/unicode.cpp.o
 
 unicode/unicode.i: unicode/unicode.cpp.i
@@ -2591,7 +3871,11 @@ unicode/unicode.i: unicode/unicode.cpp.i
 
 # target to preprocess a source file
 unicode/unicode.cpp.i:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.i
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.i
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : unicode/unicode.cpp.i
 
 unicode/unicode.s: unicode/unicode.cpp.s
@@ -2599,7 +3883,11 @@ unicode/unicode.s: unicode/unicode.cpp.s
 
 # target to generate assembly for a file
 unicode/unicode.cpp.s:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.s
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/unicode/unicode.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : unicode/unicode.cpp.s
 
 # Help Target
@@ -2931,6 +4219,10 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : cmake_check_build_system
 

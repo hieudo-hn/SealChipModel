@@ -44,19 +44,33 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
+<<<<<<< HEAD
 CMAKE_COMMAND = /Applications/CMake.app/Contents/bin/cmake
 
 # The command to remove a file.
 RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
+=======
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.20.2/bin/cmake
+
+# The command to remove a file.
+RM = /usr/local/Cellar/cmake/3.20.2/bin/cmake -E rm -f
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /Users/aylab/Documents/Hieu/dlib-19.22/dlib/cmake_utils/test_for_cpp11
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/cpp11_test_build
+=======
+CMAKE_SOURCE_DIR = /Users/Hieudo/Documents/SealChipModel/dlib-19.22/dlib/cmake_utils/test_for_cpp11
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /Users/Hieudo/Documents/SealChipModel/build/dlib_build/cpp11_test_build
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cpp11_test.dir/depend.make
@@ -70,6 +84,7 @@ include CMakeFiles/cpp11_test.dir/progress.make
 include CMakeFiles/cpp11_test.dir/flags.make
 
 CMakeFiles/cpp11_test.dir/cpp11_test.cpp.o: CMakeFiles/cpp11_test.dir/flags.make
+<<<<<<< HEAD
 CMakeFiles/cpp11_test.dir/cpp11_test.cpp.o: /Users/aylab/Documents/Hieu/dlib-19.22/dlib/cmake_utils/test_for_cpp11/cpp11_test.cpp
 CMakeFiles/cpp11_test.dir/cpp11_test.cpp.o: CMakeFiles/cpp11_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/cpp11_test_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp11_test.dir/cpp11_test.cpp.o"
@@ -82,6 +97,20 @@ CMakeFiles/cpp11_test.dir/cpp11_test.cpp.i: cmake_force
 CMakeFiles/cpp11_test.dir/cpp11_test.cpp.s: cmake_force
 	@echo "Compiling CXX source to assembly CMakeFiles/cpp11_test.dir/cpp11_test.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aylab/Documents/Hieu/dlib-19.22/dlib/cmake_utils/test_for_cpp11/cpp11_test.cpp -o CMakeFiles/cpp11_test.dir/cpp11_test.cpp.s
+=======
+CMakeFiles/cpp11_test.dir/cpp11_test.cpp.o: /Users/Hieudo/Documents/SealChipModel/dlib-19.22/dlib/cmake_utils/test_for_cpp11/cpp11_test.cpp
+CMakeFiles/cpp11_test.dir/cpp11_test.cpp.o: CMakeFiles/cpp11_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Hieudo/Documents/SealChipModel/build/dlib_build/cpp11_test_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp11_test.dir/cpp11_test.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cpp11_test.dir/cpp11_test.cpp.o -MF CMakeFiles/cpp11_test.dir/cpp11_test.cpp.o.d -o CMakeFiles/cpp11_test.dir/cpp11_test.cpp.o -c /Users/Hieudo/Documents/SealChipModel/dlib-19.22/dlib/cmake_utils/test_for_cpp11/cpp11_test.cpp
+
+CMakeFiles/cpp11_test.dir/cpp11_test.cpp.i: cmake_force
+	@echo "Preprocessing CXX source to CMakeFiles/cpp11_test.dir/cpp11_test.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Hieudo/Documents/SealChipModel/dlib-19.22/dlib/cmake_utils/test_for_cpp11/cpp11_test.cpp > CMakeFiles/cpp11_test.dir/cpp11_test.cpp.i
+
+CMakeFiles/cpp11_test.dir/cpp11_test.cpp.s: cmake_force
+	@echo "Compiling CXX source to assembly CMakeFiles/cpp11_test.dir/cpp11_test.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Hieudo/Documents/SealChipModel/dlib-19.22/dlib/cmake_utils/test_for_cpp11/cpp11_test.cpp -o CMakeFiles/cpp11_test.dir/cpp11_test.cpp.s
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 
 # Object files for target cpp11_test
 cpp11_test_OBJECTS = \
@@ -93,7 +122,11 @@ cpp11_test_EXTERNAL_OBJECTS =
 libcpp11_test.a: CMakeFiles/cpp11_test.dir/cpp11_test.cpp.o
 libcpp11_test.a: CMakeFiles/cpp11_test.dir/build.make
 libcpp11_test.a: CMakeFiles/cpp11_test.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/cpp11_test_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcpp11_test.a"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Hieudo/Documents/SealChipModel/build/dlib_build/cpp11_test_build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcpp11_test.a"
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 	$(CMAKE_COMMAND) -P CMakeFiles/cpp11_test.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp11_test.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +139,10 @@ CMakeFiles/cpp11_test.dir/clean:
 .PHONY : CMakeFiles/cpp11_test.dir/clean
 
 CMakeFiles/cpp11_test.dir/depend:
+<<<<<<< HEAD
 	cd /Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/cpp11_test_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aylab/Documents/Hieu/dlib-19.22/dlib/cmake_utils/test_for_cpp11 /Users/aylab/Documents/Hieu/dlib-19.22/dlib/cmake_utils/test_for_cpp11 /Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/cpp11_test_build /Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/cpp11_test_build /Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/cpp11_test_build/CMakeFiles/cpp11_test.dir/DependInfo.cmake
+=======
+	cd /Users/Hieudo/Documents/SealChipModel/build/dlib_build/cpp11_test_build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Hieudo/Documents/SealChipModel/dlib-19.22/dlib/cmake_utils/test_for_cpp11 /Users/Hieudo/Documents/SealChipModel/dlib-19.22/dlib/cmake_utils/test_for_cpp11 /Users/Hieudo/Documents/SealChipModel/build/dlib_build/cpp11_test_build /Users/Hieudo/Documents/SealChipModel/build/dlib_build/cpp11_test_build /Users/Hieudo/Documents/SealChipModel/build/dlib_build/cpp11_test_build/CMakeFiles/cpp11_test.dir/DependInfo.cmake
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : CMakeFiles/cpp11_test.dir/depend
 

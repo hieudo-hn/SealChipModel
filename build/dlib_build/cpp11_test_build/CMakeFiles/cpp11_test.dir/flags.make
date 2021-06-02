@@ -6,5 +6,9 @@ CXX_DEFINES =
 
 CXX_INCLUDES = 
 
+<<<<<<< HEAD
 CXX_FLAGS =  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11
+=======
+CXX_FLAGS =  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15   -std=c++11
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 

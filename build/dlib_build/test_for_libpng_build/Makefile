@@ -48,19 +48,33 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
+<<<<<<< HEAD
 CMAKE_COMMAND = /Applications/CMake.app/Contents/bin/cmake
 
 # The command to remove a file.
 RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
+=======
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.20.2/bin/cmake
+
+# The command to remove a file.
+RM = /usr/local/Cellar/cmake/3.20.2/bin/cmake -E rm -f
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /Users/aylab/Documents/Hieu/dlib-19.22/dlib/cmake_utils/test_for_libpng
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/test_for_libpng_build
+=======
+CMAKE_SOURCE_DIR = /Users/Hieudo/Documents/SealChipModel/dlib-19.22/dlib/cmake_utils/test_for_libpng
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /Users/Hieudo/Documents/SealChipModel/build/dlib_build/test_for_libpng_build
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +82,11 @@ CMAKE_BINARY_DIR = /Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/te
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@echo "Running CMake to regenerate build system..."
+<<<<<<< HEAD
 	/Applications/CMake.app/Contents/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+=======
+	/usr/local/Cellar/cmake/3.20.2/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +96,11 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@echo "Running CMake cache editor..."
+<<<<<<< HEAD
 	/Applications/CMake.app/Contents/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+=======
+	/usr/local/Cellar/cmake/3.20.2/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -87,9 +109,15 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/test_for_libpng_build/CMakeFiles /Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/test_for_libpng_build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/test_for_libpng_build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Hieudo/Documents/SealChipModel/build/dlib_build/test_for_libpng_build/CMakeFiles /Users/Hieudo/Documents/SealChipModel/build/dlib_build/test_for_libpng_build//CMakeFiles/progress.marks
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Hieudo/Documents/SealChipModel/build/dlib_build/test_for_libpng_build/CMakeFiles 0
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : all
 
 # The main clean target

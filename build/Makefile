@@ -48,19 +48,33 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
+<<<<<<< HEAD
 CMAKE_COMMAND = /Applications/CMake.app/Contents/bin/cmake
 
 # The command to remove a file.
 RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
+=======
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.20.2/bin/cmake
+
+# The command to remove a file.
+RM = /usr/local/Cellar/cmake/3.20.2/bin/cmake -E rm -f
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /Users/aylab/Documents/Hieu/SealChipModel
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/aylab/Documents/Hieu/SealChipModel/build
+=======
+CMAKE_SOURCE_DIR = /Users/Hieudo/Documents/SealChipModel
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /Users/Hieudo/Documents/SealChipModel/build
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +82,11 @@ CMAKE_BINARY_DIR = /Users/aylab/Documents/Hieu/SealChipModel/build
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+<<<<<<< HEAD
 	/Applications/CMake.app/Contents/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+=======
+	/usr/local/Cellar/cmake/3.20.2/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +96,11 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+<<<<<<< HEAD
 	/Applications/CMake.app/Contents/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+=======
+	/usr/local/Cellar/cmake/3.20.2/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -87,9 +109,15 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aylab/Documents/Hieu/SealChipModel/build/CMakeFiles /Users/aylab/Documents/Hieu/SealChipModel/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aylab/Documents/Hieu/SealChipModel/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Hieudo/Documents/SealChipModel/build/CMakeFiles /Users/Hieudo/Documents/SealChipModel/build//CMakeFiles/progress.marks
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Hieudo/Documents/SealChipModel/build/CMakeFiles 0
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : all
 
 # The main clean target
@@ -117,6 +145,22 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+<<<<<<< HEAD
+=======
+# Target rules for targets named compileModel
+
+# Build rule for target.
+compileModel: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 compileModel
+.PHONY : compileModel
+
+# fast build rule for target.
+compileModel/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compileModel.dir/build.make CMakeFiles/compileModel.dir/build
+.PHONY : compileModel/fast
+
+#=============================================================================
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 # Target rules for targets named dlib
 
 # Build rule for target.
@@ -129,6 +173,33 @@ dlib/fast:
 	$(MAKE) $(MAKESILENT) -f dlib_build/CMakeFiles/dlib.dir/build.make dlib_build/CMakeFiles/dlib.dir/build
 .PHONY : dlib/fast
 
+<<<<<<< HEAD
+=======
+dnn_mmod_seal.o: dnn_mmod_seal.cpp.o
+.PHONY : dnn_mmod_seal.o
+
+# target to build an object file
+dnn_mmod_seal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compileModel.dir/build.make CMakeFiles/compileModel.dir/dnn_mmod_seal.cpp.o
+.PHONY : dnn_mmod_seal.cpp.o
+
+dnn_mmod_seal.i: dnn_mmod_seal.cpp.i
+.PHONY : dnn_mmod_seal.i
+
+# target to preprocess a source file
+dnn_mmod_seal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compileModel.dir/build.make CMakeFiles/compileModel.dir/dnn_mmod_seal.cpp.i
+.PHONY : dnn_mmod_seal.cpp.i
+
+dnn_mmod_seal.s: dnn_mmod_seal.cpp.s
+.PHONY : dnn_mmod_seal.s
+
+# target to generate assembly for a file
+dnn_mmod_seal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compileModel.dir/build.make CMakeFiles/compileModel.dir/dnn_mmod_seal.cpp.s
+.PHONY : dnn_mmod_seal.cpp.s
+
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -137,7 +208,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+<<<<<<< HEAD
 	@echo "... dlib"
+=======
+	@echo "... compileModel"
+	@echo "... dlib"
+	@echo "... dnn_mmod_seal.o"
+	@echo "... dnn_mmod_seal.i"
+	@echo "... dnn_mmod_seal.s"
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 .PHONY : help
 
 

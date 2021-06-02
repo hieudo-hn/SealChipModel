@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /Users/aylab/Documents/Hieu/dlib-19.22/dlib/cmake_utils/test_for_libpng
+=======
+# Install script for directory: /Users/Hieudo/Documents/SealChipModel/dlib-19.22/dlib/cmake_utils/test_for_libpng
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +44,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "/Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/test_for_libpng_build/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/Users/Hieudo/Documents/SealChipModel/build/dlib_build/test_for_libpng_build/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

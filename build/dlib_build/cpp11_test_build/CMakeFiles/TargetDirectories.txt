@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 /Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/cpp11_test_build/CMakeFiles/rebuild_cache.dir
 /Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/cpp11_test_build/CMakeFiles/edit_cache.dir
 /Users/aylab/Documents/Hieu/SealChipModel/build/dlib_build/cpp11_test_build/CMakeFiles/cpp11_test.dir
+=======
+/Users/Hieudo/Documents/SealChipModel/build/dlib_build/cpp11_test_build/CMakeFiles/rebuild_cache.dir
+/Users/Hieudo/Documents/SealChipModel/build/dlib_build/cpp11_test_build/CMakeFiles/edit_cache.dir
+/Users/Hieudo/Documents/SealChipModel/build/dlib_build/cpp11_test_build/CMakeFiles/cpp11_test.dir
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8

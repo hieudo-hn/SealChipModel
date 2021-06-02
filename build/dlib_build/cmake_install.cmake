@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /Users/aylab/Documents/Hieu/dlib-19.22/dlib
+=======
+# Install script for directory: /Users/Hieudo/Documents/SealChipModel/dlib-19.22/dlib
+>>>>>>> 5dd89bd5002ef266b0bdcdcd5e900c541033bcf8
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
