@@ -48,23 +48,13 @@ using namespace dlib;
 
 // Let's begin the network definition by creating some network blocks.
 
-// A 5x5 conv layer that does 2x downsampling
-template <long num_filters, typename SUBNET> using con5d = con<num_filters,5,5,2,2,SUBNET>;
-// A 3x3 conv layer that doesn't do any downsampling
-template <long num_filters, typename SUBNET> using con3  = con<num_filters,3,3,1,1,SUBNET>;
+template <long num_filters, typename SUBNET> using con5d = con<num_filters, 5, 5, 2, 2, SUBNET>;
+template <long num_filters, typename SUBNET> using con5 = con<num_filters, 5, 5, 1, 1, SUBNET>;
 
-// Now we can define the 8x downsampling block in terms of conv5d blocks.  We
-// also use relu and batch normalization in the standard way.
-template <typename SUBNET> using downsampler  = relu<bn_con<con5d<32, relu<bn_con<con5d<32, relu<bn_con<con5d<32,SUBNET>>>>>>>>>;
+template <typename SUBNET> using downsampler = relu<bn_con<con5d<32, relu<bn_con<con5d<32, relu<bn_con<con5d<16, SUBNET>>>>>>>>>;
+template <typename SUBNET> using rcon5 = relu<bn_con<con5<45, SUBNET>>>;
 
-// The rest of the network will be 3x3 conv layers with batch normalization and
-// relu.  So we define the 3x3 block we will use here.
-template <typename SUBNET> using rcon3  = relu<bn_con<con3<32,SUBNET>>>;
-
-// Finally, we define the entire network.   The special input_rgb_image_pyramid
-// layer causes the network to operate over a spatial pyramid, making the detector
-// scale invariant.  
-using net_type  = loss_mmod<con<1,6,6,1,1,rcon3<rcon3<rcon3<downsampler<input_rgb_image_pyramid<pyramid_down<6>>>>>>>>;
+using net_type = loss_mmod<con<1, 9, 9, 1, 1, rcon5<rcon5<rcon5<downsampler<input_rgb_image_pyramid<pyramid_down<6>>>>>>>>;
 
 // ----------------------------------------------------------------------------------------
 
@@ -131,7 +121,7 @@ int main(int argc, char** argv) try
     // pick a good sliding window width and height.  It will also automatically set the
     // non-max-suppression parameters to something reasonable.  For further details see the
     // mmod_options documentation.
-    mmod_options options(face_boxes_train, 40,40);
+    mmod_options options(face_boxes_train, 50,50);
     // The detector will automatically decide to use multiple sliding windows if needed.
     // For the face data, only one is needed however.
     cout << "num detector windows: "<< options.detector_windows.size() << endl;
@@ -149,7 +139,7 @@ int main(int argc, char** argv) try
     trainer.set_learning_rate(0.1);
     trainer.be_verbose();
     trainer.set_synchronization_file("mmod_sync", std::chrono::minutes(5));
-    trainer.set_iterations_without_progress_threshold(300);
+    trainer.set_iterations_without_progress_threshold(1000);
 
 
     // Now let's train the network.  We are going to use mini-batches of 150
