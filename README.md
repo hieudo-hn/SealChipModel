@@ -15,20 +15,26 @@ to train an object detector (e.g. a face detector) since it allows you to
 easily create the needed training dataset.   
 
 You can compile imglab with the following commands:
+```
     cd imglab_source
     mkdir build
     cd build
     cmake ..
     cmake --build . --config Release
+```
 
 Next, to use it, lets assume you have a folder of images called /tmp/images.
 These images should contain examples of the objects you want to learn to
 detect.  You will use the imglab tool to label these objects.  Do this by
 typing the following command:
+```
     ./imglab -c mydataset.xml /tmp/images
+```
 This will create a file called mydataset.xml which simply lists the images in
 /tmp/images.  To add bounding boxes to the objects you run:
+```
     ./imglab mydataset.xml
+```
 and a window will appear showing all the images.  You can use the up and down
 arrow keys to cycle though the images and the mouse to label objects.  In
 particular, holding the shift key, left clicking, and dragging the mouse will
@@ -37,37 +43,48 @@ allow you to draw boxes around the objects you wish to detect.
 Once you finish labeling objects go to the file menu, click save, and then
 close the program. This will save the object boxes back to mydataset.xml.  You
 can verify this by opening the tool again with:
+```
     ./imglab mydataset.xml
+```
 and observing that the boxes are present.
 
 
 imglab can do a few additional things.  To see these run:
+```
     imglab -h 
+```
 and also read the instructions in the About->Help menu.
 
 ## Training the model:
 You need to be in the main directory to start training. Please add the photo folders as well as training.xml and testing.xml into the main directory.
 
 Replace the path to dlib in CMakeLists.txt:
+```
 if (NOT DEFINED DLIB_PATH)
    set(DLIB_PATH YOUR_PATH_TO_DLIB)
 endif()
+```
 
-In the main directory, compile the code to run:
+In the root directory, run the following to compile the code for gpu usage:
 
-mkdir build
+```
+mkdir build && cd build
 
-cd build
-
-cmake ..
+cmake .. -DDLIB_USE_CUDA=1 -DUSE_AVX_INSTRUCTIONS=1
 
 cmake --build . --config Release
+```
 
-After you compile dnn_mmod_seal.cpp, the compiled file will be in ./build/, you can move it into the source directory with your mouse or using the command `mv compileModel ../`
+After you compile dnn_mmod_seal.cpp, the compiled file will be in ./build/, you can move it into the root directory with your mouse or using the command 
+```
+mv compileModel ../
+```
 
 ## Usage:
-Train the model by calling this command `./compileModel DataSet`
-
+Train the model by calling this command 
+```
+./compileModel ./
+```
 
 ## Useful resources:
 
