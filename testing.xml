@@ -4,7 +4,7 @@
 <name>imglab dataset</name>
 <comment>Created by imglab tool.</comment>
 <images>
-  <image file='Whaleboat_1_1\DSCN3217.JPG'>
+  <image file='Whaleboat_1_1/DSCN3217.JPG'>
     <box top='281' left='50' width='82' height='69' ignore='1'/>
     <box top='290' left='186' width='59' height='49'/>
     <box top='339' left='181' width='56' height='46'/>
@@ -20,7 +20,7 @@
     <box top='261' left='958' width='83' height='47' ignore='1'/>
     <box top='251' left='580' width='17' height='19' ignore='1'/>
   </image>
-  <image file='Whaleboat_1_1\DSCN3218.JPG'>
+  <image file='Whaleboat_1_1/DSCN3218.JPG'>
     <box top='210' left='716' width='51' height='53'/>
     <box top='342' left='662' width='81' height='70' ignore='1'/>
     <box top='341' left='840' width='81' height='72'/>
@@ -32,7 +32,7 @@
     <box top='313' left='244' width='88' height='63' ignore='1'/>
     <box top='247' left='116' width='65' height='52' ignore='1'/>
   </image>
-  <image file='Whaleboat_1_1\DSCN3219.JPG'>
+  <image file='Whaleboat_1_1/DSCN3219.JPG'>
     <box top='90' left='549' width='62' height='61'/>
     <box top='60' left='588' width='43' height='30' ignore='1'/>
     <box top='239' left='683' width='58' height='50'/>
@@ -45,7 +45,7 @@
     <box top='153' left='262' width='49' height='39' ignore='1'/>
     <box top='85' left='685' width='72' height='60' ignore='1'/>
   </image>
-  <image file='Whaleboat_1_1\DSCN3220.JPG'>
+  <image file='Whaleboat_1_1/DSCN3220.JPG'>
     <box top='78' left='1103' width='84' height='79'/>
     <box top='292' left='1084' width='95' height='84'/>
     <box top='100' left='843' width='102' height='91'/>
@@ -57,7 +57,7 @@
     <box top='245' left='383' width='117' height='88' ignore='1'/>
     <box top='109' left='1694' width='94' height='75' ignore='1'/>
   </image>
-  <image file='Whaleboat_1_1\DSCN3221.JPG'>
+  <image file='Whaleboat_1_1/DSCN3221.JPG'>
     <box top='412' left='1128' width='94' height='84'/>
     <box top='192' left='1120' width='82' height='77'/>
     <box top='191' left='873' width='97' height='90'/>
@@ -70,7 +70,7 @@
     <box top='320' left='448' width='108' height='97'/>
     <box top='250' left='214' width='115' height='94' ignore='1'/>
   </image>
-  <image file='Whaleboat_1_1\DSCN3222.JPG'>
+  <image file='Whaleboat_1_1/DSCN3222.JPG'>
     <box top='508' left='984' width='105' height='105'/>
     <box top='316' left='1658' width='97' height='73'/>
     <box top='268' left='1018' width='88' height='63'/>
@@ -80,7 +80,7 @@
     <box top='278' left='762' width='99' height='103' ignore='1'/>
     <box top='466' left='1978' width='137' height='111' ignore='1'/>
   </image>
-  <image file='Whaleboat_1_1\DSCN3223.JPG'>
+  <image file='Whaleboat_1_1/DSCN3223.JPG'>
     <box top='424' left='650' width='89' height='83'/>
     <box top='578' left='368' width='109' height='103'/>
     <box top='346' left='1112' width='87' height='77'/>
@@ -91,21 +91,21 @@
     <box top='594' left='1500' width='165' height='135' ignore='1'/>
     <box top='466' left='224' width='121' height='95' ignore='1'/>
   </image>
-  <image file='Whaleboat_1_1\DSCN3224.JPG'>
+  <image file='Whaleboat_1_1/DSCN3224.JPG'>
     <box top='228' left='508' width='111' height='85'/>
     <box top='174' left='538' width='75' height='57' ignore='1'/>
     <box top='200' left='1056' width='107' height='85' ignore='1'/>
     <box top='308' left='710' width='163' height='137' ignore='1'/>
   </image>
-  <image file='Whaleboat_1_1\DSCN3225.JPG'>
+  <image file='Whaleboat_1_1/DSCN3225.JPG'>
     <box top='224' left='438' width='87' height='85'/>
     <box top='238' left='1062' width='118' height='103'/>
     <box top='219' left='600' width='124' height='94' ignore='1'/>
   </image>
-  <image file='Whaleboat_1_1\DSCN3227.JPG'>
+  <image file='Whaleboat_1_1/DSCN3227.JPG'>
     <box top='659' left='385' width='42' height='38'/>
   </image>
-  <image file='Whaleboat_1_1\DSCN3229.JPG'>
+  <image file='Whaleboat_1_1/DSCN3229.JPG'>
     <box top='725' left='411' width='58' height='49'/>
     <box top='668' left='935' width='45' height='41'/>
     <box top='639' left='1052' width='44' height='36' ignore='1'/>
