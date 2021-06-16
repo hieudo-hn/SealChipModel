@@ -1,121 +1,282 @@
 <?xml version='1.0' encoding='ISO-8859-1'?>
 <?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
 <dataset>
-<name>imglab dataset</name>
-<comment>Created by imglab tool.</comment>
+<name>Data Set</name>
+<comment>Created by imglab tools.</comment>
+<folderList>Brandt_Ledges_Singles_1_10 Brandt_Ledges_Singles_1_29 Mitchell_Field_Singles_1_31 Whaleboat_Singles_1_28 Whaleboat_Singles_7_1</folderList>
 <images>
-  <image file='Whaleboat_1_1/DSCN3217.JPG'>
-    <box top='281' left='50' width='82' height='69' ignore='1'/>
-    <box top='290' left='186' width='59' height='49'/>
-    <box top='339' left='181' width='56' height='46'/>
-    <box top='257' left='301' width='54' height='51'/>
-    <box top='239' left='407' width='40' height='38'/>
-    <box top='239' left='443' width='69' height='55'/>
-    <box top='231' left='597' width='50' height='47'/>
-    <box top='216' left='735' width='59' height='51' ignore='1'/>
-    <box top='371' left='584' width='59' height='60'/>
-    <box top='230' left='1294' width='66' height='64'/>
-    <box top='214' left='1740' width='50' height='51'/>
-    <box top='363' left='744' width='87' height='76' ignore='1'/>
-    <box top='261' left='958' width='83' height='47' ignore='1'/>
-    <box top='251' left='580' width='17' height='19' ignore='1'/>
+  <image file='Brandt_Ledges_Singles_1_29/DSCN4422.JPG'>
+    <box top='392' left='2768' width='197' height='177'/>
+    <box top='352' left='3716' width='241' height='193'/>
+    <box top='412' left='3172' width='185' height='157'/>
+    <box top='444' left='2484' width='173' height='161'/>
+    <box top='225' left='312' width='145' height='139'/>
   </image>
-  <image file='Whaleboat_1_1/DSCN3218.JPG'>
-    <box top='210' left='716' width='51' height='53'/>
-    <box top='342' left='662' width='81' height='70' ignore='1'/>
-    <box top='341' left='840' width='81' height='72'/>
-    <box top='253' left='268' width='71' height='56'/>
-    <box top='188' left='558' width='48' height='33' ignore='1'/>
-    <box top='223' left='672' width='39' height='24' ignore='1'/>
-    <box top='214' left='1423' width='71' height='55'/>
-    <box top='235' left='1919' width='56' height='37' ignore='1'/>
-    <box top='313' left='244' width='88' height='63' ignore='1'/>
-    <box top='247' left='116' width='65' height='52' ignore='1'/>
+  <image file='Brandt_Ledges_Singles_1_29/DSCN4423.JPG'>
+    <box top='598' left='2514' width='143' height='127'/>
+    <box top='579' left='3499' width='119' height='107'/>
+    <box top='412' left='141' width='143' height='127'/>
+    <box top='342' left='3318' width='169' height='175'/>
+    <box top='597' left='2919' width='166' height='151'/>
+    <box top='576' left='2184' width='178' height='160' ignore='1'/>
   </image>
-  <image file='Whaleboat_1_1/DSCN3219.JPG'>
-    <box top='90' left='549' width='62' height='61'/>
-    <box top='60' left='588' width='43' height='30' ignore='1'/>
-    <box top='239' left='683' width='58' height='50'/>
-    <box top='125' left='1077' width='48' height='38'/>
-    <box top='74' left='1490' width='64' height='58'/>
-    <box top='107' left='1904' width='51' height='44'/>
-    <box top='196' left='263' width='51' height='44'/>
-    <box top='111' left='372' width='54' height='46' ignore='1'/>
-    <box top='119' left='127' width='56' height='49' ignore='1'/>
-    <box top='153' left='262' width='49' height='39' ignore='1'/>
-    <box top='85' left='685' width='72' height='60' ignore='1'/>
+  <image file='Brandt_Ledges_Singles_1_29/DSCN4425.JPG'>
+    <box top='327' left='1773' width='171' height='153'/>
+    <box top='118' left='884' width='143' height='127'/>
+    <box top='510' left='4207' width='143' height='127'/>
+    <box top='40' left='1764' width='137' height='123'/>
+    <box top='477' left='3894' width='175' height='166' ignore='1'/>
   </image>
-  <image file='Whaleboat_1_1/DSCN3220.JPG'>
-    <box top='78' left='1103' width='84' height='79'/>
-    <box top='292' left='1084' width='95' height='84'/>
-    <box top='100' left='843' width='102' height='91'/>
-    <box top='59' left='887' width='60' height='38' ignore='1'/>
-    <box top='109' left='785' width='55' height='48' ignore='1'/>
-    <box top='122' left='583' width='90' height='82' ignore='1'/>
-    <box top='172' left='415' width='88' height='68' ignore='1'/>
-    <box top='184' left='206' width='91' height='86' ignore='1'/>
-    <box top='245' left='383' width='117' height='88' ignore='1'/>
-    <box top='109' left='1694' width='94' height='75' ignore='1'/>
+  <image file='Brandt_Ledges_Singles_1_29/DSCN4426.JPG'>
+    <box top='391' left='595' width='143' height='128' ignore='1'/>
+    <box top='346' left='1129' width='171' height='152'/>
+    <box top='246' left='3982' width='1' height='1'/>
+    <box top='246' left='3982' width='159' height='169'/>
+    <box top='428' left='4156' width='181' height='173'/>
+    <box top='488' left='3504' width='193' height='173'/>
   </image>
-  <image file='Whaleboat_1_1/DSCN3221.JPG'>
-    <box top='412' left='1128' width='94' height='84'/>
-    <box top='192' left='1120' width='82' height='77'/>
-    <box top='191' left='873' width='97' height='90'/>
-    <box top='158' left='969' width='63' height='54' ignore='1'/>
-    <box top='158' left='832' width='66' height='55'/>
-    <box top='140' left='707' width='78' height='70'/>
-    <box top='198' left='646' width='78' height='74'/>
-    <box top='199' left='1768' width='97' height='82'/>
-    <box top='172' left='2350' width='119' height='109'/>
-    <box top='320' left='448' width='108' height='97'/>
-    <box top='250' left='214' width='115' height='94' ignore='1'/>
+  <image file='Brandt_Ledges_Singles_1_29/DSCN4427.JPG'>
+    <box top='399' left='2308' width='143' height='127'/>
+    <box top='210' left='4486' width='133' height='143' ignore='1'/>
+    <box top='50' left='182' width='123' height='111'/>
+    <box top='304' left='156' width='177' height='169'/>
+    <box top='396' left='2031' width='148' height='157' ignore='1'/>
+    <box top='198' left='3078' width='163' height='148' ignore='1'>
+    </box>
   </image>
-  <image file='Whaleboat_1_1/DSCN3222.JPG'>
-    <box top='508' left='984' width='105' height='105'/>
-    <box top='316' left='1658' width='97' height='73'/>
-    <box top='268' left='1018' width='88' height='63'/>
-    <box top='452' left='254' width='121' height='105'/>
-    <box top='388' left='310' width='101' height='73' ignore='1'/>
-    <box top='354' left='84' width='125' height='95' ignore='1'/>
-    <box top='278' left='762' width='99' height='103' ignore='1'/>
-    <box top='466' left='1978' width='137' height='111' ignore='1'/>
+  <image file='Brandt_Ledges_Singles_1_29/DSCN4429.JPG'>
+    <box top='45' left='4393' width='142' height='128'/>
+    <box top='314' left='2989' width='143' height='127'/>
+    <box top='538' left='1086' width='159' height='139'/>
+    <box top='516' left='432' width='185' height='177'/>
+    <box top='488' left='720' width='185' height='173'/>
+    <box top='484' left='1632' width='165' height='141'/>
+    <box top='390' left='3738' width='154' height='130' ignore='1'/>
   </image>
-  <image file='Whaleboat_1_1/DSCN3223.JPG'>
-    <box top='424' left='650' width='89' height='83'/>
-    <box top='578' left='368' width='109' height='103'/>
-    <box top='346' left='1112' width='87' height='77'/>
-    <box top='390' left='1828' width='131' height='101'/>
-    <box top='322' left='936' width='133' height='121' ignore='1'/>
-    <box top='654' left='650' width='121' height='93' ignore='1'/>
-    <box top='768' left='756' width='161' height='117' ignore='1'/>
-    <box top='594' left='1500' width='165' height='135' ignore='1'/>
-    <box top='466' left='224' width='121' height='95' ignore='1'/>
+  <image file='Brandt_Ledges_Singles_1_29/DSCN4431.JPG'>
+    <box top='42' left='1872' width='171' height='153'/>
+    <box top='562' left='2714' width='171' height='153'/>
+    <box top='390' left='1182' width='171' height='147' ignore='1'/>
+    <box top='268' left='416' width='161' height='153'/>
   </image>
-  <image file='Whaleboat_1_1/DSCN3224.JPG'>
-    <box top='228' left='508' width='111' height='85'/>
-    <box top='174' left='538' width='75' height='57' ignore='1'/>
-    <box top='200' left='1056' width='107' height='85' ignore='1'/>
-    <box top='308' left='710' width='163' height='137' ignore='1'/>
+  <image file='Brandt_Ledges_Singles_1_29/DSCN4432.JPG'>
+    <box top='551' left='3484' width='143' height='128'/>
+    <box top='30' left='2615' width='171' height='153'/>
+    <box top='76' left='4479' width='120' height='107'/>
+    <box top='346' left='1146' width='161' height='137'/>
+    <box top='387' left='1914' width='184' height='160' ignore='1'/>
   </image>
-  <image file='Whaleboat_1_1/DSCN3225.JPG'>
-    <box top='224' left='438' width='87' height='85'/>
-    <box top='238' left='1062' width='118' height='103'/>
-    <box top='219' left='600' width='124' height='94' ignore='1'/>
+  <image file='Brandt_Ledges_Singles_1_29/DSCN4433.JPG'>
+    <box top='289' left='3540' width='69' height='62'/>
+    <box top='278' left='3003' width='83' height='74'/>
+    <box top='195' left='1641' width='83' height='74'/>
+    <box top='183' left='4353' width='83' height='74'/>
+    <box top='63' left='1175' width='84' height='74'/>
+    <box top='130' left='994' width='101' height='87'/>
+    <box top='298' left='3192' width='91' height='65'/>
   </image>
-  <image file='Whaleboat_1_1/DSCN3227.JPG'>
-    <box top='659' left='385' width='42' height='38'/>
+  <image file='Brandt_Ledges_Singles_1_29/DSCN4435.JPG'>
+    <box top='516' left='14' width='172' height='153'/>
+    <box top='194' left='1352' width='171' height='153'/>
+    <box top='169' left='3209' width='172' height='153'/>
+    <box top='288' left='4184' width='179' height='169'/>
+    <box top='436' left='1496' width='209' height='185'/>
+    <box top='460' left='840' width='217' height='185'/>
+    <box top='432' left='364' width='249' height='217'/>
   </image>
-  <image file='Whaleboat_1_1/DSCN3229.JPG'>
-    <box top='725' left='411' width='58' height='49'/>
-    <box top='668' left='935' width='45' height='41'/>
-    <box top='639' left='1052' width='44' height='36' ignore='1'/>
-    <box top='668' left='1188' width='59' height='54' ignore='1'/>
-    <box top='689' left='1383' width='55' height='55' ignore='1'/>
-    <box top='768' left='276' width='65' height='62' ignore='1'/>
-    <box top='658' left='157' width='61' height='53' ignore='1'/>
-    <box top='719' left='687' width='76' height='64' ignore='1'/>
-    <box top='672' left='1906' width='61' height='60'/>
-    <box top='473' left='1690' width='61' height='57' ignore='1'/>
+  <image file='Brandt_Ledges_Singles_1_29/DSCN4437.JPG'>
+    <box top='166' left='2395' width='206' height='183'/>
+    <box top='324' left='1500' width='172' height='153'/>
+    <box top='664' left='4336' width='261' height='237'/>
+  </image>
+  <image file='Brandt_Ledges_Singles_1_29/DSCN4438.JPG'>
+    <box top='679' left='4297' width='206' height='183'/>
+    <box top='21' left='3234' width='171' height='152'/>
+    <box top='343' left='1401' width='172' height='152'/>
+    <box top='160' left='2288' width='261' height='237'/>
+  </image>
+  <image file='Brandt_Ledges_Singles_1_29/DSCN4439.JPG'>
+    <box top='88' left='1444' width='205' height='183'/>
+    <box top='266' left='553' width='205' height='184'/>
+    <box top='742' left='2574' width='205' height='183'/>
+  </image>
+  <image file='Brandt_Ledges_Singles_1_29/DSCN4441.JPG'>
+    <box top='697' left='2247' width='205' height='183'/>
+    <box top='252' left='226' width='205' height='183'/>
+  </image>
+  <image file='Brandt_Ledges_Singles_1_29/DSCN4442.JPG'>
+    <box top='482' left='3061' width='171' height='153'/>
+    <box top='259' left='1500' width='172' height='153'/>
+    <box top='432' left='1144' width='193' height='173'/>
+    <box top='450' left='248' width='171' height='159' ignore='1'/>
+    <box top='484' left='2476' width='265' height='237'/>
+  </image>
+  <image file='Brandt_Ledges_Singles_1_29/DSCN4443.JPG'>
+    <box top='219' left='1203' width='172' height='153'/>
+    <box top='319' left='1833' width='143' height='127' ignore='1'/>
+    <box top='567' left='2741' width='143' height='127' ignore='1'/>
+    <box top='462' left='2' width='171' height='179'/>
+    <box top='434' left='874' width='169' height='175'/>
+    <box top='468' left='2220' width='245' height='221'/>
+  </image>
+  <image file='Brandt_Ledges_Singles_1_29/DSCN4444.JPG'>
+    <box top='274' left='931' width='206' height='183'/>
+    <box top='32' left='2342' width='187' height='155'/>
+    <box top='376' left='26' width='197' height='185'/>
+    <box top='388' left='2256' width='237' height='221'/>
+  </image>
+  <image file='Brandt_Ledges_Singles_1_29/DSCN4445.JPG'>
+    <box top='384' left='1344' width='225' height='197'/>
+    <box top='548' left='3744' width='257' height='237'/>
+    <box top='484' left='4128' width='289' height='273'/>
+  </image>
+  <image file='Brandt_Ledges_Singles_1_29/DSCN4447.JPG'>
+    <box top='70' left='2339' width='206' height='183'/>
+    <box top='813' left='3499' width='205' height='183'/>
+    <box top='541' left='547' width='171' height='152'/>
+    <box top='350' left='1362' width='245' height='179' ignore='1'/>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4331.JPG'>
+    <box top='60' left='57' width='136' height='100' ignore='1'/>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4333.JPG'>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4334.JPG'>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4338.JPG'>
+    <box top='166' left='1220' width='109' height='103'/>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4341.JPG'>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4344.JPG'>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4345.JPG'>
+    <box top='90' left='126' width='175' height='157'/>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4346.JPG'>
+    <box top='118' left='122' width='173' height='149'/>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4349.JPG'>
+    <box top='66' left='123' width='181' height='160'/>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4350.JPG'>
+    <box top='76' left='112' width='203' height='153' ignore='1'/>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4352.JPG'>
+    <box top='136' left='212' width='195' height='157' ignore='1'/>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4357.JPG'>
+    <box top='206' left='2128' width='181' height='167'/>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4359.JPG'>
+    <box top='248' left='1966' width='185' height='181'/>
+    <box top='312' left='170' width='195' height='169'/>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4363.JPG'>
+    <box top='107' left='660' width='206' height='183' ignore='1'/>
+    <box top='184' left='2882' width='261' height='229' ignore='1'/>
+    <box top='84' left='3288' width='247' height='215' ignore='1'/>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4366.JPG'>
+    <box top='104' left='1564' width='113' height='111'/>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4368.JPG'>
+    <box top='273' left='117' width='120' height='112'/>
+    <box top='246' left='1006' width='116' height='97'/>
+    <box top='203' left='1602' width='121' height='98'/>
+    <box top='274' left='2614' width='115' height='103'/>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4369.JPG'>
+    <box top='171' left='92' width='122' height='114'/>
+    <box top='176' left='2712' width='119' height='109'/>
+    <box top='102' left='456' width='105' height='95'/>
+    <box top='118' left='1620' width='111' height='107'/>
+    <box top='168' left='1042' width='113' height='111'/>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4371.JPG'>
+    <box top='108' left='513' width='100' height='89'/>
+    <box top='98' left='1703' width='97' height='98'/>
+    <box top='184' left='90' width='114' height='104'/>
+    <box top='92' left='812' width='131' height='127' ignore='1'/>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4372.JPG'>
+    <box top='99' left='1434' width='100' height='89'/>
+    <box top='164' left='974' width='115' height='101'/>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4373.JPG'>
+    <box top='87' left='110' width='104' height='96'/>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4374.JPG'>
+    <box top='78' left='102' width='115' height='97'/>
+    <box top='168' left='1550' width='115' height='105'/>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4391.JPG'>
+    <box top='94' left='1088' width='107' height='97'/>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4392.JPG'>
+  </image>
+  <image file='Whaleboat_Singles_1_28/DSCN4393.JPG'>
+    <box top='78' left='89' width='123' height='101'/>
+  </image>
+  <image file='Whaleboat_Singles_7_1/DSCN3217.JPG'>
+    <box top='181' left='199' width='58' height='52'/>
+    <box top='75' left='457' width='71' height='68'/>
+    <box top='68' left='609' width='62' height='59'/>
+    <box top='62' left='1300' width='85' height='73'/>
+    <box top='50' left='1754' width='57' height='52'/>
+    <box top='206' left='593' width='71' height='70'/>
+    <box top='48' left='747' width='71' height='60' ignore='1'/>
+    <box top='76' left='415' width='55' height='51'/>
+    <box top='96' left='313' width='64' height='58'/>
+    <box top='127' left='197' width='67' height='59'/>
+  </image>
+  <image file='Whaleboat_Singles_7_1/DSCN3218.JPG'>
+    <box top='71' left='631' width='74' height='63'/>
+    <box top='119' left='184' width='95' height='66' ignore='1'/>
+    <box top='77' left='1348' width='79' height='68'/>
+    <box top='200' left='760' width='87' height='81'/>
+  </image>
+  <image file='Whaleboat_Singles_7_1/DSCN3219.JPG'>
+    <box top='86' left='503' width='69' height='62'/>
+    <box top='116' left='1030' width='70' height='62'/>
+    <box top='230' left='636' width='75' height='71'/>
+    <box top='66' left='1441' width='80' height='70'/>
+    <box top='95' left='1856' width='63' height='55'/>
+    <box top='181' left='210' width='79' height='69'/>
+  </image>
+  <image file='Whaleboat_Singles_7_1/DSCN3221.JPG'>
+    <box top='108' left='689' width='99' height='89'/>
+    <box top='278' left='308' width='110' height='97'/>
+    <box top='149' left='503' width='110' height='108'/>
+    <box top='88' left='563' width='105' height='88'/>
+    <box top='131' left='727' width='136' height='132'/>
+    <box top='120' left='2212' width='127' height='121'/>
+    <box top='122' left='970' width='129' height='123'/>
+    <box top='146' left='1620' width='133' height='119'/>
+    <box top='354' left='982' width='111' height='113'/>
+  </image>
+  <image file='Whaleboat_Singles_7_1/DSCN3223.JPG'>
+    <box top='75' left='957' width='121' height='97'/>
+    <box top='153' left='498' width='124' height='112'/>
+    <box top='309' left='225' width='127' height='121'/>
+    <box top='126' left='1680' width='142' height='115' ignore='1'/>
+  </image>
+  <image file='Whaleboat_Singles_7_1/DSCN3224.JPG'>
+    <box top='286' left='100' width='119' height='109'/>
+    <box top='276' left='632' width='159' height='89' ignore='1'/>
+  </image>
+  <image file='Whaleboat_Singles_7_1/DSCN3225.JPG'>
+    <box top='521' left='745' width='163' height='146'/>
+    <box top='512' left='123' width='124' height='109'/>
+  </image>
+  <image file='Whaleboat_Singles_7_1/DSCN3227.JPG'>
+    <box top='60' left='84' width='53' height='47'/>
+  </image>
+  <image file='Whaleboat_Singles_7_1/DSCN3229.JPG'>
+    <box top='304' left='1296' width='67' height='63'/>
+    <box top='281' left='848' width='74' height='64'/>
+    <box top='286' left='1823' width='75' height='71'/>
+    <box top='342' left='328' width='67' height='66'/>
   </image>
 </images>
 </dataset>
