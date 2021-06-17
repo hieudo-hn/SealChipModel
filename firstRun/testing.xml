@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='Whaleboat_1_1/DSCN3217.JPG'>
+    <box top='281' left='50' width='82' height='69' ignore='1'/>
+    <box top='290' left='186' width='59' height='49'/>
+    <box top='339' left='181' width='56' height='46'/>
+    <box top='257' left='301' width='54' height='51'/>
+    <box top='239' left='407' width='40' height='38'/>
+    <box top='239' left='443' width='69' height='55'/>
+    <box top='231' left='597' width='50' height='47'/>
+    <box top='216' left='735' width='59' height='51' ignore='1'/>
+    <box top='371' left='584' width='59' height='60'/>
+    <box top='230' left='1294' width='66' height='64'/>
+    <box top='214' left='1740' width='50' height='51'/>
+    <box top='363' left='744' width='87' height='76' ignore='1'/>
+    <box top='261' left='958' width='83' height='47' ignore='1'/>
+    <box top='251' left='580' width='17' height='19' ignore='1'/>
+  </image>
+  <image file='Whaleboat_1_1/DSCN3218.JPG'>
+    <box top='210' left='716' width='51' height='53'/>
+    <box top='342' left='662' width='81' height='70' ignore='1'/>
+    <box top='341' left='840' width='81' height='72'/>
+    <box top='253' left='268' width='71' height='56'/>
+    <box top='188' left='558' width='48' height='33' ignore='1'/>
+    <box top='223' left='672' width='39' height='24' ignore='1'/>
+    <box top='214' left='1423' width='71' height='55'/>
+    <box top='235' left='1919' width='56' height='37' ignore='1'/>
+    <box top='313' left='244' width='88' height='63' ignore='1'/>
+    <box top='247' left='116' width='65' height='52' ignore='1'/>
+  </image>
+  <image file='Whaleboat_1_1/DSCN3219.JPG'>
+    <box top='90' left='549' width='62' height='61'/>
+    <box top='60' left='588' width='43' height='30' ignore='1'/>
+    <box top='239' left='683' width='58' height='50'/>
+    <box top='125' left='1077' width='48' height='38'/>
+    <box top='74' left='1490' width='64' height='58'/>
+    <box top='107' left='1904' width='51' height='44'/>
+    <box top='196' left='263' width='51' height='44'/>
+    <box top='111' left='372' width='54' height='46' ignore='1'/>
+    <box top='119' left='127' width='56' height='49' ignore='1'/>
+    <box top='153' left='262' width='49' height='39' ignore='1'/>
+    <box top='85' left='685' width='72' height='60' ignore='1'/>
+  </image>
+  <image file='Whaleboat_1_1/DSCN3220.JPG'>
+    <box top='78' left='1103' width='84' height='79'/>
+    <box top='292' left='1084' width='95' height='84'/>
+    <box top='100' left='843' width='102' height='91'/>
+    <box top='59' left='887' width='60' height='38' ignore='1'/>
+    <box top='109' left='785' width='55' height='48' ignore='1'/>
+    <box top='122' left='583' width='90' height='82' ignore='1'/>
+    <box top='172' left='415' width='88' height='68' ignore='1'/>
+    <box top='184' left='206' width='91' height='86' ignore='1'/>
+    <box top='245' left='383' width='117' height='88' ignore='1'/>
+    <box top='109' left='1694' width='94' height='75' ignore='1'/>
+  </image>
+  <image file='Whaleboat_1_1/DSCN3221.JPG'>
+    <box top='412' left='1128' width='94' height='84'/>
+    <box top='192' left='1120' width='82' height='77'/>
+    <box top='191' left='873' width='97' height='90'/>
+    <box top='158' left='969' width='63' height='54' ignore='1'/>
+    <box top='158' left='832' width='66' height='55'/>
+    <box top='140' left='707' width='78' height='70'/>
+    <box top='198' left='646' width='78' height='74'/>
+    <box top='199' left='1768' width='97' height='82'/>
+    <box top='172' left='2350' width='119' height='109'/>
+    <box top='320' left='448' width='108' height='97'/>
+    <box top='250' left='214' width='115' height='94' ignore='1'/>
+  </image>
+  <image file='Whaleboat_1_1/DSCN3222.JPG'>
+    <box top='508' left='984' width='105' height='105'/>
+    <box top='316' left='1658' width='97' height='73'/>
+    <box top='268' left='1018' width='88' height='63'/>
+    <box top='452' left='254' width='121' height='105'/>
+    <box top='388' left='310' width='101' height='73' ignore='1'/>
+    <box top='354' left='84' width='125' height='95' ignore='1'/>
+    <box top='278' left='762' width='99' height='103' ignore='1'/>
+    <box top='466' left='1978' width='137' height='111' ignore='1'/>
+  </image>
+  <image file='Whaleboat_1_1/DSCN3223.JPG'>
+    <box top='424' left='650' width='89' height='83'/>
+    <box top='578' left='368' width='109' height='103'/>
+    <box top='346' left='1112' width='87' height='77'/>
+    <box top='390' left='1828' width='131' height='101'/>
+    <box top='322' left='936' width='133' height='121' ignore='1'/>
+    <box top='654' left='650' width='121' height='93' ignore='1'/>
+    <box top='768' left='756' width='161' height='117' ignore='1'/>
+    <box top='594' left='1500' width='165' height='135' ignore='1'/>
+    <box top='466' left='224' width='121' height='95' ignore='1'/>
+  </image>
+  <image file='Whaleboat_1_1/DSCN3224.JPG'>
+    <box top='228' left='508' width='111' height='85'/>
+    <box top='174' left='538' width='75' height='57' ignore='1'/>
+    <box top='200' left='1056' width='107' height='85' ignore='1'/>
+    <box top='308' left='710' width='163' height='137' ignore='1'/>
+  </image>
+  <image file='Whaleboat_1_1/DSCN3225.JPG'>
+    <box top='224' left='438' width='87' height='85'/>
+    <box top='238' left='1062' width='118' height='103'/>
+    <box top='219' left='600' width='124' height='94' ignore='1'/>
+  </image>
+  <image file='Whaleboat_1_1/DSCN3227.JPG'>
+    <box top='659' left='385' width='42' height='38'/>
+  </image>
+  <image file='Whaleboat_1_1/DSCN3229.JPG'>
+    <box top='725' left='411' width='58' height='49'/>
+    <box top='668' left='935' width='45' height='41'/>
+    <box top='639' left='1052' width='44' height='36' ignore='1'/>
+    <box top='668' left='1188' width='59' height='54' ignore='1'/>
+    <box top='689' left='1383' width='55' height='55' ignore='1'/>
+    <box top='768' left='276' width='65' height='62' ignore='1'/>
+    <box top='658' left='157' width='61' height='53' ignore='1'/>
+    <box top='719' left='687' width='76' height='64' ignore='1'/>
+    <box top='672' left='1906' width='61' height='60'/>
+    <box top='473' left='1690' width='61' height='57' ignore='1'/>
+  </image>
+</images>
+</dataset>
