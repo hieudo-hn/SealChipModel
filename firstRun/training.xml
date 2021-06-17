@@ -11,7 +11,6 @@
     <box top='499' left='2756' width='145' height='136' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3238.JPG'>
-    <box top='400' left='3404' width='168' height='143'/>
     <box top='175' left='3613' width='176' height='179' ignore='1'/>
     <box top='189' left='3111' width='190' height='191' ignore='1'/>
     <box top='282' left='2923' width='176' height='161' ignore='1'/>
@@ -19,315 +18,319 @@
     <box top='160' left='1437' width='153' height='137' ignore='1'/>
     <box top='198' left='1731' width='130' height='115' ignore='1'/>
     <box top='345' left='1031' width='172' height='166' ignore='1'/>
-    <box top='142' left='491' width='152' height='140'/>
+    <box top='375' left='3348' width='250' height='226' ignore='1'/>
+    <box top='102' left='441' width='217' height='208'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3239.JPG'>
-    <box top='151' left='104' width='150' height='163'/>
     <box top='357' left='638' width='169' height='170' ignore='1'/>
     <box top='172' left='1027' width='175' height='154' ignore='1'/>
-    <box top='248' left='254' width='144' height='98' ignore='1'/>
-    <box top='223' left='1337' width='140' height='115' ignore='1'/>
-    <box top='433' left='2991' width='201' height='160'/>
     <box top='225' left='2724' width='185' height='169' ignore='1'/>
     <box top='309' left='2542' width='140' height='133' ignore='1'/>
-    <box top='201' left='3227' width='175' height='157'/>
+    <box top='201' left='3227' width='175' height='157' ignore='1'>
+    </box>
+    <box top='126' left='66' width='187' height='181'/>
+    <box top='330' left='1680' width='208' height='199'/>
+    <box top='402' left='2979' width='226' height='214' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3244.JPG'>
-    <box top='101' left='1231' width='83' height='90'/>
-    <box top='69' left='1800' width='85' height='84'/>
     <box top='164' left='1579' width='96' height='86' ignore='1'/>
-    <box top='72' left='2868' width='97' height='95'/>
-    <box top='179' left='2893' width='96' height='94'/>
-    <box top='99' left='1953' width='78' height='78'/>
     <box top='135' left='2367' width='104' height='81' ignore='1'/>
     <box top='169' left='2150' width='85' height='75' ignore='1'/>
     <box top='147' left='2615' width='79' height='73' ignore='1'/>
+    <box top='58' left='2846' width='115' height='103' ignore='1'/>
+    <box top='166' left='2884' width='107' height='113' ignore='1'/>
+    <box top='76' left='1212' width='135' height='131'/>
+    <box top='48' left='1778' width='119' height='117'/>
+    <box top='76' left='1932' width='117' height='119'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3251.JPG'>
-    <box top='293' left='1646' width='171' height='155'/>
-    <box top='159' left='2713' width='189' height='166'/>
-    <box top='188' left='1302' width='150' height='123'/>
-    <box top='184' left='1126' width='137' height='134' ignore='1'/>
+    <box top='159' left='2713' width='189' height='166' ignore='1'>
+    </box>
+    <box top='188' left='1302' width='150' height='123' ignore='1'/>
     <box top='108' left='2307' width='168' height='174' ignore='1'/>
     <box top='290' left='2485' width='134' height='135' ignore='1'/>
-    <box top='322' left='683' width='155' height='146'/>
-    <box top='179' left='65' width='147' height='121'/>
-    <box top='205' left='638' width='138' height='102' ignore='1'/>
+    <box top='144' left='44' width='189' height='185'/>
+    <box top='266' left='662' width='247' height='245' ignore='1'/>
+    <box top='256' left='1640' width='205' height='199'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3252.JPG'>
-    <box top='280' left='1526' width='164' height='145'/>
-    <box top='144' left='2603' width='174' height='152'/>
+    <box top='144' left='2603' width='174' height='152' ignore='1'>
+    </box>
     <box top='285' left='2348' width='143' height='128' ignore='1'/>
     <box top='178' left='1170' width='165' height='124' ignore='1'/>
     <box top='95' left='2177' width='171' height='169' ignore='1'/>
+    <box top='236' left='528' width='281' height='283' ignore='1'/>
+    <box top='246' left='1498' width='217' height='205'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3254.JPG'>
-    <box top='274' left='2318' width='156' height='152'/>
     <box top='81' left='1668' width='157' height='166' ignore='1'/>
     <box top='274' left='1325' width='195' height='164' ignore='1'/>
     <box top='112' left='1451' width='169' height='132' ignore='1'/>
-    <box top='263' left='3113' width='149' height='144'/>
     <box top='136' left='3395' width='172' height='168' ignore='1'/>
     <box top='375' left='3653' width='147' height='148' ignore='1'/>
     <box top='157' left='701' width='182' height='196' ignore='1'/>
+    <box top='248' left='2284' width='231' height='203'/>
+    <box top='220' left='3068' width='241' height='235'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3266.JPG'>
-    <box top='482' left='2217' width='168' height='140'/>
-    <box top='593' left='3296' width='198' height='198'/>
     <box top='233' left='2204' width='175' height='170' ignore='1'/>
     <box top='362' left='1523' width='163' height='186' ignore='1'/>
-    <box top='649' left='-1' width='157' height='186'/>
+    <box top='622' left='0' width='203' height='225' ignore='1'/>
+    <box top='440' left='2192' width='229' height='209'/>
+    <box top='560' left='3246' width='273' height='257'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3267.JPG'>
-    <box top='522' left='92' width='164' height='177'/>
-    <box top='130' left='906' width='133' height='147' ignore='1'/>
-    <box top='236' left='1599' width='169' height='173' ignore='1'/>
-    <box top='346' left='2317' width='176' height='162'/>
-    <box top='104' left='2307' width='163' height='170' ignore='1'/>
-    <box top='253' left='2145' width='159' height='189' ignore='1'/>
-    <box top='481' left='3399' width='192' height='200'/>
+    <box top='453' left='3372' width='256' height='262'/>
+    <box top='309' left='2268' width='265' height='250'/>
+    <box top='483' left='39' width='268' height='268'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3271.JPG'>
-    <box top='201' left='423' width='161' height='172'/>
-    <box top='169' left='705' width='168' height='163'/>
-    <box top='572' left='1165' width='139' height='152' ignore='1'/>
-    <box top='191' left='1859' width='165' height='165'/>
-    <box top='300' left='2500' width='134' height='154'/>
+    <box top='174' left='378' width='238' height='208'/>
+    <box top='135' left='672' width='250' height='229'/>
+    <box top='147' left='1800' width='241' height='229'/>
+    <box top='243' left='2448' width='241' height='226'/>
+    <box top='540' left='1131' width='223' height='190' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3272.JPG'>
-    <box top='305' left='2152' width='162' height='153'/>
-    <box top='206' left='1531' width='150' height='150'/>
-    <box top='561' left='799' width='147' height='153'/>
-    <box top='175' left='364' width='183' height='182'/>
-    <box top='211' left='95' width='155' height='154'/>
+    <box top='186' left='42' width='244' height='220'/>
+    <box top='141' left='321' width='271' height='256'/>
+    <box top='516' left='744' width='235' height='217'/>
+    <box top='147' left='1449' width='268' height='253'/>
+    <box top='234' left='2115' width='256' height='259'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3274.JPG'>
-    <box top='181' left='112' width='153' height='151'/>
-    <box top='170' left='387' width='160' height='161'/>
-    <box top='531' left='777' width='159' height='164'/>
-    <box top='173' left='1543' width='148' height='149'/>
-    <box top='289' left='2200' width='138' height='141'/>
+    <box top='132' left='48' width='256' height='241'/>
+    <box top='96' left='330' width='286' height='274'/>
+    <box top='480' left='744' width='259' height='241'/>
+    <box top='120' left='1461' width='265' height='244'/>
+    <box top='225' left='2130' width='256' height='244'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3275.JPG'>
-    <box top='365' left='1956' width='178' height='189'/>
     <box top='350' left='2625' width='165' height='175' ignore='1'/>
     <box top='389' left='1563' width='182' height='211' ignore='1'/>
-    <box top='50' left='68' width='154' height='178'/>
     <box top='303' left='245' width='162' height='163' ignore='1'/>
+    <box top='24' left='21' width='235' height='244'/>
+    <box top='333' left='1902' width='262' height='271'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3279.JPG'>
-    <box top='335' left='124' width='313' height='289'/>
-    <box top='619' left='1067' width='333' height='321'/>
     <box top='573' left='3137' width='295' height='281' ignore='1'/>
     <box top='717' left='4097' width='254' height='223' ignore='1'/>
+    <box top='285' left='42' width='499' height='466'/>
+    <box top='549' left='1002' width='475' height='466'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3281.JPG'>
-    <box top='374' left='1652' width='323' height='294'/>
     <box top='244' left='983' width='279' height='282' ignore='1'/>
     <box top='207' left='3342' width='322' height='317' ignore='1'/>
-    <box top='655' left='2614' width='311' height='275'/>
     <box top='576' left='345' width='302' height='268' ignore='1'/>
+    <box top='300' left='1560' width='490' height='463'/>
+    <box top='573' left='2556' width='490' height='478'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3290.JPG'>
-    <box top='465' left='3225' width='154' height='168'/>
-    <box top='340' left='2476' width='148' height='149'/>
     <box top='259' left='2139' width='145' height='153' ignore='1'/>
     <box top='265' left='3681' width='155' height='157' ignore='1'/>
     <box top='304' left='3812' width='122' height='126' ignore='1'/>
-    <box top='325' left='1063' width='172' height='170'/>
-    <box top='179' left='1814' width='132' height='131'/>
-    <box top='186' left='697' width='156' height='151'/>
     <box top='98' left='258' width='132' height='140' ignore='1'/>
+    <box top='138' left='630' width='274' height='247'/>
+    <box top='279' left='1002' width='310' height='313'/>
+    <box top='141' left='1734' width='262' height='253'/>
+    <box top='396' left='3168' width='298' height='286'/>
+    <box top='291' left='2421' width='265' height='244'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3291.JPG'>
-    <box top='449' left='3172' width='164' height='159'/>
-    <box top='326' left='2424' width='154' height='167'/>
     <box top='256' left='3637' width='170' height='174' ignore='1'/>
-    <box top='181' left='647' width='155' height='157'/>
-    <box top='317' left='1012' width='177' height='156'/>
-    <box top='168' left='1750' width='143' height='145'/>
     <box top='251' left='2085' width='171' height='158' ignore='1'/>
+    <box top='117' left='570' width='259' height='256'/>
+    <box top='303' left='975' width='289' height='286'/>
+    <box top='135' left='1698' width='253' height='229'/>
+    <box top='279' left='2349' width='244' height='223'/>
+    <box top='420' left='3102' width='271' height='244'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3294.JPG'>
-    <box top='434' left='3174' width='167' height='179'/>
-    <box top='319' left='2432' width='158' height='151'/>
     <box top='239' left='2097' width='161' height='148' ignore='1'/>
-    <box top='149' left='1762' width='132' height='137'/>
-    <box top='306' left='1034' width='181' height='169'/>
-    <box top='165' left='664' width='141' height='137'/>
+    <box top='402' left='3129' width='223' height='235'/>
+    <box top='276' left='2373' width='247' height='226'/>
+    <box top='117' left='1716' width='217' height='205'/>
+    <box top='252' left='981' width='277' height='262'/>
+    <box top='114' left='597' width='238' height='217'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3295.JPG'>
-    <box top='302' left='764' width='149' height='157'/>
-    <box top='264' left='469' width='118' height='108' ignore='1'/>
-    <box top='138' left='354' width='122' height='120'/>
-    <box top='102' left='1245' width='147' height='126'/>
-    <box top='240' left='1590' width='147' height='129'/>
-    <box top='129' left='1826' width='141' height='144'/>
-    <box top='243' left='2172' width='137' height='110'/>
-    <box top='209' left='2517' width='164' height='134'/>
-    <box top='390' left='2743' width='148' height='159'/>
     <box top='136' left='2921' width='119' height='148' ignore='1'/>
     <box top='167' left='3025' width='109' height='115' ignore='1'/>
     <box top='175' left='3419' width='102' height='132' ignore='1'/>
+    <box top='108' left='327' width='286' height='268' ignore='1'/>
+    <box top='273' left='702' width='277' height='250'/>
+    <box top='75' left='1200' width='238' height='214'/>
+    <box top='189' left='1539' width='229' height='202'/>
+    <box top='72' left='1770' width='244' height='208'/>
+    <box top='207' left='2142' width='214' height='187'/>
+    <box top='150' left='2460' width='250' height='223'/>
+    <box top='360' left='2730' width='232' height='235'/>
+    <box top='297' left='4341' width='202' height='187' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3296.JPG'>
-    <box top='405' left='2777' width='147' height='147'/>
-    <box top='212' left='2552' width='165' height='151'/>
-    <box top='240' left='2211' width='135' height='120'/>
-    <box top='140' left='1852' width='151' height='135'/>
     <box top='153' left='2959' width='114' height='133' ignore='1'/>
     <box top='180' left='3042' width='129' height='114' ignore='1'/>
-    <box top='115' left='1282' width='139' height='130'/>
-    <box top='249' left='1625' width='146' height='126'/>
-    <box top='314' left='805' width='145' height='140'/>
     <box top='152' left='388' width='122' height='121' ignore='1'/>
     <box top='259' left='499' width='149' height='136' ignore='1'/>
+    <box top='279' left='747' width='247' height='235'/>
+    <box top='72' left='1215' width='229' height='199'/>
+    <box top='207' left='1602' width='196' height='190'/>
+    <box top='84' left='1803' width='238' height='214'/>
+    <box top='201' left='2175' width='217' height='190'/>
+    <box top='168' left='2511' width='235' height='226'/>
+    <box top='390' left='2751' width='235' height='238'/>
+    <box top='288' left='4383' width='196' height='178' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3297.JPG'>
-    <box top='74' left='38' width='169' height='162'/>
-    <box top='284' left='965' width='163' height='155'/>
-    <box top='125' left='552' width='136' height='123' ignore='1'/>
-    <box top='232' left='660' width='161' height='122' ignore='1'/>
-    <box top='94' left='1446' width='149' height='127'/>
-    <box top='230' left='1800' width='149' height='134'/>
-    <box top='116' left='2033' width='150' height='155'/>
-    <box top='229' left='2390' width='139' height='116'/>
-    <box top='192' left='2715' width='186' height='157'/>
-    <box top='379' left='2937' width='158' height='146'/>
     <box top='126' left='3121' width='121' height='123' ignore='1'/>
     <box top='163' left='3200' width='135' height='115' ignore='1'/>
+    <box top='36' left='6' width='247' height='226'/>
+    <box top='198' left='612' width='223' height='202' ignore='1'/>
+    <box top='258' left='939' width='226' height='235'/>
+    <box top='63' left='1404' width='220' height='199'/>
+    <box top='186' left='1749' width='214' height='208'/>
+    <box top='63' left='1986' width='256' height='226'/>
+    <box top='201' left='2376' width='211' height='187'/>
+    <box top='150' left='2694' width='226' height='211'/>
+    <box top='351' left='2922' width='253' height='232'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3301.JPG'>
-    <box top='120' left='1742' width='286' height='263'/>
     <box top='85' left='952' width='274' height='263' ignore='1'/>
     <box top='183' left='5' width='239' height='271' ignore='1'/>
     <box top='105' left='568' width='219' height='167' ignore='1'/>
+    <box top='39' left='1680' width='427' height='403'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3302.JPG'>
-    <box top='195' left='1770' width='267' height='262'/>
     <box top='153' left='978' width='275' height='266' ignore='1'/>
     <box top='171' left='615' width='238' height='190' ignore='1'/>
     <box top='254' left='29' width='259' height='298' ignore='1'/>
+    <box top='156' left='1728' width='373' height='376'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3304.JPG'>
-    <box top='50' left='855' width='180' height='190'/>
-    <box top='61' left='424' width='154' height='108'/>
     <box top='83' left='1190' width='134' height='121' ignore='1'/>
     <box top='35' left='1256' width='102' height='82' ignore='1'/>
+    <box top='24' left='375' width='232' height='193' ignore='1'/>
+    <box top='18' left='810' width='289' height='277'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3309.JPG'>
-    <box top='100' left='1306' width='167' height='170'/>
-    <box top='117' left='865' width='209' height='216'/>
-    <box top='145' left='439' width='154' height='103' ignore='1'/>
+    <box top='111' left='408' width='202' height='199' ignore='1'>
+    </box>
+    <box top='60' left='831' width='307' height='286'/>
+    <box top='54' left='1254' width='286' height='253'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3326.JPG'>
     <box top='344' left='170' width='324' height='295' ignore='1'/>
     <box top='75' left='2126' width='305' height='299' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3335.JPG'>
-    <box top='104' left='997' width='167' height='171'/>
+    <box top='72' left='969' width='238' height='232'/>
+    <box top='84' left='1347' width='208' height='190' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3338.JPG'>
-    <box top='107' left='939' width='154' height='160'/>
+    <box top='75' left='897' width='247' height='229'/>
+    <box top='54' left='1278' width='208' height='202' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3341.JPG'>
-    <box top='153' left='8' width='199' height='215'/>
-    <box top='128' left='974' width='147' height='121'/>
-    <box top='288' left='1654' width='206' height='200'/>
     <box top='113' left='1683' width='155' height='132' ignore='1'/>
-    <box top='161' left='3858' width='191' height='161'/>
-    <box top='221' left='4173' width='180' height='120'/>
     <box top='239' left='3579' width='143' height='139' ignore='1'/>
+    <box top='111' left='3' width='298' height='307'/>
+    <box top='261' left='1626' width='289' height='268'/>
+    <box top='129' left='3816' width='271' height='256'/>
+    <box top='177' left='4140' width='250' height='244'/>
+    <box top='87' left='927' width='241' height='241'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3342.JPG'>
-    <box top='138' left='3868' width='181' height='145'/>
-    <box top='195' left='4194' width='163' height='131'/>
     <box top='221' left='3575' width='170' height='145' ignore='1'/>
-    <box top='269' left='1669' width='188' height='200'/>
     <box top='85' left='1686' width='188' height='147' ignore='1'/>
-    <box top='113' left='979' width='145' height='128'/>
-    <box top='146' left='15' width='193' height='204'/>
+    <box top='153' left='4158' width='235' height='214'/>
+    <box top='87' left='3834' width='274' height='268'/>
+    <box top='240' left='1623' width='289' height='295'/>
+    <box top='57' left='924' width='253' height='244'/>
+    <box top='75' left='3' width='292' height='328'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3346.JPG'>
-    <box top='77' left='3732' width='140' height='142'/>
     <box top='103' left='4109' width='162' height='122' ignore='1'/>
     <box top='65' left='2713' width='183' height='192' ignore='1'/>
     <box top='81' left='2593' width='158' height='176' ignore='1'/>
-    <box top='210' left='1701' width='196' height='191'/>
     <box top='35' left='1631' width='167' height='139' ignore='1'/>
     <box top='57' left='241' width='152' height='144' ignore='1'/>
+    <box top='33' left='3696' width='265' height='259'/>
+    <box top='189' left='1674' width='283' height='295'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3354.JPG'>
     <box top='226' left='1932' width='187' height='180' ignore='1'/>
-    <box top='227' left='1179' width='194' height='199'/>
-    <box top='359' left='232' width='194' height='195'/>
+    <box top='183' left='1152' width='334' height='310'/>
+    <box top='321' left='180' width='313' height='301'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3355.JPG'>
-    <box top='307' left='340' width='193' height='186'/>
-    <box top='175' left='1301' width='179' height='200'/>
     <box top='183' left='2051' width='176' height='183' ignore='1'/>
+    <box top='267' left='291' width='295' height='271'/>
+    <box top='117' left='1266' width='304' height='301'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3359.JPG'>
-    <box top='216' left='1342' width='180' height='186'/>
-    <box top='205' left='1240' width='137' height='85' ignore='1'/>
-    <box top='310' left='399' width='213' height='185'/>
+    <box top='198' left='2064' width='313' height='274'/>
+    <box top='156' left='1329' width='289' height='283'/>
+    <box top='183' left='1194' width='190' height='187' ignore='1'>
+    </box>
+    <box top='252' left='348' width='301' height='301'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3360.JPG'>
-    <box top='272' left='2309' width='166' height='139'/>
-    <box top='253' left='2066' width='170' height='172'/>
-    <box top='319' left='422' width='214' height='197'/>
+    <box top='279' left='390' width='280' height='289'/>
+    <box top='219' left='2013' width='238' height='244'/>
+    <box top='222' left='2268' width='241' height='235'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3361.JPG'>
-    <box top='283' left='3260' width='155' height='137' ignore='1'/>
-    <box top='266' left='2994' width='174' height='169'/>
-    <box top='298' left='1306' width='194' height='191'/>
+    <box top='243' left='3213' width='229' height='229'/>
+    <box top='234' left='2958' width='238' height='244'/>
+    <box top='255' left='1263' width='292' height='265'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3363.JPG'>
-    <box top='281' left='2948' width='172' height='155'/>
-    <box top='224' left='1280' width='214' height='212'/>
+    <box top='237' left='2895' width='259' height='244'/>
+    <box top='168' left='1218' width='340' height='307'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3364.JPG'>
-    <box top='292' left='1307' width='213' height='180'/>
-    <box top='269' left='2944' width='178' height='165'/>
+    <box top='264' left='1275' width='322' height='301'/>
+    <box top='207' left='2877' width='277' height='238'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3367.JPG'>
-    <box top='152' left='360' width='204' height='185'/>
-    <box top='359' left='639' width='215' height='209'/>
-    <box top='306' left='2113' width='179' height='164'/>
+    <box top='258' left='2067' width='268' height='250'/>
+    <box top='336' left='594' width='283' height='268'/>
+    <box top='105' left='324' width='259' height='268'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3370.JPG'>
-    <box top='157' left='2147' width='174' height='182'/>
-    <box top='346' left='343' width='180' height='164'/>
+    <box top='120' left='2088' width='274' height='265'/>
+    <box top='273' left='312' width='253' height='259'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3371.JPG'>
-    <box top='288' left='230' width='161' height='155'/>
-    <box top='94' left='2032' width='175' height='179'/>
+    <box top='60' left='1998' width='238' height='238'/>
+    <box top='240' left='189' width='250' height='247'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3372.JPG'>
-    <box top='328' left='107' width='173' height='187'/>
+    <box top='216' left='2757' width='244' height='244'/>
+    <box top='285' left='93' width='253' height='262'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3374.JPG'>
-    <box top='326' left='1711' width='176' height='168'/>
-    <box top='322' left='2119' width='168' height='171'/>
+    <box top='288' left='2109' width='232' height='238'/>
+    <box top='273' left='1677' width='265' height='256'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3375.JPG'>
-    <box top='367' left='1473' width='187' height='167'/>
-    <box top='354' left='1868' width='188' height='176'/>
+    <box top='330' left='1851' width='241' height='223'/>
+    <box top='324' left='1428' width='262' height='235'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3380.JPG'>
-    <box top='150' left='1953' width='159' height='165'/>
     <box top='138' left='1367' width='181' height='198' ignore='1'/>
+    <box top='99' left='1917' width='256' height='247'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3387.JPG'>
-    <box top='271' left='1822' width='390' height='372'/>
-    <box top='292' left='728' width='402' height='406'/>
     <box top='160' left='186' width='334' height='341' ignore='1'/>
+    <box top='252' left='654' width='574' height='538'/>
+    <box top='192' left='1743' width='547' height='517'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3388.JPG'>
-    <box top='378' left='42' width='325' height='343'/>
     <box top='70' left='2502' width='259' height='259' ignore='1'/>
-    <box top='223' left='2795' width='317' height='330'/>
-    <box top='177' left='3722' width='291' height='273'/>
+    <box top='312' left='18' width='445' height='478'/>
+    <box top='180' left='2751' width='457' height='421'/>
+    <box top='129' left='3675' width='451' height='427'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3391.JPG'>
     <box top='329' left='3342' width='274' height='296' ignore='1'/>
@@ -336,242 +339,245 @@
     <box top='197' left='3558' width='250' height='257' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3394.JPG'>
-    <box top='379' left='2940' width='244' height='236'/>
-    <box top='350' left='1300' width='223' height='249'/>
     <box top='221' left='1646' width='179' height='157' ignore='1'/>
+    <box top='333' left='2901' width='328' height='328'/>
+    <box top='324' left='1242' width='328' height='325'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3395.JPG'>
-    <box top='311' left='1524' width='229' height='227'/>
-    <box top='372' left='3209' width='216' height='216'/>
+    <box top='306' left='3126' width='355' height='340'/>
+    <box top='228' left='1476' width='361' height='352'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3399.JPG'>
-    <box top='285' left='2762' width='231' height='214'/>
     <box top='344' left='363' width='168' height='186' ignore='1'/>
     <box top='383' left='1699' width='147' height='166' ignore='1'/>
-    <box top='259' left='3395' width='202' height='202'/>
-    <box top='403' left='3832' width='179' height='174'/>
+    <box top='234' left='2709' width='331' height='310'/>
+    <box top='228' left='3339' width='310' height='301'/>
+    <box top='354' left='3777' width='271' height='259'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3400.JPG'>
-    <box top='155' left='3358' width='208' height='179'/>
-    <box top='166' left='2739' width='209' height='211'/>
-    <box top='295' left='3769' width='197' height='158'/>
     <box top='240' left='340' width='161' height='169' ignore='1'/>
+    <box top='108' left='2670' width='331' height='295'/>
+    <box top='108' left='3318' width='307' height='286'/>
+    <box top='240' left='3729' width='283' height='286'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3401.JPG'>
-    <box top='325' left='3699' width='191' height='155'/>
-    <box top='176' left='3290' width='202' height='162'/>
-    <box top='183' left='2655' width='224' height='211'/>
     <box top='245' left='236' width='169' height='158' ignore='1'/>
     <box top='275' left='1567' width='169' height='165' ignore='1'/>
+    <box top='132' left='2589' width='337' height='298'/>
+    <box top='120' left='3234' width='310' height='286'/>
+    <box top='270' left='3624' width='289' height='295'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3406.JPG'>
-    <box top='430' left='2878' width='201' height='205'/>
-    <box top='411' left='2287' width='212' height='213'/>
-    <box top='418' left='2089' width='186' height='198'/>
-    <box top='302' left='3683' width='199' height='212'/>
-    <box top='491' left='491' width='187' height='198'/>
+    <box top='249' left='3648' width='289' height='298'/>
+    <box top='399' left='2853' width='292' height='277'/>
+    <box top='384' left='2274' width='286' height='274'/>
+    <box top='387' left='2052' width='238' height='235'/>
+    <box top='432' left='447' width='286' height='301'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3407.JPG'>
-    <box top='470' left='301' width='182' height='182'/>
-    <box top='398' left='1907' width='182' height='172'/>
-    <box top='389' left='2123' width='206' height='206'/>
-    <box top='263' left='3486' width='211' height='196'/>
-    <box top='393' left='2697' width='185' height='185'/>
+    <box top='243' left='3477' width='280' height='271'/>
+    <box top='375' left='2694' width='259' height='277'/>
+    <box top='336' left='2082' width='280' height='280'/>
+    <box top='363' left='1884' width='220' height='229'/>
+    <box top='444' left='273' width='262' height='262'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3408.JPG'>
-    <box top='260' left='3309' width='190' height='197'/>
-    <box top='385' left='2495' width='198' height='184'/>
-    <box top='383' left='1948' width='187' height='180'/>
-    <box top='396' left='1710' width='187' height='180'/>
-    <box top='470' left='103' width='199' height='210'/>
+    <box top='366' left='1686' width='241' height='253'/>
+    <box top='345' left='1908' width='277' height='256'/>
+    <box top='336' left='2439' width='283' height='265'/>
+    <box top='213' left='3273' width='295' height='292'/>
+    <box top='441' left='84' width='292' height='295'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3412.JPG'>
-    <box top='332' left='3309' width='393' height='423'/>
-    <box top='593' left='2054' width='384' height='358'/>
-    <box top='604' left='650' width='309' height='362' ignore='1'/>
-    <box top='538' left='298' width='342' height='373'/>
+    <box top='483' left='255' width='418' height='403'/>
+    <box top='564' left='624' width='472' height='466' ignore='1'/>
+    <box top='483' left='1887' width='637' height='592'/>
+    <box top='282' left='3225' width='616' height='622'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3418.JPG'>
-    <box top='162' left='2730' width='8' height='269'/>
-    <box top='458' left='2325' width='377' height='387'/>
-    <box top='278' left='2196' width='301' height='267' ignore='1'/>
-    <box top='491' left='1089' width='386' height='395'/>
-    <box top='423' left='515' width='387' height='396'/>
+    <box top='429' left='2301' width='409' height='442'/>
+    <box top='423' left='1014' width='556' height='547'/>
+    <box top='375' left='480' width='478' height='502'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3420.JPG'>
-    <box top='530' left='114' width='306' height='305'/>
-    <box top='387' left='2428' width='244' height='271'/>
-    <box top='431' left='2879' width='276' height='262'/>
+    <box top='480' left='75' width='397' height='400'/>
+    <box top='318' left='2352' width='394' height='403'/>
+    <box top='381' left='2823' width='403' height='397'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3421.JPG'>
-    <box top='414' left='3094' width='288' height='258'/>
-    <box top='362' left='2646' width='278' height='251'/>
-    <box top='512' left='328' width='271' height='280'/>
+    <box top='432' left='264' width='400' height='415'/>
+    <box top='303' left='2547' width='406' height='418'/>
+    <box top='348' left='3039' width='397' height='409'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3422.JPG'>
-    <box top='572' left='241' width='281' height='294'/>
-    <box top='469' left='3002' width='299' height='293'/>
-    <box top='441' left='2567' width='268' height='254'/>
+    <box top='513' left='201' width='415' height='418'/>
+    <box top='366' left='2511' width='382' height='370'/>
+    <box top='444' left='2952' width='400' height='391'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3425.JPG'>
-    <box top='408' left='2890' width='285' height='271'/>
-    <box top='350' left='2443' width='256' height='230'/>
-    <box top='538' left='130' width='266' height='285'/>
+    <box top='474' left='78' width='400' height='424'/>
+    <box top='285' left='2415' width='367' height='373'/>
+    <box top='366' left='2847' width='367' height='352'/>
+    <box top='357' left='3663' width='247' height='301' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3431.JPG'>
     <box top='465' left='136' width='170' height='164' ignore='1'/>
-    <box top='430' left='1672' width='180' height='162'/>
-    <box top='384' left='2044' width='216' height='192'/>
-    <box top='387' left='2638' width='188' height='179'/>
     <box top='90' left='3008' width='186' height='153' ignore='1'/>
+    <box top='396' left='1635' width='259' height='250'/>
+    <box top='348' left='2013' width='286' height='298'/>
+    <box top='345' left='2601' width='277' height='265'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3435.JPG'>
-    <box top='481' left='4251' width='89' height='128' ignore='1'/>
-    <box top='365' left='3917' width='166' height='151'/>
-    <box top='470' left='2803' width='157' height='161'/>
-    <box top='716' left='2757' width='155' height='154'/>
-    <box top='629' left='2483' width='165' height='171'/>
-    <box top='705' left='2275' width='159' height='169'/>
-    <box top='715' left='1979' width='136' height='147'/>
-    <box top='794' left='699' width='166' height='164'/>
+    <box top='774' left='669' width='232' height='226'/>
+    <box top='687' left='1920' width='217' height='223'/>
+    <box top='675' left='2229' width='223' height='223'/>
+    <box top='585' left='2463' width='226' height='229'/>
+    <box top='672' left='2730' width='235' height='229'/>
+    <box top='435' left='2796' width='232' height='229'/>
+    <box top='312' left='3891' width='238' height='232'/>
+    <box top='444' left='4206' width='127' height='154' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3436.JPG'>
-    <box top='970' left='562' width='149' height='155'/>
-    <box top='894' left='1835' width='137' height='134'/>
-    <box top='886' left='2138' width='154' height='134'/>
-    <box top='813' left='2342' width='152' height='152'/>
-    <box top='878' left='2626' width='144' height='139'/>
-    <box top='627' left='2666' width='156' height='145'/>
-    <box top='516' left='3764' width='151' height='140'/>
+    <box top='486' left='3732' width='250' height='220'/>
+    <box top='846' left='2601' width='211' height='208'/>
+    <box top='585' left='2637' width='229' height='220'/>
+    <box top='765' left='2310' width='238' height='205'/>
+    <box top='864' left='2112' width='214' height='196'/>
+    <box top='861' left='1797' width='211' height='202'/>
+    <box top='939' left='516' width='238' height='238'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3437.JPG'>
-    <box top='452' left='972' width='343' height='383'/>
+    <box top='366' left='885' width='586' height='565'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3448.JPG'>
-    <box top='558' left='1213' width='123' height='122'/>
-    <box top='523' left='1610' width='124' height='119'/>
-    <box top='294' left='1744' width='107' height='86' ignore='1'/>
-    <box top='548' left='2022' width='108' height='106' ignore='1'/>
-    <box top='512' left='4038' width='118' height='122'/>
+    <box top='465' left='3948' width='235' height='238'/>
+    <box top='501' left='1989' width='181' height='187' ignore='1'/>
+    <box top='258' left='1707' width='163' height='166' ignore='1'/>
+    <box top='477' left='1557' width='205' height='193'/>
+    <box top='537' left='1185' width='181' height='175'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3450.JPG'>
-    <box top='392' left='2675' width='126' height='117'/>
-    <box top='377' left='2254' width='133' height='135'/>
-    <box top='416' left='1839' width='126' height='128'/>
     <box top='201' left='2133' width='126' height='122' ignore='1'/>
     <box top='308' left='1940' width='121' height='126' ignore='1'/>
-    <box top='407' left='181' width='96' height='109'/>
+    <box top='407' left='181' width='96' height='109' ignore='1'/>
+    <box top='360' left='2652' width='199' height='181'/>
+    <box top='354' left='2217' width='217' height='205'/>
+    <box top='390' left='1809' width='175' height='178'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3454.JPG'>
-    <box top='516' left='2112' width='129' height='123'/>
-    <box top='502' left='1656' width='131' height='123'/>
     <box top='322' left='1494' width='155' height='117' ignore='1'/>
     <box top='510' left='1169' width='128' height='107' ignore='1'/>
     <box top='378' left='1309' width='127' height='150' ignore='1'/>
     <box top='549' left='184' width='121' height='121' ignore='1'/>
+    <box top='468' left='1629' width='217' height='199'/>
+    <box top='474' left='2079' width='193' height='190'/>
+    <box top='441' left='3987' width='223' height='223'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3457.JPG'>
-    <box top='695' left='554' width='292' height='282'/>
+    <box top='618' left='459' width='427' height='424'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3458.JPG'>
-    <box top='607' left='322' width='266' height='248'/>
+    <box top='540' left='201' width='430' height='472'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3470.JPG'>
-    <box top='419' left='524' width='166' height='152'/>
-    <box top='108' left='826' width='160' height='149'/>
-    <box top='329' left='545' width='129' height='109'/>
-    <box top='359' left='1' width='116' height='166' ignore='1'/>
-    <box top='429' left='2625' width='173' height='162'/>
     <box top='161' left='3175' width='174' height='209' ignore='1'/>
+    <box top='381' left='2577' width='235' height='235'/>
+    <box top='384' left='492' width='229' height='211'/>
+    <box top='282' left='522' width='163' height='139' ignore='1'>
+    </box>
+    <box top='324' left='0' width='160' height='178' ignore='1'/>
+    <box top='75' left='768' width='262' height='235'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3471.JPG'>
-    <box top='396' left='71' width='162' height='182'/>
-    <box top='460' left='628' width='172' height='146'/>
-    <box top='364' left='652' width='134' height='107'/>
-    <box top='140' left='923' width='174' height='143'/>
-    <box top='450' left='2741' width='152' height='155'/>
     <box top='214' left='3277' width='193' height='233' ignore='1'/>
+    <box top='414' left='2694' width='232' height='232'/>
+    <box top='99' left='900' width='253' height='232'/>
+    <box top='333' left='27' width='259' height='238'/>
+    <box top='423' left='591' width='238' height='226'/>
+    <box top='324' left='633' width='157' height='142' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3486.JPG'>
-    <box top='318' left='2188' width='383' height='395'/>
     <box top='437' left='3907' width='399' height='350' ignore='1'/>
-    <box top='590' left='359' width='368' height='349'/>
+    <box top='207' left='2070' width='607' height='634'/>
+    <box top='516' left='246' width='568' height='550'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3489.JPG'>
-    <box top='283' left='2360' width='400' height='404'/>
-    <box top='213' left='593' width='444' height='440'/>
+    <box top='207' left='2250' width='610' height='580'/>
+    <box top='114' left='507' width='667' height='649'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3490.JPG'>
-    <box top='267' left='2165' width='415' height='388'/>
-    <box top='227' left='406' width='435' height='443'/>
+    <box top='132' left='291' width='652' height='598'/>
+    <box top='183' left='2049' width='649' height='646'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3491.JPG'>
-    <box top='207' left='2436' width='436' height='454'/>
-    <box top='487' left='578' width='401' height='432'/>
+    <box top='375' left='510' width='595' height='631'/>
+    <box top='132' left='2271' width='697' height='706'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3498.JPG'>
-    <box top='632' left='539' width='242' height='229'/>
-    <box top='178' left='408' width='220' height='223'/>
-    <box top='330' left='3235' width='204' height='230'/>
-    <box top='275' left='3060' width='197' height='198'/>
-    <box top='601' left='2544' width='235' height='247'/>
+    <box top='135' left='348' width='343' height='319'/>
+    <box top='564' left='492' width='358' height='331'/>
+    <box top='552' left='2481' width='355' height='346'/>
+    <box top='288' left='3207' width='295' height='310'/>
+    <box top='240' left='3030' width='253' height='256'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3500.JPG'>
-    <box top='126' left='205' width='250' height='235'/>
-    <box top='534' left='426' width='239' height='246'/>
-    <box top='425' left='0' width='148' height='248' ignore='1'/>
-    <box top='133' left='1177' width='237' height='228'/>
-    <box top='580' left='1316' width='270' height='256'/>
-    <box top='551' left='3312' width='246' height='236'/>
-    <box top='292' left='4037' width='202' height='235'/>
-    <box top='238' left='3837' width='202' height='193'/>
+    <box top='252' left='4005' width='313' height='307'/>
+    <box top='171' left='3798' width='259' height='289'/>
+    <box top='537' left='3285' width='319' height='331'/>
+    <box top='537' left='1260' width='358' height='346'/>
+    <box top='99' left='1140' width='322' height='307'/>
+    <box top='90' left='162' width='328' height='292'/>
+    <box top='486' left='378' width='352' height='334'/>
+    <box top='366' left='-6' width='244' height='310' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3502.JPG'>
+    <box top='579' left='3498' width='346' height='358'/>
+    <box top='216' left='1692' width='277' height='274' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3503.JPG'>
-    <box top='607' left='3551' width='222' height='230'/>
     <box top='672' left='1282' width='277' height='232' ignore='1'/>
     <box top='251' left='1729' width='182' height='197' ignore='1'/>
     <box top='463' left='1856' width='243' height='243' ignore='1'/>
+    <box top='552' left='3483' width='334' height='337'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3508.JPG'>
-    <box top='624' left='2288' width='232' height='249'/>
-    <box top='376' left='2367' width='263' height='254'/>
     <box top='157' left='2301' width='221' height='191' ignore='1'/>
+    <box top='597' left='2256' width='346' height='373'/>
+    <box top='342' left='2361' width='310' height='301'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3510.JPG'>
-    <box top='339' left='1596' width='223' height='209'/>
-    <box top='305' left='2805' width='243' height='258'/>
-    <box top='343' left='3626' width='241' height='230'/>
+    <box top='279' left='3576' width='343' height='316'/>
+    <box top='252' left='2742' width='358' height='328'/>
+    <box top='282' left='1500' width='367' height='331'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3511.JPG'>
-    <box top='367' left='1492' width='238' height='252'/>
-    <box top='339' left='2705' width='253' height='261'/>
-    <box top='366' left='3540' width='230' height='246'/>
+    <box top='309' left='3471' width='346' height='349'/>
+    <box top='270' left='2640' width='361' height='352'/>
+    <box top='306' left='1428' width='346' height='328'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3514.JPG'>
-    <box top='339' left='2457' width='212' height='213'/>
-    <box top='285' left='1615' width='248' height='254'/>
-    <box top='315' left='399' width='227' height='227'/>
+    <box top='270' left='348' width='346' height='325'/>
+    <box top='195' left='1518' width='397' height='394'/>
+    <box top='282' left='2394' width='340' height='322'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3521.JPG'>
-    <box top='481' left='1175' width='251' height='239'/>
     <box top='563' left='22' width='201' height='194' ignore='1'/>
     <box top='581' left='1966' width='217' height='203' ignore='1'/>
-    <box top='572' left='2745' width='208' height='201'/>
+    <box top='537' left='2703' width='337' height='295'/>
+    <box top='432' left='1134' width='337' height='319'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3526.JPG'>
-    <box top='387' left='1316' width='221' height='243'/>
-    <box top='479' left='2838' width='224' height='178'/>
     <box top='471' left='2080' width='184' height='173' ignore='1'/>
     <box top='454' left='147' width='211' height='230' ignore='1'/>
+    <box top='429' left='2805' width='331' height='292'/>
+    <box top='342' left='1263' width='334' height='310'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3527.JPG'>
     <box top='552' left='1288' width='204' height='158' ignore='1'/>
     <box top='598' left='1725' width='229' height='229' ignore='1'/>
-    <box top='222' left='863' width='235' height='221'/>
-    <box top='350' left='2965' width='207' height='206'/>
     <box top='519' left='3559' width='233' height='230' ignore='1'/>
+    <box top='288' left='2925' width='316' height='316'/>
+    <box top='171' left='825' width='337' height='337'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3531.JPG'>
   </image>
@@ -582,126 +588,130 @@
   <image file='Brandt_Ledges_1_10/DSCN3534.JPG'>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3535.JPG'>
-    <box top='285' left='2570' width='222' height='182'/>
-    <box top='439' left='2734' width='202' height='205'/>
-    <box top='676' left='1418' width='249' height='259'/>
+    <box top='621' left='1353' width='334' height='334'/>
+    <box top='225' left='2547' width='250' height='226'/>
+    <box top='411' left='2706' width='292' height='301'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3538.JPG'>
     <box top='304' left='137' width='181' height='151' ignore='1'/>
     <box top='684' left='736' width='205' height='198' ignore='1'/>
-    <box top='586' left='1915' width='221' height='228'/>
-    <box top='182' left='3063' width='200' height='178'/>
-    <box top='348' left='3211' width='218' height='205'/>
     <box top='671' left='2671' width='198' height='181' ignore='1'/>
+    <box top='537' left='1833' width='331' height='310'/>
+    <box top='99' left='3015' width='271' height='268'/>
+    <box top='318' left='3189' width='271' height='283'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3539.JPG'>
-    <box top='245' left='3278' width='195' height='165'/>
-    <box top='417' left='3430' width='198' height='209'/>
-    <box top='647' left='2121' width='214' height='232'/>
     <box top='341' left='345' width='193' height='172' ignore='1'/>
     <box top='740' left='979' width='182' height='179' ignore='1'/>
+    <box top='597' left='2067' width='313' height='295'/>
+    <box top='183' left='3222' width='271' height='247'/>
+    <box top='375' left='3408' width='280' height='298'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3541.JPG'>
     <box top='705' left='3902' width='267' height='260' ignore='1'/>
-    <box top='737' left='496' width='351' height='306' ignore='1'/>
+    <box top='681' left='426' width='505' height='454' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3545.JPG'>
+    <box top='564' left='4179' width='376' height='388' ignore='1'/>
+    <box top='645' left='828' width='499' height='490' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3550.JPG'>
-    <box top='175' left='704' width='116' height='121'/>
-    <box top='366' left='724' width='97' height='94'/>
-    <box top='393' left='917' width='118' height='104'/>
-    <box top='360' left='1937' width='115' height='103'/>
-    <box top='324' left='2640' width='122' height='120'/>
-    <box top='354' left='2399' width='99' height='83' ignore='1'/>
     <box top='184' left='2235' width='102' height='110' ignore='1'/>
     <box top='136' left='2338' width='95' height='64' ignore='1'/>
     <box top='342' left='3031' width='102' height='99' ignore='1'/>
-    <box top='225' left='3763' width='133' height='117'/>
-    <box top='218' left='4307' width='83' height='114' ignore='1'/>
+    <box top='141' left='666' width='181' height='169'/>
+    <box top='333' left='693' width='148' height='145'/>
+    <box top='369' left='906' width='175' height='178'/>
+    <box top='330' left='1911' width='169' height='169'/>
+    <box top='294' left='2628' width='169' height='178'/>
+    <box top='327' left='2379' width='154' height='133' ignore='1'/>
+    <box top='186' left='3735' width='172' height='166'/>
+    <box top='189' left='4272' width='115' height='133' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3551.JPG'>
-    <box top='336' left='541' width='117' height='100'/>
-    <box top='148' left='516' width='131' height='123'/>
     <box top='362' left='746' width='117' height='96' ignore='1'/>
-    <box top='324' left='1761' width='121' height='126'/>
-    <box top='285' left='2467' width='132' height='135'/>
-    <box top='94' left='2149' width='105' height='66' ignore='1'/>
     <box top='141' left='2035' width='118' height='119' ignore='1'/>
-    <box top='315' left='2211' width='138' height='93' ignore='1'/>
     <box top='168' left='2183' width='110' height='114' ignore='1'/>
+    <box top='141' left='3552' width='187' height='193'/>
+    <box top='267' left='2835' width='166' height='151' ignore='1'/>
+    <box top='258' left='2433' width='178' height='166'/>
+    <box top='288' left='2184' width='154' height='145' ignore='1'/>
+    <box top='111' left='495' width='175' height='172'/>
+    <box top='309' left='495' width='169' height='157'/>
+    <box top='291' left='1713' width='187' height='184'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3554.JPG'>
-    <box top='165' left='715' width='124' height='116'/>
-    <box top='367' left='920' width='105' height='89'/>
     <box top='360' left='765' width='109' height='80' ignore='1'/>
     <box top='382' left='1118' width='125' height='116' ignore='1'/>
     <box top='313' left='2136' width='127' height='132' ignore='1'/>
     <box top='180' left='2173' width='113' height='105'/>
-    <box top='348' left='2367' width='101' height='116'/>
     <box top='324' left='2858' width='120' height='121' ignore='1'/>
-    <box top='187' left='2598' width='130' height='126'/>
     <box top='320' left='3271' width='128' height='108' ignore='1'/>
     <box top='263' left='3589' width='110' height='108' ignore='1'/>
     <box top='132' left='2226' width='99' height='52' ignore='1'/>
+    <box top='159' left='2583' width='175' height='169'/>
+    <box top='300' left='2331' width='181' height='175'/>
+    <box top='333' left='897' width='154' height='148'/>
+    <box top='135' left='699' width='166' height='169'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3558.JPG'>
-    <box top='81' left='352' width='132' height='114'/>
-    <box top='284' left='1787' width='95' height='93'/>
-    <box top='314' left='1998' width='120' height='116'/>
-    <box top='232' left='2868' width='116' height='100' ignore='1'/>
-    <box top='244' left='3962' width='123' height='103'/>
     <box top='213' left='3551' width='114' height='112' ignore='1'/>
-    <box top='200' left='3868' width='92' height='89' ignore='1'/>
+    <box top='219' left='3942' width='157' height='157'/>
+    <box top='165' left='3849' width='124' height='127' ignore='1'/>
+    <box top='201' left='2838' width='154' height='145' ignore='1'/>
+    <box top='279' left='1965' width='172' height='163'/>
+    <box top='258' left='1746' width='160' height='142'/>
+    <box top='36' left='330' width='196' height='184' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3562.JPG'>
-    <box top='329' left='3246' width='122' height='100'/>
     <box top='278' left='3123' width='101' height='111' ignore='1'/>
     <box top='297' left='2815' width='126' height='113' ignore='1'/>
     <box top='314' left='2208' width='115' height='102' ignore='1'/>
-    <box top='346' left='1050' width='105' height='78'/>
-    <box top='382' left='1281' width='123' height='101'/>
+    <box top='306' left='3231' width='163' height='148'/>
+    <box top='339' left='1260' width='175' height='157'/>
+    <box top='303' left='1011' width='169' height='157'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3563.JPG'>
-    <box top='241' left='2170' width='108' height='102'/>
+    <box top='204' left='2160' width='163' height='163'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3564.JPG'>
-    <box top='227' left='2241' width='104' height='100'/>
+    <box top='186' left='2211' width='181' height='181'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3585.JPG'>
     <box top='304' left='1401' width='219' height='195' ignore='1'/>
-    <box top='258' left='1130' width='181' height='139'/>
-    <box top='226' left='257' width='205' height='186'/>
     <box top='234' left='2801' width='216' height='194' ignore='1'/>
+    <box top='192' left='219' width='274' height='274'/>
+    <box top='210' left='1062' width='247' height='229' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3601.JPG'>
-    <box top='178' left='1469' width='173' height='180'/>
-    <box top='143' left='580' width='161' height='169'/>
     <box top='117' left='1668' width='145' height='126' ignore='1'/>
     <box top='118' left='851' width='178' height='158' ignore='1'/>
     <box top='172' left='299' width='119' height='113' ignore='1'/>
     <box top='81' left='2160' width='155' height='131' ignore='1'/>
+    <box top='141' left='3672' width='283' height='247' ignore='1'/>
+    <box top='144' left='1434' width='217' height='214'/>
+    <box top='114' left='546' width='214' height='217'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3605.JPG'>
-    <box top='384' left='1236' width='201' height='199'/>
-    <box top='287' left='995' width='165' height='159'/>
     <box top='191' left='3582' width='176' height='162' ignore='1'/>
     <box top='367' left='416' width='183' height='185' ignore='1'/>
+    <box top='258' left='945' width='229' height='226'/>
+    <box top='348' left='1197' width='268' height='280'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3606.JPG'>
-    <box top='298' left='174' width='179' height='164'/>
     <box top='226' left='1298' width='215' height='201' ignore='1'/>
-    <box top='145' left='1885' width='178' height='167'/>
-    <box top='251' left='2120' width='219' height='195'/>
+    <box top='114' left='1842' width='235' height='223'/>
+    <box top='210' left='2088' width='280' height='274'/>
+    <box top='270' left='132' width='280' height='271'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3607.JPG'>
-    <box top='232' left='1439' width='167' height='180'/>
+    <box top='177' left='1383' width='268' height='271'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3651.JPG'>
-    <box top='204' left='104' width='209' height='165' ignore='1'/>
     <box top='180' left='1416' width='276' height='229' ignore='1'/>
     <box top='152' left='1968' width='270' height='245' ignore='1'/>
     <box top='58' left='3047' width='305' height='258' ignore='1'/>
+    <box top='162' left='36' width='283' height='283' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3652.JPG'>
     <box top='138' left='1332' width='191' height='167'/>
@@ -714,19 +724,20 @@
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3656.JPG'>
     <box top='180' left='2697' width='195' height='169' ignore='1'/>
-    <box top='227' left='2462' width='129' height='76' ignore='1'/>
-    <box top='198' left='1746' width='135' height='128'/>
-    <box top='110' left='776' width='101' height='54' ignore='1'/>
     <box top='184' left='4302' width='107' height='103' ignore='1'/>
     <box top='40' left='3930' width='95' height='79' ignore='1'/>
+    <box top='66' left='741' width='163' height='166'/>
+    <box top='198' left='2442' width='154' height='136' ignore='1'/>
+    <box top='171' left='1692' width='211' height='187'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3660.JPG'>
-    <box top='192' left='2292' width='307' height='235' ignore='1'/>
-    <box top='150' left='3234' width='259' height='217'/>
+    <box top='213' left='732' width='478' height='466'/>
+    <box top='84' left='3183' width='373' height='349'/>
+    <box top='141' left='2187' width='454' height='397' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3663.JPG'>
-    <box top='90' left='2709' width='268' height='202'/>
-    <box top='390' left='255' width='306' height='196' ignore='1'/>
+    <box top='312' left='231' width='415' height='403' ignore='1'/>
+    <box top='24' left='2610' width='406' height='349' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3665.JPG'>
     <box top='361' left='87' width='297' height='265' ignore='1'/>
@@ -741,38 +752,39 @@
     <box top='179' left='2983' width='277' height='247' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3746.JPG'>
-    <box top='491' left='141' width='215' height='228'/>
+    <box top='447' left='99' width='304' height='319'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3747.JPG'>
-    <box top='433' left='124' width='215' height='237'/>
+    <box top='399' left='66' width='313' height='325'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3748.JPG'>
-    <box top='374' left='77' width='209' height='231'/>
+    <box top='327' left='18' width='346' height='349'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3749.JPG'>
-    <box top='353' left='452' width='223' height='215'/>
+    <box top='318' left='414' width='349' height='358'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3751.JPG'>
-    <box top='253' left='359' width='191' height='217'/>
+    <box top='231' left='285' width='328' height='322'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3753.JPG'>
-    <box top='198' left='373' width='204' height='213'/>
+    <box top='144' left='330' width='346' height='337'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3754.JPG'>
-    <box top='178' left='266' width='211' height='196'/>
+    <box top='135' left='234' width='319' height='310'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3755.JPG'>
-    <box top='312' left='2398' width='245' height='222'/>
-    <box top='312' left='382' width='217' height='225'/>
+    <box top='231' left='270' width='355' height='364'/>
+    <box top='252' left='2325' width='358' height='346'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3758.JPG'>
-    <box top='212' left='295' width='195' height='201'/>
+    <box top='171' left='222' width='310' height='316'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3765.JPG'>
-    <box top='339' left='2019' width='235' height='228'/>
+    <box top='276' left='1962' width='361' height='358'/>
+    <box top='12' left='609' width='229' height='241' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3771.JPG'>
-    <box top='339' left='1139' width='246' height='225' ignore='1'/>
+    <box top='285' left='1092' width='304' height='301' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3772.JPG'>
   </image>
@@ -787,147 +799,158 @@
     <box top='114' left='167' width='227' height='197' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3871.JPG'>
-    <box top='365' left='408' width='315' height='277'/>
-    <box top='318' left='1371' width='285' height='302'/>
     <box top='94' left='2119' width='223' height='188' ignore='1'/>
     <box top='186' left='2710' width='242' height='180' ignore='1'/>
     <box top='102' left='3719' width='254' height='199' ignore='1'/>
+    <box top='321' left='369' width='433' height='406'/>
+    <box top='273' left='1308' width='415' height='424'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3898.JPG'>
-    <box top='740' left='1267' width='304' height='303'/>
+    <box top='675' left='1194' width='397' height='409'/>
+    <box top='453' left='2616' width='373' height='358' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3899.JPG'>
-    <box top='278' left='1504' width='288' height='270'/>
+    <box top='216' left='1410' width='421' height='394'/>
+    <box top='-3' left='2838' width='415' height='379' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3901.JPG'>
-    <box top='270' left='3071' width='271' height='232'/>
+    <box top='231' left='2991' width='400' height='382'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3902.JPG'>
+    <box top='348' left='3807' width='355' height='376' ignore='1'/>
+    <box top='477' left='918' width='436' height='412' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3913.JPG'>
-    <box top='129' left='647' width='233' height='211'/>
     <box top='216' left='2589' width='224' height='209' ignore='1'/>
     <box top='345' left='2950' width='216' height='182' ignore='1'/>
+    <box top='87' left='585' width='355' height='343'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3919.JPG'>
-    <box top='138' left='2480' width='206' height='217'/>
-    <box top='92' left='255' width='235' height='227'/>
+    <box top='81' left='2421' width='304' height='292'/>
+    <box top='27' left='150' width='343' height='340'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3927.JPG'>
+    <box top='273' left='1161' width='340' height='340'/>
+    <box top='42' left='2949' width='298' height='289'/>
+    <box top='321' left='1608' width='307' height='277' ignore='1'/>
+    <box top='375' left='2997' width='370' height='355'/>
+    <box top='384' left='3627' width='307' height='301' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3928.JPG'>
-    <box top='310' left='998' width='240' height='223'/>
     <box top='351' left='1473' width='190' height='162' ignore='1'/>
-    <box top='59' left='2784' width='176' height='181'/>
-    <box top='425' left='2891' width='237' height='228'/>
     <box top='394' left='3477' width='199' height='191' ignore='1'/>
+    <box top='270' left='948' width='322' height='337'/>
+    <box top='15' left='2739' width='283' height='286'/>
+    <box top='351' left='2745' width='409' height='397'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3933.JPG'>
-    <box top='296' left='1510' width='224' height='220'/>
-    <box top='623' left='2575' width='325' height='255'/>
     <box top='366' left='1864' width='240' height='198' ignore='1'/>
-    <box top='134' left='3124' width='218' height='186'/>
-    <box top='447' left='3336' width='302' height='250'/>
     <box top='452' left='4050' width='197' height='177' ignore='1'/>
+    <box top='69' left='3057' width='298' height='277'/>
+    <box top='402' left='3258' width='400' height='376'/>
+    <box top='567' left='2505' width='388' height='361'/>
+    <box top='252' left='1452' width='337' height='337'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3943.JPG'>
     <box top='347' left='418' width='194' height='183' ignore='1'/>
     <box top='416' left='803' width='176' height='175' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3948.JPG'>
-    <box top='201' left='481' width='570' height='591'/>
-    <box top='512' left='1398' width='523' height='455'/>
+    <box top='459' left='1191' width='853' height='745'/>
+    <box top='108' left='366' width='793' height='742'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3949.JPG'>
-    <box top='225' left='313' width='584' height='568'/>
-    <box top='575' left='1228' width='560' height='427'/>
+    <box top='156' left='204' width='787' height='781'/>
+    <box top='504' left='1068' width='820' height='709'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3956.JPG'>
-    <box top='24' left='462' width='632' height='549'/>
-    <box top='150' left='1175' width='685' height='621'/>
-    <box top='704' left='1807' width='726' height='637'/>
-    <box top='579' left='2516' width='640' height='637'/>
-    <box top='535' left='3208' width='502' height='515'/>
+    <box top='459' left='3123' width='634' height='646' ignore='1'/>
+    <box top='9' left='342' width='808' height='766'/>
+    <box top='99' left='1152' width='766' height='775'/>
+    <box top='624' left='1653' width='877' height='829'/>
+    <box top='459' left='2346' width='820' height='817'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3963.JPG'>
-    <box top='267' left='3349' width='289' height='305'/>
-    <box top='637' left='2220' width='354' height='350'/>
-    <box top='629' left='2632' width='432' height='240' ignore='1'/>
     <box top='0' left='2419' width='287' height='210' ignore='1'/>
-    <box top='133' left='1213' width='318' height='295'/>
-    <box top='530' left='1559' width='360' height='316' ignore='1'/>
+    <box top='87' left='1164' width='421' height='412'/>
+    <box top='444' left='1509' width='439' height='481' ignore='1'/>
+    <box top='552' left='2109' width='478' height='520'/>
+    <box top='561' left='2652' width='427' height='454' ignore='1'/>
+    <box top='198' left='3228' width='475' height='445'/>
+    <box top='1128' left='3627' width='517' height='517'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3966.JPG'>
-    <box top='460' left='2595' width='401' height='292'/>
-    <box top='499' left='2190' width='352' height='350'/>
-    <box top='401' left='1602' width='361' height='312'/>
     <box top='126' left='3273' width='294' height='316'/>
-    <box top='27' left='1164' width='291' height='335'/>
     <box top='323' left='78' width='307' height='277' ignore='1'/>
+    <box top='0' left='1110' width='385' height='379'/>
+    <box top='333' left='1542' width='511' height='478'/>
+    <box top='459' left='2064' width='496' height='508'/>
+    <box top='375' left='2517' width='484' height='463'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3967.JPG'>
-    <box top='432' left='1663' width='286' height='308'/>
-    <box top='550' left='1984' width='294' height='314'/>
-    <box top='680' left='2344' width='378' height='346'/>
-    <box top='337' left='2756' width='314' height='270'/>
+    <box top='351' left='1584' width='418' height='418'/>
+    <box top='465' left='1962' width='418' height='436'/>
+    <box top='618' left='2331' width='487' height='505'/>
+    <box top='261' left='2709' width='397' height='412'/>
+    <box top='495' left='159' width='457' height='484' ignore='1'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3972.JPG'>
-    <box top='606' left='3452' width='371' height='327'/>
-    <box top='446' left='3052' width='305' height='277'/>
-    <box top='304' left='2673' width='333' height='296'/>
-    <box top='251' left='60' width='353' height='313'/>
     <box top='458' left='1248' width='293' height='283' ignore='1'/>
+    <box top='255' left='2625' width='426' height='391'/>
+    <box top='405' left='2990' width='446' height='401'/>
+    <box top='540' left='3395' width='496' height='451'/>
+    <box top='175' left='0' width='461' height='471'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3973.JPG'>
-    <box top='307' left='2708' width='311' height='296'/>
-    <box top='463' left='3057' width='298' height='298'/>
-    <box top='604' left='3494' width='322' height='312'/>
     <box top='471' left='3673' width='305' height='217' ignore='1'/>
-    <box top='261' left='77' width='356' height='307'/>
     <box top='481' left='1261' width='299' height='230' ignore='1'/>
+    <box top='255' left='2660' width='406' height='411'/>
+    <box top='410' left='3025' width='426' height='396'/>
+    <box top='580' left='3445' width='501' height='451'/>
+    <box top='205' left='15' width='436' height='451'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3976.JPG'>
-    <box top='612' left='1272' width='305' height='293'/>
     <box top='530' left='689' width='301' height='277' ignore='1'/>
     <box top='666' left='1626' width='345' height='312' ignore='1'/>
     <box top='335' left='3102' width='257' height='213' ignore='1'/>
+    <box top='540' left='1190' width='446' height='431'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3986.JPG'>
-    <box top='560' left='3204' width='397' height='333'/>
-    <box top='646' left='3760' width='400' height='375'/>
-    <box top='253' left='3912' width='323' height='262'/>
+    <box top='160' left='3825' width='461' height='431'/>
+    <box top='500' left='3120' width='526' height='496'/>
+    <box top='615' left='3695' width='546' height='491'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3987.JPG'>
-    <box top='578' left='3316' width='370' height='344'/>
-    <box top='672' left='3850' width='408' height='336'/>
-    <box top='248' left='4005' width='291' height='260'/>
+    <box top='180' left='3895' width='451' height='431'/>
+    <box top='515' left='3205' width='516' height='481'/>
+    <box top='640' left='3815' width='496' height='476'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3990.JPG'>
-    <box top='245' left='282' width='210' height='165'/>
-    <box top='267' left='777' width='236' height='185'/>
-    <box top='379' left='1272' width='215' height='168'/>
     <box top='438' left='2159' width='192' height='178' ignore='1'/>
-    <box top='383' left='3390' width='200' height='193'/>
-    <box top='516' left='3785' width='215' height='212'/>
+    <box top='165' left='165' width='371' height='356'/>
+    <box top='205' left='730' width='326' height='331'/>
+    <box top='335' left='1240' width='346' height='316' ignore='1'/>
+    <box top='340' left='3335' width='331' height='296'/>
+    <box top='460' left='3725' width='321' height='311'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3993.JPG'>
-    <box top='595' left='3759' width='238' height='238'/>
-    <box top='481' left='3431' width='203' height='190'/>
     <box top='417' left='2878' width='193' height='202' ignore='1'/>
     <box top='472' left='1957' width='172' height='150' ignore='1'/>
-    <box top='316' left='299' width='221' height='210'/>
-    <box top='361' left='803' width='261' height='201'/>
     <box top='123' left='606' width='149' height='122' ignore='1'/>
+    <box top='546' left='3708' width='337' height='325'/>
+    <box top='396' left='3336' width='337' height='319'/>
+    <box top='312' left='768' width='325' height='307'/>
+    <box top='264' left='222' width='355' height='343'/>
   </image>
   <image file='Brandt_Ledges_1_10/DSCN3994.JPG'>
-    <box top='345' left='340' width='218' height='207'/>
-    <box top='398' left='858' width='235' height='189'/>
     <box top='471' left='1319' width='211' height='174' ignore='1'/>
     <box top='488' left='1984' width='190' height='162'/>
     <box top='342' left='2200' width='223' height='190' ignore='1'/>
-    <box top='494' left='3465' width='215' height='206'/>
     <box top='440' left='2921' width='180' height='178' ignore='1'/>
-    <box top='609' left='3784' width='261' height='237'/>
+    <box top='258' left='258' width='343' height='349'/>
+    <box top='318' left='798' width='355' height='355'/>
+    <box top='450' left='3420' width='295' height='289'/>
+    <box top='534' left='3738' width='343' height='349'/>
   </image>
 </images>
 </dataset>
