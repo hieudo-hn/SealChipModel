@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>Data Set</name>
+<comment>Created by imglab tools.</comment>
+<folderList>Whaleboat_Singles_7_1</folderList>
+<images>
+  <image file='Whaleboat_Singles_7_1/DSCN3217.JPG'>
+    <box top='175' left='193' width='69' height='63'/>
+    <box top='118' left='195' width='75' height='70'/>
+    <box top='92' left='311' width='68' height='64'/>
+    <box top='75' left='416' width='53' height='54'/>
+    <box top='75' left='456' width='76' height='75'/>
+    <box top='62' left='607' width='68' height='66'/>
+    <box top='207' left='592' width='78' height='72'/>
+    <box top='65' left='1303' width='76' height='71'/>
+    <box top='48' left='1754' width='61' height='57'/>
+  </image>
+  <image file='Whaleboat_Singles_7_1/DSCN3218.JPG'>
+    <box top='68' left='628' width='75' height='70'/>
+    <box top='202' left='765' width='78' height='72' ignore='1'/>
+    <box top='75' left='1348' width='77' height='69'/>
+  </image>
+  <image file='Whaleboat_Singles_7_1/DSCN3219.JPG'>
+    <box top='116' left='1030' width='70' height='62' ignore='1'/>
+    <box top='95' left='1856' width='64' height='61'/>
+    <box top='66' left='1440' width='80' height='68'/>
+    <box top='229' left='635' width='76' height='70'/>
+    <box top='80' left='498' width='80' height='75'/>
+    <box top='46' left='542' width='69' height='65' ignore='1'/>
+  </image>
+  <image file='Whaleboat_Singles_7_1/DSCN3221.JPG'>
+    <box top='358' left='982' width='119' height='106'/>
+    <box top='277' left='307' width='115' height='98'/>
+    <box top='88' left='563' width='103' height='91'/>
+    <box top='150' left='498' width='110' height='103'/>
+    <box top='135' left='730' width='120' height='112'/>
+    <box top='155' left='1629' width='124' height='106' ignore='1'/>
+    <box top='122' left='2213' width='127' height='116'/>
+    <box top='124' left='978' width='115' height='123'/>
+    <box top='110' left='692' width='87' height='73' ignore='1'/>
+  </image>
+  <image file='Whaleboat_Singles_7_1/DSCN3223.JPG'>
+    <box top='312' left='224' width='120' height='109' ignore='1'/>
+    <box top='153' left='501' width='105' height='99'/>
+    <box top='82' left='959' width='99' height='90' ignore='1'/>
+    <box top='136' left='1686' width='115' height='111' ignore='1'/>
+  </image>
+  <image file='Whaleboat_Singles_7_1/DSCN3224.JPG'>
+    <box top='289' left='100' width='109' height='98'/>
+    <box top='257' left='647' width='102' height='108' ignore='1'/>
+  </image>
+  <image file='Whaleboat_Singles_7_1/DSCN3225.JPG'>
+    <box top='512' left='124' width='119' height='105'/>
+    <box top='522' left='756' width='139' height='131'/>
+  </image>
+  <image file='Whaleboat_Singles_7_1/DSCN3227.JPG'>
+    <box top='61' left='87' width='52' height='46'/>
+  </image>
+  <image file='Whaleboat_Singles_7_1/DSCN3229.JPG'>
+    <box top='345' left='329' width='63' height='53'/>
+    <box top='287' left='849' width='68' height='57' ignore='1'/>
+    <box top='306' left='1296' width='71' height='61'/>
+    <box top='285' left='1817' width='79' height='80'/>
+  </image>
+</images>
+</dataset>

@@ -1,0 +1,780 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>Data Set</name>
+<comment>Created by imglab tools.</comment>
+<folderList>Mitchell_Field_Singles_1_31</folderList>
+<images>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4788.JPG'>
+    <box top='268' left='3496' width='119' height='115'/>
+    <box top='154' left='3450' width='107' height='104'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4791.JPG'>
+    <box top='182' left='3511' width='99' height='89' ignore='1'/>
+    <box top='296' left='3641' width='119' height='106' ignore='1'/>
+    <box top='291' left='102' width='121' height='121' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4793.JPG'>
+    <box top='402' left='1893' width='99' height='89' ignore='1'/>
+    <box top='134' left='369' width='119' height='107'/>
+    <box top='201' left='1295' width='83' height='74' ignore='1'/>
+    <box top='484' left='1173' width='143' height='127' ignore='1'/>
+    <box top='189' left='19' width='110' height='102'/>
+    <box top='383' left='2384' width='121' height='108'/>
+    <box top='383' left='4038' width='148' height='128'/>
+    <box top='354' left='3231' width='127' height='127'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4794.JPG'>
+    <box top='366' left='4143' width='99' height='89' ignore='1'/>
+    <box top='318' left='207' width='115' height='105'/>
+    <box top='410' left='1025' width='131' height='118'/>
+    <box top='182' left='880' width='119' height='106'/>
+    <box top='397' left='2736' width='118' height='102'/>
+    <box top='435' left='2977' width='94' height='97' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4795.JPG'>
+    <box top='266' left='155' width='99' height='89' ignore='1'/>
+    <box top='246' left='493' width='120' height='107' ignore='1'/>
+    <box top='286' left='2009' width='133' height='116'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4798.JPG'>
+    <box top='90' left='1164' width='148' height='142'/>
+    <box top='39' left='378' width='163' height='142'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4799.JPG'>
+    <box top='273' left='688' width='136' height='118'/>
+    <box top='304' left='2051' width='120' height='109'/>
+    <box top='309' left='1584' width='133' height='133'/>
+    <box top='366' left='3204' width='139' height='154' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4803.JPG'>
+    <box top='513' left='690' width='286' height='259'/>
+    <box top='834' left='1458' width='301' height='274'/>
+    <box top='576' left='2632' width='285' height='277' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4804.JPG'>
+    <box top='288' left='2792' width='295' height='263' ignore='1'/>
+    <box top='801' left='438' width='295' height='264'/>
+    <box top='1058' left='908' width='296' height='263' ignore='1'/>
+    <box top='368' left='2032' width='289' height='265'/>
+    <box top='152' left='2476' width='225' height='201'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4808.JPG'>
+    <box top='384' left='1572' width='317' height='273'/>
+    <box top='472' left='3504' width='269' height='225' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4815.JPG'>
+    <box top='442' left='2565' width='172' height='152' ignore='1'/>
+    <box top='495' left='411' width='184' height='178'/>
+    <box top='393' left='1161' width='190' height='166'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4818.JPG'>
+    <box top='237' left='1341' width='217' height='193'/>
+    <box top='309' left='2250' width='214' height='217' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4821.JPG'>
+    <box top='459' left='2907' width='166' height='160'/>
+    <box top='234' left='3903' width='187' height='178'/>
+    <box top='150' left='4458' width='169' height='178'/>
+    <box top='462' left='4359' width='187' height='181' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4824.JPG'>
+    <box top='225' left='2398' width='172' height='153'/>
+    <box top='305' left='741' width='164' height='157'/>
+    <box top='197' left='1250' width='165' height='155' ignore='1'/>
+    <box top='286' left='2240' width='149' height='133' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4825.JPG'>
+    <box top='234' left='358' width='171' height='153'/>
+    <box top='222' left='1832' width='154' height='133'/>
+    <box top='118' left='882' width='249' height='165' ignore='1'/>
+    <box top='219' left='2901' width='205' height='202' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4826.JPG'>
+    <box top='355' left='271' width='172' height='153' ignore='1'/>
+    <box top='242' left='1844' width='151' height='145'/>
+    <box top='144' left='890' width='179' height='159'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4829.JPG'>
+    <box top='252' left='721' width='172' height='164'/>
+    <box top='97' left='1211' width='179' height='150'/>
+    <box top='184' left='2150' width='181' height='157'/>
+    <box top='162' left='3321' width='178' height='175' ignore='1'/>
+    <box top='153' left='2406' width='202' height='184'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4831.JPG'>
+    <box top='168' left='2994' width='223' height='211'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4832.JPG'>
+    <box top='358' left='525' width='172' height='153' ignore='1'/>
+    <box top='120' left='1176' width='202' height='175'/>
+    <box top='219' left='2124' width='172' height='172'/>
+    <box top='324' left='3818' width='187' height='163' ignore='1'/>
+    <box top='177' left='2394' width='190' height='175' ignore='1'/>
+    <box top='192' left='2697' width='172' height='172'/>
+    <box top='222' left='3327' width='196' height='178' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4835.JPG'>
+    <box top='373' left='1748' width='296' height='264' ignore='1'/>
+    <box top='489' left='1107' width='292' height='247'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4837.JPG'>
+    <box top='365' left='3949' width='246' height='219' ignore='1'/>
+    <box top='502' left='1294' width='295' height='263' ignore='1'/>
+    <box top='375' left='3252' width='286' height='271' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4839.JPG'>
+    <box top='404' left='3724' width='325' height='273'/>
+    <box top='116' left='3240' width='285' height='233' ignore='1'/>
+    <box top='219' left='2451' width='331' height='301'/>
+    <box top='474' left='1758' width='334' height='322'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4840.JPG'>
+    <box top='256' left='164' width='313' height='305'/>
+    <box top='492' left='1364' width='309' height='261'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4842.JPG'>
+    <box top='443' left='3647' width='296' height='263' ignore='1'/>
+    <box top='600' left='940' width='345' height='321'/>
+    <box top='520' left='2780' width='333' height='285'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4844.JPG'>
+    <box top='128' left='4' width='309' height='301'/>
+    <box top='368' left='932' width='341' height='313'/>
+    <box top='276' left='1809' width='406' height='352'/>
+    <box top='294' left='3036' width='310' height='301' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4848.JPG'>
+    <box top='119' left='1274' width='246' height='220' ignore='1'/>
+    <box top='656' left='88' width='321' height='305'/>
+    <box top='560' left='2168' width='329' height='325' ignore='1'/>
+    <box top='888' left='2199' width='352' height='310'/>
+    <box top='846' left='732' width='289' height='274'/>
+    <box top='876' left='1650' width='304' height='292' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4849.JPG'>
+    <box top='268' left='3544' width='257' height='257'/>
+    <box top='156' left='2391' width='205' height='211' ignore='1'/>
+    <box top='972' left='2652' width='412' height='349' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4850.JPG'>
+    <box top='456' left='1131' width='274' height='265'/>
+    <box top='288' left='1770' width='271' height='265' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4852.JPG'>
+    <box top='356' left='2514' width='205' height='183' ignore='1'/>
+    <box top='816' left='668' width='393' height='369' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4853.JPG'>
+    <box top='188' left='236' width='529' height='433'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4854.JPG'>
+    <box top='302' left='1330' width='171' height='153' ignore='1'/>
+    <box top='154' left='2544' width='171' height='152' ignore='1'/>
+    <box top='88' left='1307' width='205' height='183'/>
+    <box top='472' left='2896' width='193' height='159' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4855.JPG'>
+    <box top='151' left='1726' width='206' height='183'/>
+    <box top='280' left='1816' width='177' height='189'/>
+    <box top='141' left='3450' width='184' height='178' ignore='1'/>
+    <box top='147' left='2004' width='196' height='196' ignore='1'/>
+    <box top='195' left='2916' width='214' height='193'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4857.JPG'>
+    <box top='163' left='2318' width='171' height='153' ignore='1'/>
+    <box top='632' left='1528' width='193' height='169'/>
+    <box top='128' left='2520' width='179' height='165'/>
+    <box top='256' left='2396' width='197' height='181'/>
+    <box top='189' left='3963' width='205' height='199'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4858.JPG'>
+    <box top='525' left='3557' width='246' height='219' ignore='1'/>
+    <box top='441' left='1920' width='205' height='183'/>
+    <box top='114' left='3172' width='195' height='175'/>
+    <box top='328' left='3100' width='187' height='171'/>
+    <box top='196' left='2400' width='175' height='165'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4862.JPG'>
+    <box top='705' left='2045' width='172' height='153'/>
+    <box top='464' left='244' width='165' height='153'/>
+    <box top='590' left='4228' width='211' height='185'/>
+    <box top='132' left='2433' width='160' height='154'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4864.JPG'>
+    <box top='167' left='3327' width='119' height='106' ignore='1'/>
+    <box top='167' left='0' width='131' height='125' ignore='1'/>
+    <box top='303' left='1614' width='184' height='154'/>
+    <box top='495' left='2937' width='229' height='226'/>
+    <box top='353' left='4151' width='182' height='174'/>
+    <box top='151' left='4193' width='187' height='171'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4865.JPG'>
+    <box top='368' left='1224' width='181' height='151' ignore='1'/>
+    <box top='558' left='1286' width='185' height='179'/>
+    <box top='416' left='2496' width='193' height='185'/>
+    <box top='204' left='2520' width='215' height='191'/>
+    <box top='244' left='4200' width='203' height='181' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4866.JPG'>
+    <box top='318' left='1385' width='205' height='184'/>
+    <box top='428' left='874' width='189' height='177'/>
+    <box top='630' left='1056' width='185' height='181'/>
+    <box top='478' left='2264' width='199' height='189'/>
+    <box top='262' left='2284' width='231' height='207'/>
+    <box top='264' left='3966' width='189' height='179'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4869.JPG'>
+    <box top='836' left='720' width='197' height='171' ignore='1'/>
+    <box top='660' left='3570' width='185' height='185'/>
+    <box top='405' left='3759' width='214' height='199'/>
+    <box top='402' left='1491' width='181' height='163' ignore='1'/>
+    <box top='753' left='2817' width='238' height='220' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4870.JPG'>
+    <box top='920' left='2820' width='213' height='195'/>
+    <box top='914' left='3282' width='229' height='195'/>
+    <box top='902' left='3996' width='195' height='167'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4872.JPG'>
+    <box top='686' left='2756' width='185' height='171'/>
+    <box top='950' left='1078' width='215' height='197'/>
+    <box top='978' left='546' width='211' height='189'/>
+    <box top='122' left='1000' width='159' height='155'/>
+    <box top='939' left='2832' width='280' height='253'/>
+    <box top='363' left='4095' width='220' height='229' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4874.JPG'>
+    <box top='1028' left='2486' width='223' height='189'/>
+    <box top='567' left='1083' width='208' height='193'/>
+    <box top='693' left='477' width='190' height='184' ignore='1'/>
+    <box top='720' left='4080' width='214' height='220'/>
+    <box top='87' left='2085' width='190' height='199'/>
+    <box top='915' left='1986' width='223' height='229'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4876.JPG'>
+    <box top='1059' left='1050' width='199' height='178'/>
+    <box top='684' left='1764' width='202' height='178'/>
+    <box top='594' left='3954' width='217' height='202' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4877.JPG'>
+    <box top='356' left='116' width='181' height='181' ignore='1'/>
+    <box top='1128' left='1160' width='249' height='229'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4879.JPG'>
+    <box top='790' left='3286' width='255' height='229'/>
+    <box top='612' left='3934' width='229' height='217'/>
+    <box top='384' left='3898' width='193' height='193'/>
+    <box top='834' left='1626' width='208' height='208' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4880.JPG'>
+    <box top='318' left='46' width='171' height='161' ignore='1'/>
+    <box top='710' left='54' width='191' height='177'/>
+    <box top='1002' left='2241' width='235' height='208'/>
+    <box top='231' left='456' width='190' height='181' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4881.JPG'>
+    <box top='519' left='2180' width='205' height='183' ignore='1'/>
+    <box top='489' left='3220' width='205' height='183'/>
+    <box top='621' left='2934' width='171' height='153' ignore='1'/>
+    <box top='210' left='2786' width='177' height='167'/>
+    <box top='86' left='3306' width='171' height='161'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4884.JPG'>
+    <box top='463' left='235' width='246' height='219'/>
+    <box top='177' left='2304' width='246' height='220' ignore='1'/>
+    <box top='806' left='2458' width='271' height='249'/>
+    <box top='410' left='3242' width='275' height='259'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4887.JPG'>
+    <box top='436' left='236' width='231' height='215'/>
+    <box top='232' left='2882' width='261' height='229'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4890.JPG'>
+    <box top='168' left='3140' width='253' height='237'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4891.JPG'>
+    <box top='507' left='3678' width='510' height='454' ignore='1'/>
+    <box top='348' left='3364' width='317' height='305'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4892.JPG'>
+    <box top='276' left='2600' width='325' height='313'/>
+    <box top='360' left='2932' width='329' height='301' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4894.JPG'>
+    <box top='276' left='3204' width='317' height='305'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4897.JPG'>
+    <box top='620' left='188' width='305' height='313'/>
+    <box top='964' left='1468' width='297' height='273'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4898.JPG'>
+    <box top='694' left='1465' width='295' height='264'/>
+    <box top='1008' left='1512' width='357' height='333'/>
+    <box top='260' left='2252' width='345' height='309' ignore='1'/>
+    <box top='680' left='2940' width='329' height='325'/>
+    <box top='652' left='4120' width='333' height='321'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4899.JPG'>
+    <box top='752' left='224' width='301' height='265'/>
+    <box top='1304' left='0' width='309' height='297'/>
+    <box top='236' left='1604' width='261' height='241'/>
+    <box top='136' left='1348' width='277' height='261'/>
+    <box top='651' left='1743' width='295' height='298' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4900.JPG'>
+    <box top='676' left='520' width='285' height='245'/>
+    <box top='848' left='1820' width='301' height='265'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4901.JPG'>
+    <box top='168' left='-4' width='265' height='265'/>
+    <box top='152' left='2692' width='209' height='205'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4902.JPG'>
+    <box top='116' left='304' width='233' height='221'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4903.JPG'>
+    <box top='344' left='1704' width='289' height='265'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4904.JPG'>
+    <box top='420' left='764' width='321' height='289'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4905.JPG'>
+    <box top='532' left='456' width='297' height='309'/>
+    <box top='884' left='2272' width='293' height='269'/>
+    <box top='812' left='3748' width='277' height='257' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4906.JPG'>
+    <box top='917' left='3453' width='354' height='316'/>
+    <box top='170' left='3391' width='295' height='263' ignore='1'/>
+    <box top='428' left='1348' width='309' height='281'/>
+    <box top='572' left='3024' width='293' height='245'/>
+    <box top='1120' left='136' width='313' height='273'/>
+    <box top='1242' left='1041' width='406' height='349'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4909.JPG'>
+    <box top='162' left='1682' width='205' height='183'/>
+    <box top='281' left='4297' width='206' height='183' ignore='1'/>
+    <box top='852' left='916' width='241' height='221'/>
+    <box top='940' left='1648' width='233' height='217'/>
+    <box top='396' left='952' width='213' height='209'/>
+    <box top='532' left='3148' width='229' height='233'/>
+    <box top='736' left='2836' width='193' height='201' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4910.JPG'>
+    <box top='820' left='3406' width='205' height='183' ignore='1'/>
+    <box top='464' left='1408' width='233' height='229'/>
+    <box top='576' left='2836' width='225' height='209'/>
+    <box top='484' left='128' width='233' height='185' ignore='1'/>
+    <box top='468' left='4308' width='253' height='245' ignore='1'/>
+    <box top='1020' left='2180' width='265' height='225'/>
+    <box top='940' left='1536' width='253' height='221'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4912.JPG'>
+    <box top='337' left='2975' width='205' height='183' ignore='1'/>
+    <box top='1028' left='152' width='273' height='241' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4916.JPG'>
+    <box top='168' left='540' width='213' height='201'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4918.JPG'>
+    <box top='432' left='396' width='265' height='233'/>
+    <box top='80' left='1224' width='269' height='253'/>
+    <box top='436' left='2152' width='245' height='221'/>
+    <box top='672' left='2820' width='257' height='237'/>
+    <box top='1168' left='3716' width='277' height='217' ignore='1'/>
+    <box top='504' left='3504' width='249' height='257'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4920.JPG'>
+    <box top='608' left='969' width='205' height='183' ignore='1'/>
+    <box top='876' left='820' width='205' height='183' ignore='1'/>
+    <box top='444' left='2284' width='257' height='237' ignore='1'/>
+    <box top='408' left='3764' width='273' height='241'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4922.JPG'>
+    <box top='769' left='2449' width='295' height='263'/>
+    <box top='213' left='4163' width='246' height='219' ignore='1'/>
+    <box top='213' left='1238' width='247' height='219' ignore='1'/>
+    <box top='116' left='396' width='269' height='237'/>
+    <box top='504' left='1564' width='245' height='229'/>
+    <box top='660' left='3004' width='269' height='257'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4923.JPG'>
+    <box top='988' left='3248' width='309' height='245'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4924.JPG'>
+    <box top='320' left='133' width='246' height='219'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4925.JPG'>
+    <box top='192' left='3980' width='269' height='233'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4927.JPG'>
+    <box top='312' left='3552' width='229' height='233'/>
+    <box top='483' left='1854' width='277' height='265' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4928.JPG'>
+    <box top='576' left='1536' width='249' height='233'/>
+    <box top='624' left='2739' width='278' height='288'/>
+    <box top='819' left='2604' width='280' height='262'/>
+    <box top='846' left='1362' width='220' height='199' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4929.JPG'>
+    <box top='296' left='2930' width='205' height='183' ignore='1'/>
+    <box top='474' left='1836' width='238' height='211'/>
+    <box top='108' left='3774' width='253' height='244' ignore='1'/>
+    <box top='684' left='309' width='253' height='247' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4931.JPG'>
+    <box top='115' left='2522' width='246' height='219'/>
+    <box top='390' left='324' width='235' height='220'/>
+    <box top='126' left='2196' width='256' height='217'/>
+    <box top='513' left='3333' width='274' height='244'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4932.JPG'>
+    <box top='146' left='2059' width='246' height='220'/>
+    <box top='477' left='1722' width='256' height='268'/>
+    <box top='213' left='3174' width='238' height='235'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4933.JPG'>
+    <box top='231' left='2023' width='246' height='219'/>
+    <box top='259' left='1699' width='171' height='153' ignore='1'/>
+    <box top='390' left='3894' width='232' height='211'/>
+    <box top='570' left='2660' width='231' height='211'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4936.JPG'>
+    <box top='423' left='3271' width='246' height='219' ignore='1'/>
+    <box top='209' left='97' width='246' height='219' ignore='1'/>
+    <box top='137' left='3913' width='246' height='220' ignore='1'/>
+    <box top='632' left='336' width='229' height='189'/>
+    <box top='436' left='1884' width='221' height='185'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4938.JPG'>
+    <box top='475' left='2336' width='205' height='183' ignore='1'/>
+    <box top='690' left='1107' width='259' height='259'/>
+    <box top='438' left='1215' width='304' height='253'/>
+    <box top='198' left='3810' width='226' height='229'/>
+    <box top='165' left='4131' width='229' height='223'/>
+    <box top='660' left='-3' width='274' height='283'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4940.JPG'>
+    <box top='200' left='2085' width='247' height='219' ignore='1'/>
+    <box top='708' left='3628' width='289' height='229'/>
+    <box top='60' left='3884' width='225' height='217'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4942.JPG'>
+    <box top='393' left='3851' width='206' height='183' ignore='1'/>
+    <box top='204' left='812' width='229' height='213'/>
+    <box top='304' left='1648' width='225' height='209'/>
+    <box top='200' left='3396' width='237' height='225'/>
+    <box top='633' left='2301' width='286' height='259' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4943.JPG'>
+    <box top='352' left='3272' width='205' height='183' ignore='1'/>
+    <box top='217' left='980' width='246' height='220' ignore='1'/>
+    <box top='232' left='200' width='241' height='225'/>
+    <box top='156' left='2800' width='237' height='217'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4944.JPG'>
+    <box top='170' left='3851' width='206' height='183' ignore='1'/>
+    <box top='348' left='1801' width='205' height='183' ignore='1'/>
+    <box top='312' left='3864' width='249' height='233'/>
+    <box top='192' left='1316' width='245' height='221'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4945.JPG'>
+    <box top='644' left='1848' width='285' height='257'/>
+    <box top='268' left='160' width='213' height='209'/>
+    <box top='306' left='939' width='289' height='283' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4947.JPG'>
+    <box top='224' left='1316' width='245' height='229' ignore='1'/>
+    <box top='232' left='2216' width='233' height='217'/>
+    <box top='368' left='2784' width='241' height='225'/>
+    <box top='152' left='3960' width='237' height='225'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4949.JPG'>
+    <box top='196' left='4089' width='206' height='183' ignore='1'/>
+    <box top='244' left='382' width='247' height='220' ignore='1'/>
+    <box top='264' left='1536' width='225' height='209'/>
+    <box top='364' left='2092' width='245' height='205' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4950.JPG'>
+    <box top='441' left='77' width='205' height='183' ignore='1'/>
+    <box top='411' left='1117' width='206' height='183'/>
+    <box top='240' left='1624' width='172' height='153' ignore='1'/>
+    <box top='292' left='1831' width='205' height='184' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4951.JPG'>
+    <box top='465' left='1443' width='241' height='223'/>
+    <box top='441' left='3777' width='199' height='181'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4953.JPG'>
+    <box top='252' left='3555' width='199' height='169' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4955.JPG'>
+    <box top='343' left='857' width='171' height='152' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4956.JPG'>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4957.JPG'>
+    <box top='386' left='3767' width='171' height='153' ignore='1'/>
+    <box top='225' left='2463' width='184' height='175'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4960.JPG'>
+    <box top='186' left='3843' width='178' height='163'/>
+    <box top='264' left='1482' width='208' height='226' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4963.JPG'>
+    <box top='387' left='63' width='208' height='187'/>
+    <box top='408' left='2337' width='223' height='205'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4964.JPG'>
+    <box top='436' left='775' width='246' height='219' ignore='1'/>
+    <box top='672' left='390' width='196' height='184'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4965.JPG'>
+    <box top='114' left='1327' width='171' height='152'/>
+    <box top='492' left='2072' width='193' height='173'/>
+    <box top='540' left='2544' width='213' height='193'/>
+    <box top='405' left='4278' width='178' height='184' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4966.JPG'>
+    <box top='86' left='3135' width='171' height='152' ignore='1'/>
+    <box top='234' left='658' width='172' height='153' ignore='1'/>
+    <box top='432' left='180' width='197' height='169'/>
+    <box top='728' left='600' width='221' height='181' ignore='1'/>
+    <box top='356' left='2532' width='173' height='157'/>
+    <box top='224' left='3780' width='165' height='157'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4967.JPG'>
+    <box top='470' left='2987' width='171' height='152' ignore='1'/>
+    <box top='371' left='2217' width='205' height='183' ignore='1'/>
+    <box top='606' left='1898' width='187' height='159'/>
+    <box top='534' left='4119' width='241' height='229' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4968.JPG'>
+    <box top='221' left='1709' width='143' height='127' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4970.JPG'>
+    <box top='496' left='354' width='143' height='137' ignore='1'/>
+    <box top='330' left='1641' width='172' height='175' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4971.JPG'>
+    <box top='598' left='522' width='191' height='177'/>
+    <box top='368' left='686' width='201' height='165' ignore='1'/>
+    <box top='273' left='4428' width='175' height='166'/>
+    <box top='330' left='2133' width='187' height='172' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4972.JPG'>
+    <box top='356' left='1504' width='205' height='183'/>
+    <box top='541' left='2120' width='171' height='152' ignore='1'/>
+    <box top='282' left='1845' width='190' height='172'/>
+    <box top='472' left='976' width='199' height='185' ignore='1'/>
+    <box top='454' left='1904' width='199' height='187' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4973.JPG'>
+    <box top='310' left='112' width='207' height='219'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4975.JPG'>
+    <box top='152' left='776' width='227' height='215' ignore='1'/>
+    <box top='500' left='1088' width='191' height='193' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4977.JPG'>
+    <box top='381' left='150' width='190' height='178' ignore='1'/>
+    <box top='285' left='912' width='202' height='175'/>
+    <box top='237' left='2382' width='172' height='151'/>
+    <box top='531' left='2853' width='220' height='187' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4979.JPG'>
+    <box top='169' left='2315' width='171' height='153'/>
+    <box top='244' left='853' width='172' height='152'/>
+    <box top='213' left='1323' width='196' height='193'/>
+    <box top='435' left='2817' width='220' height='211'/>
+    <box top='75' left='3360' width='160' height='145' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4980.JPG'>
+    <box top='147' left='2268' width='190' height='160'/>
+    <box top='192' left='816' width='181' height='169'/>
+    <box top='345' left='84' width='178' height='178'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4981.JPG'>
+    <box top='146' left='4124' width='143' height='127' ignore='1'/>
+    <box top='273' left='540' width='175' height='157'/>
+    <box top='150' left='933' width='244' height='184' ignore='1'/>
+    <box top='228' left='1983' width='184' height='166'/>
+    <box top='489' left='2538' width='202' height='190'/>
+    <box top='370' left='4096' width='221' height='217'/>
+    <box top='240' left='4034' width='163' height='159'/>
+    <box top='74' left='4408' width='185' height='183'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4982.JPG'>
+    <box top='500' left='1528' width='219' height='203'/>
+    <box top='166' left='1738' width='173' height='157'/>
+    <box top='258' left='2198' width='193' height='173'/>
+    <box top='243' left='1473' width='172' height='157'/>
+    <box top='366' left='1446' width='166' height='151' ignore='1'/>
+    <box top='177' left='4413' width='184' height='187'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4983.JPG'>
+    <box top='256' left='2764' width='171' height='153'/>
+    <box top='297' left='2286' width='187' height='163'/>
+    <box top='225' left='2367' width='157' height='139' ignore='1'/>
+    <box top='591' left='624' width='217' height='217'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4984.JPG'>
+    <box top='293' left='1379' width='143' height='128' ignore='1'/>
+    <box top='355' left='1648' width='142' height='127' ignore='1'/>
+    <box top='430' left='180' width='207' height='179' ignore='1'/>
+    <box top='502' left='1460' width='193' height='189'/>
+    <box top='345' left='1812' width='178' height='160' ignore='1'/>
+    <box top='117' left='3336' width='190' height='184' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4985.JPG'>
+    <box top='332' left='369' width='119' height='107' ignore='1'/>
+    <box top='267' left='972' width='208' height='184'/>
+    <box top='162' left='2265' width='208' height='205'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4987.JPG'>
+    <box top='497' left='1179' width='171' height='153'/>
+    <box top='401' left='1132' width='142' height='128'/>
+    <box top='492' left='123' width='166' height='154'/>
+    <box top='483' left='3100' width='158' height='143'/>
+    <box top='282' left='2877' width='211' height='190'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4988.JPG'>
+    <box top='268' left='6' width='171' height='169'/>
+    <box top='196' left='1878' width='177' height='149'/>
+    <box top='436' left='2128' width='201' height='185'/>
+    <box top='342' left='3098' width='179' height='157'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4989.JPG'>
+    <box top='123' left='3918' width='163' height='145'/>
+    <box top='480' left='681' width='193' height='163'/>
+    <box top='480' left='2540' width='193' height='185'/>
+    <box top='428' left='3420' width='201' height='189'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4991.JPG'>
+    <box top='164' left='540' width='159' height='153'/>
+    <box top='570' left='1086' width='185' height='161'/>
+    <box top='322' left='2408' width='151' height='141'/>
+    <box top='426' left='2624' width='159' height='137'/>
+    <box top='248' left='3080' width='177' height='173'/>
+    <box top='344' left='208' width='165' height='141'/>
+    <box top='480' left='88' width='185' height='165'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4993.JPG'>
+    <box top='392' left='163' width='171' height='153' ignore='1'/>
+    <box top='470' left='1822' width='191' height='153' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4995.JPG'>
+    <box top='195' left='2618' width='142' height='127' ignore='1'/>
+    <box top='525' left='2267' width='143' height='128' ignore='1'/>
+    <box top='555' left='1416' width='172' height='154'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4996.JPG'>
+    <box top='231' left='327' width='143' height='128' ignore='1'/>
+    <box top='502' left='1140' width='191' height='171'/>
+    <box top='194' left='2026' width='157' height='145'/>
+    <box top='298' left='3368' width='153' height='145'/>
+    <box top='356' left='3516' width='175' height='163'/>
+    <box top='440' left='2562' width='187' height='171'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4998.JPG'>
+    <box top='282' left='90' width='179' height='179'/>
+    <box top='146' left='790' width='159' height='139'/>
+    <box top='194' left='1274' width='193' height='179'/>
+    <box top='88' left='1864' width='125' height='115' ignore='1'/>
+    <box top='150' left='2130' width='159' height='151'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN4999.JPG'>
+    <box top='324' left='1570' width='155' height='149'/>
+    <box top='414' left='4272' width='155' height='147' ignore='1'/>
+    <box top='576' left='316' width='209' height='197'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN5000.JPG'>
+    <box top='168' left='702' width='167' height='131' ignore='1'/>
+    <box top='498' left='504' width='157' height='135' ignore='1'/>
+    <box top='544' left='1458' width='169' height='153'/>
+    <box top='294' left='2636' width='161' height='133' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN5001.JPG'>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN5002.JPG'>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN5004.JPG'>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN5008.JPG'>
+    <box top='735' left='2187' width='232' height='208'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN5010.JPG'>
+    <box top='651' left='1473' width='229' height='208' ignore='1'/>
+    <box top='352' left='2840' width='217' height='233'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN5013.JPG'>
+    <box top='477' left='2253' width='289' height='253'/>
+    <box top='348' left='1053' width='283' height='250'/>
+    <box top='312' left='604' width='269' height='253' ignore='1'/>
+    <box top='428' left='3428' width='273' height='269' ignore='1'/>
+    <box top='172' left='4052' width='249' height='237' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN5014.JPG'>
+    <box top='333' left='4149' width='205' height='183' ignore='1'/>
+    <box top='291' left='3186' width='286' height='265'/>
+    <box top='372' left='880' width='249' height='229'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN5015.JPG'>
+    <box top='176' left='276' width='273' height='269'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN5016.JPG'>
+    <box top='371' left='2039' width='205' height='183' ignore='1'/>
+    <box top='182' left='2808' width='246' height='219' ignore='1'/>
+    <box top='356' left='3880' width='249' height='225'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN5017.JPG'>
+    <box top='188' left='3396' width='253' height='245'/>
+    <box top='252' left='2536' width='241' height='209'/>
+    <box top='276' left='1640' width='273' height='281'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN5018.JPG'>
+    <box top='296' left='2484' width='253' height='233'/>
+    <box top='348' left='4312' width='237' height='209'/>
+    <box top='304' left='1656' width='269' height='277'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN5020.JPG'>
+    <box top='608' left='1276' width='245' height='213'/>
+    <box top='548' left='1772' width='221' height='217' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN5024.JPG'>
+    <box top='576' left='1380' width='237' height='201'/>
+    <box top='572' left='744' width='233' height='225'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN5026.JPG'>
+    <box top='524' left='2688' width='245' height='209' ignore='1'/>
+    <box top='516' left='2120' width='221' height='217' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN5027.JPG'>
+    <box top='312' left='544' width='233' height='213'/>
+    <box top='324' left='1316' width='273' height='257'/>
+    <box top='320' left='2224' width='285' height='237'/>
+    <box top='352' left='-4' width='197' height='261' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN5029.JPG'>
+    <box top='596' left='3252' width='257' height='237'/>
+    <box top='676' left='4084' width='233' height='205'/>
+    <box top='532' left='204' width='233' height='221' ignore='1'/>
+    <box top='728' left='2152' width='313' height='289'/>
+    <box top='916' left='712' width='257' height='253' ignore='1'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN5030.JPG'>
+    <box top='508' left='3762' width='206' height='183' ignore='1'/>
+    <box top='436' left='748' width='213' height='185' ignore='1'/>
+    <box top='644' left='2740' width='257' height='273'/>
+    <box top='832' left='3004' width='285' height='245'/>
+  </image>
+  <image file='Mitchell_Field_Singles_1_31/DSCN5031.JPG'>
+    <box top='276' left='108' width='249' height='221'/>
+    <box top='292' left='848' width='273' height='241'/>
+    <box top='304' left='1656' width='261' height='221' ignore='1'/>
+    <box top='594' left='3627' width='244' height='235' ignore='1'/>
+  </image>
+</images>
+</dataset>
