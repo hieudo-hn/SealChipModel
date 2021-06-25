@@ -21,22 +21,20 @@ const std::string TESTING_COMMENT = "Data to test on training data.";
 
 void split_helper(
     dlib::image_dataset_metadata::dataset &data,
-    std::vector<dlib::image_dataset_metadata::dataset> fold_training_testing_list,
+    std::vector<dlib::image_dataset_metadata::dataset> &fold_training_testing_list,
     int num_split)
 {
     const double testing_fraction = 1 / (double)num_split;
     const unsigned long num_test_images = static_cast<unsigned long>(std::round(testing_fraction * data.images.size()));
 
-    cout << "Splitting data to each fold" << endl;
-    for (int i = 0; i < fold_training_testing_list.size(); i++){
-        dlib::image_dataset_metadata::dataset cur_train_data = fold_training_testing_list[2*i];
-        dlib::image_dataset_metadata::dataset cur_test_data = fold_training_testing_list[2*i+1];
+    for (int i = 0; i < fold_training_testing_list.size() / 2; i++){
         for (unsigned long j = 0; j < data.images.size(); ++j)
         {
-            if (num_test_images * i <= j && j < num_test_images * (i + 1))
-                cur_test_data.images.push_back(data.images[j]);
-            else
-                cur_train_data.images.push_back(data.images[j]);
+            if (num_test_images * i <= j && j < num_test_images * (i + 1)){
+                fold_training_testing_list[2*i+1].images.push_back(data.images[j]);
+            } else {
+                fold_training_testing_list[2*i].images.push_back(data.images[j]);
+            }
         }
     }
 }
@@ -50,6 +48,7 @@ std::vector<dlib::image_dataset_metadata::dataset> generate_fold(int num_split)
         struct stat buffer;
         string folderName = "Fold" + std::to_string(i);
         // Check if directory already exists and if it doesn't create a new one
+        // fold_training_testing_list has [fold_1_train, fold_1_test, fold_2_train, fold_2_test, etc...]
         if ((stat (folderName.c_str(), &buffer) == 0) || mkdir(folderName.c_str(), S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH) == 0)
         {
             dlib::image_dataset_metadata::dataset data_train, data_test;
@@ -70,11 +69,11 @@ std::vector<dlib::image_dataset_metadata::dataset> generate_fold(int num_split)
 }
 
 int save_fold(std::vector<dlib::image_dataset_metadata::dataset> &fold_training_testing_list){
+
     for (int i = 1; i <= fold_training_testing_list.size() / 2; i++){
         string folderName = "Fold" + std::to_string(i);
-        for (int j = 0; j < fold_training_testing_list[2*i-2].images.size(); j++) cout << fold_training_testing_list[2*i-2].images[j].filename << endl;
-        save_image_dataset_metadata(fold_training_testing_list[2*i-2], "training.xml");
-        save_image_dataset_metadata(fold_training_testing_list[2*i-1], "testing.xml");
+        save_image_dataset_metadata(fold_training_testing_list[2*i-2], folderName + "/training.xml");
+        save_image_dataset_metadata(fold_training_testing_list[2*i-1], folderName + "/testing.xml");
     }
 
     cout << "Done splitting" << endl;
@@ -139,32 +138,32 @@ int main(int argc, char **argv)
 
         parser.add_option("h", "Displays this information.");
 
-        parser.add_option("split", "Split the data set to prepare for cross-fold validation", 1);
+        parser.add_option("cross-validation", "Split the data set to prepare for n-fold cross-validation", 1);
 
-        parser.add_option("read", "Indicate the file to be splitted into training and testing", 1);
+        parser.add_option("fold", "Number of folds for cross validation", 1);
 
         // Parse the command line
         parser.parse(argc, argv);
 
         // Check that each of these options is only present atmost once
-        const char *singles[] = {"h", "split", "read"};
+        const char *singles[] = {"h", "cross-validation", "fold"};
         parser.check_one_time_options(singles);
 
         if (parser.option("h"))
         {
-            cout << "Usage: ./cfv [options] [args]\n";
+            cout << "Usage: cv [options] [args]\n";
             parser.print_options(cout);
             cout << endl
                  << endl;
             return EXIT_SUCCESS;
         }
 
-        if (parser.option("split"))
+        if (parser.option("cross-validation"))
         {
             //default value of split is 5-fold cross validation
-            int num_split = get_option(parser, "read", 5);
+            int num_split = get_option(parser, "fold", 5);
             num_split = (num_split < 2) ? 5 : num_split;
-            const string file_read = parser.option("split").argument();
+            const string file_read = parser.option("cross-validation").argument();
 
             // if you pass an xml file
             if (file_read.length() > 4 && file_read.compare(file_read.length() - 4, 4, ".xml") == 0)

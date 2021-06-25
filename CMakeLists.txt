@@ -31,16 +31,16 @@ include(${DLIB_PATH}/dlib/cmake)
 # files you would simply list them here in the add_executable() statement.  
 
 
-add_executable(compileModel dnn_mmod_seal.cpp)
-add_executable(cfv cross_fold_validation.cpp)
+add_executable(trainModel dnn_mmod_seal.cpp)
+add_executable(cv cross_validation.cpp)
 
 
 # Finally, you need to tell CMake that this program, assignment_learning_ex,
 # depends on dlib.  You do that with this statement: 
 
 
-target_link_libraries(compileModel dlib::dlib)
-target_link_libraries(cfv dlib::dlib)
+target_link_libraries(trainModel dlib::dlib)
+target_link_libraries(cv dlib::dlib)
 
 
 

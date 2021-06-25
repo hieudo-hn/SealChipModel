@@ -1,5 +1,5 @@
 build
-compileModel
-cfv
+trainModel
+cv
 mmod_sync
 mmod_sync_
