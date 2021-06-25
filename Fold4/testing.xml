@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>Testing Set</name>
+<comment>Data to test on training data.</comment>
+<images>
+  <image file='../Whaleboat_Singles_7_1/DSCN3229.JPG'>
+    <box top='345' left='329' width='63' height='53'/>
+    <box top='287' left='849' width='68' height='57' ignore='1'/>
+    <box top='306' left='1296' width='71' height='61'/>
+    <box top='285' left='1817' width='79' height='80'/>
+  </image>
+  <image file='../Whaleboat_Singles_1_28/DSCN4317.JPG'>
+  </image>
+  <image file='../Whaleboat_Singles_1_28/DSCN4338.JPG'>
+    <box top='172' left='1224' width='105' height='94'/>
+  </image>
+  <image file='../Whaleboat_Singles_1_28/DSCN4344.JPG'>
+  </image>
+  <image file='../Mitchell_Field_Singles_1_31/DSCN4897.JPG'>
+    <box top='620' left='188' width='305' height='313'/>
+    <box top='964' left='1468' width='297' height='273'/>
+  </image>
+  <image file='../Mitchell_Field_Singles_1_31/DSCN4799.JPG'>
+    <box top='273' left='688' width='136' height='118'/>
+    <box top='304' left='2051' width='120' height='109'/>
+    <box top='309' left='1584' width='133' height='133'/>
+    <box top='366' left='3204' width='139' height='154' ignore='1'/>
+  </image>
+  <image file='../Mitchell_Field_Singles_1_31/DSCN5016.JPG'>
+    <box top='371' left='2039' width='205' height='183' ignore='1'/>
+    <box top='182' left='2808' width='246' height='219' ignore='1'/>
+    <box top='356' left='3880' width='249' height='225'/>
+  </image>
+  <image file='../Mitchell_Field_Singles_1_31/DSCN5014.JPG'>
+    <box top='333' left='4149' width='205' height='183' ignore='1'/>
+    <box top='291' left='3186' width='286' height='265'/>
+    <box top='372' left='880' width='249' height='229'/>
+  </image>
+  <image file='../Mitchell_Field_Singles_1_31/DSCN4968.JPG'>
+    <box top='221' left='1709' width='143' height='127' ignore='1'/>
+  </image>
+  <image file='../Mitchell_Field_Singles_1_31/DSCN4872.JPG'>
+    <box top='686' left='2756' width='185' height='171'/>
+    <box top='950' left='1078' width='215' height='197'/>
+    <box top='978' left='546' width='211' height='189'/>
+    <box top='122' left='1000' width='159' height='155'/>
+    <box top='939' left='2832' width='280' height='253'/>
+    <box top='363' left='4095' width='220' height='229' ignore='1'/>
+  </image>
+  <image file='../Mitchell_Field_Singles_1_31/DSCN4900.JPG'>
+    <box top='676' left='520' width='285' height='245'/>
+    <box top='848' left='1820' width='301' height='265'/>
+  </image>
+  <image file='../Mitchell_Field_Singles_1_31/DSCN4840.JPG'>
+    <box top='256' left='164' width='313' height='305'/>
+    <box top='492' left='1364' width='309' height='261'/>
+  </image>
+  <image file='../Mitchell_Field_Singles_1_31/DSCN4971.JPG'>
+    <box top='598' left='522' width='191' height='177'/>
+    <box top='368' left='686' width='201' height='165' ignore='1'/>
+    <box top='273' left='4428' width='175' height='166'/>
+    <box top='330' left='2133' width='187' height='172' ignore='1'/>
+  </image>
+  <image file='../Mitchell_Field_Singles_1_31/DSCN4931.JPG'>
+    <box top='115' left='2522' width='246' height='219'/>
+    <box top='390' left='324' width='235' height='220'/>
+    <box top='126' left='2196' width='256' height='217'/>
+    <box top='513' left='3333' width='274' height='244'/>
+  </image>
+  <image file='../Mitchell_Field_Singles_1_31/DSCN4988.JPG'>
+    <box top='268' left='6' width='171' height='169'/>
+    <box top='196' left='1878' width='177' height='149'/>
+    <box top='436' left='2128' width='201' height='185'/>
+    <box top='342' left='3098' width='179' height='157'/>
+  </image>
+  <image file='../Mitchell_Field_Singles_1_31/DSCN4795.JPG'>
+    <box top='266' left='155' width='99' height='89' ignore='1'/>
+    <box top='246' left='493' width='120' height='107' ignore='1'/>
+    <box top='286' left='2009' width='133' height='116'/>
+  </image>
+  <image file='../Mitchell_Field_Singles_1_31/DSCN4835.JPG'>
+    <box top='373' left='1748' width='296' height='264' ignore='1'/>
+    <box top='489' left='1107' width='292' height='247'/>
+  </image>
+  <image file='../Mitchell_Field_Singles_1_31/DSCN4791.JPG'>
+    <box top='182' left='3511' width='99' height='89' ignore='1'/>
+    <box top='296' left='3641' width='119' height='106' ignore='1'/>
+    <box top='291' left='102' width='121' height='121' ignore='1'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4624.JPG'>
+    <box top='769' left='885' width='354' height='316' ignore='1'/>
+    <box top='704' left='160' width='309' height='273'/>
+    <box top='76' left='2536' width='325' height='269'/>
+    <box top='820' left='2936' width='381' height='341'/>
+    <box top='332' left='4020' width='341' height='317' ignore='1'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4489.JPG'>
+    <box top='106' left='2418' width='119' height='107' ignore='1'/>
+    <box top='92' left='3214' width='142' height='127'/>
+    <box top='210' left='712' width='100' height='89' ignore='1'/>
+    <box top='232' left='968' width='141' height='133'/>
+    <box top='280' left='1668' width='141' height='141'/>
+    <box top='76' left='2236' width='145' height='133'/>
+    <box top='284' left='3376' width='161' height='141'/>
+    <box top='132' left='2802' width='133' height='124' ignore='1'/>
+    <box top='300' left='1257' width='133' height='130' ignore='1'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4573.JPG'>
+    <box top='824' left='3380' width='261' height='237'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4685.JPG'>
+    <box top='593' left='994' width='295' height='263'/>
+    <box top='154' left='1302' width='255' height='233'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4429.JPG'>
+    <box top='314' left='2989' width='143' height='127'/>
+    <box top='500' left='732' width='153' height='145'/>
+    <box top='484' left='1636' width='157' height='141'/>
+    <box top='20' left='4392' width='165' height='153'/>
+    <box top='537' left='429' width='172' height='154'/>
+    <box top='360' left='3726' width='160' height='154' ignore='1'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4686.JPG'>
+    <box top='177' left='1559' width='247' height='220' ignore='1'/>
+    <box top='570' left='2487' width='246' height='219' ignore='1'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4539.JPG'>
+    <box top='282' left='894' width='181' height='178' ignore='1'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4592.JPG'>
+    <box top='214' left='2841' width='205' height='184'/>
+    <box top='340' left='2508' width='281' height='237'/>
+    <box top='260' left='2040' width='281' height='245'/>
+    <box top='572' left='144' width='265' height='237'/>
+    <box top='372' left='2844' width='285' height='253'/>
+    <box top='652' left='4028' width='245' height='209'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4427.JPG'>
+    <box top='304' left='160' width='165' height='157'/>
+    <box top='376' left='2284' width='189' height='173'/>
+    <box top='33' left='174' width='133' height='139'/>
+    <box top='417' left='2655' width='154' height='139'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4675.JPG'>
+    <box top='310' left='460' width='209' height='171'/>
+    <box top='583' left='3318' width='198' height='187'/>
+    <box top='36' left='1596' width='229' height='225'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4581.JPG'>
+    <box top='460' left='3465' width='205' height='183' ignore='1'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4682.JPG'>
+    <box top='160' left='1328' width='263' height='247'/>
+    <box top='552' left='1006' width='299' height='273'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4680.JPG'>
+    <box top='436' left='2960' width='225' height='223'/>
+    <box top='400' left='3546' width='241' height='231' ignore='1'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4422.JPG'>
+    <box top='464' left='2468' width='173' height='157'/>
+    <box top='400' left='2788' width='157' height='141'/>
+    <box top='424' left='3184' width='161' height='133'/>
+    <box top='388' left='3756' width='141' height='125'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4625.JPG'>
+    <box top='485' left='3129' width='246' height='219' ignore='1'/>
+    <box top='936' left='812' width='369' height='313'/>
+    <box top='116' left='436' width='313' height='257'/>
+    <box top='556' left='2352' width='325' height='277'/>
+    <box top='620' left='2840' width='337' height='301'/>
+    <box top='644' left='1264' width='333' height='293'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4519.JPG'>
+    <box top='352' left='306' width='143' height='128'/>
+    <box top='360' left='572' width='153' height='141'/>
+    <box top='68' left='2524' width='141' height='145'/>
+    <box top='148' left='2956' width='153' height='149'/>
+    <box top='216' left='3476' width='165' height='161'/>
+    <box top='99' left='1572' width='142' height='136' ignore='1'/>
+    <box top='219' left='1413' width='139' height='127' ignore='1'/>
+    <box top='327' left='1083' width='145' height='133' ignore='1'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4494.JPG'>
+    <box top='272' left='904' width='193' height='177'/>
+    <box top='327' left='1623' width='205' height='205'/>
+    <box top='369' left='246' width='193' height='172' ignore='1'/>
+    <box top='345' left='4416' width='187' height='196'/>
+    <box top='243' left='1788' width='178' height='166'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4668.JPG'>
+    <box top='408' left='1254' width='189' height='151' ignore='1'/>
+    <box top='480' left='3514' width='179' height='167'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4559.JPG'>
+    <box top='766' left='1203' width='246' height='219'/>
+    <box top='592' left='500' width='277' height='237'/>
+    <box top='652' left='840' width='277' height='237'/>
+    <box top='798' left='2658' width='205' height='190'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4695.JPG'>
+    <box top='120' left='1590' width='233' height='225'/>
+    <box top='240' left='3540' width='225' height='217' ignore='1'/>
+    <box top='60' left='3180' width='209' height='205'/>
+    <box top='536' left='1392' width='229' height='217'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4575.JPG'>
+    <box top='608' left='3300' width='233' height='205'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4443.JPG'>
+    <box top='219' left='1203' width='172' height='153'/>
+    <box top='567' left='2741' width='143' height='127' ignore='1'/>
+    <box top='488' left='2204' width='241' height='213'/>
+    <box top='426' left='873' width='184' height='187'/>
+    <box top='459' left='3' width='193' height='190'/>
+    <box top='306' left='1827' width='166' height='160' ignore='1'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_29/DSCN4670.JPG'>
+    <box top='479' left='114' width='171' height='153' ignore='1'/>
+    <box top='428' left='380' width='241' height='189'/>
+    <box top='428' left='2166' width='183' height='149' ignore='1'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_10/DSCN3602.JPG'>
+    <box top='253' left='1773' width='171' height='153'/>
+    <box top='203' left='857' width='171' height='153'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_10/DSCN3254.JPG'>
+    <box top='84' left='3410' width='143' height='128' ignore='1'/>
+    <box top='86' left='699' width='171' height='152' ignore='1'/>
+    <box top='198' left='2302' width='183' height='169'/>
+    <box top='188' left='3106' width='171' height='165'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_10/DSCN3514.JPG'>
+    <box top='418' left='1131' width='247' height='220'/>
+    <box top='418' left='4270' width='246' height='220'/>
+    <box top='376' left='2324' width='289' height='253'/>
+    <box top='428' left='3164' width='285' height='245'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_10/DSCN3501.JPG'>
+    <box top='518' left='1679' width='295' height='263'/>
+    <box top='475' left='780' width='295' height='263'/>
+    <box top='475' left='3647' width='296' height='263'/>
+    <box top='174' left='4178' width='206' height='183' ignore='1'/>
+    <box top='263' left='4386' width='206' height='183' ignore='1'/>
+    <box top='344' left='300' width='281' height='257'/>
+    <box top='36' left='540' width='285' height='257'/>
+    <box top='60' left='1524' width='269' height='241'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_10/DSCN3470.JPG'>
+    <box top='386' left='2615' width='171' height='153'/>
+    <box top='386' left='535' width='171' height='153'/>
+    <box top='166' left='3168' width='205' height='183'/>
+    <box top='273' left='522' width='175' height='127' ignore='1'/>
+    <box top='66' left='813' width='190' height='169'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_10/DSCN3730.JPG'>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_10/DSCN3606.JPG'>
+    <box top='194' left='1996' width='171' height='153'/>
+    <box top='292' left='2247' width='205' height='184'/>
+    <box top='342' left='273' width='235' height='208'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_10/DSCN3360.JPG'>
+    <box top='165' left='2940' width='211' height='193'/>
+    <box top='174' left='3168' width='205' height='181'/>
+    <box top='228' left='1317' width='238' height='220'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_10/DSCN3440.JPG'>
+    <box top='105' left='372' width='505' height='469'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_10/DSCN3449.JPG'>
+    <box top='298' left='1317' width='143' height='128' ignore='1'/>
+    <box top='264' left='1701' width='160' height='148'/>
+    <box top='261' left='4128' width='157' height='145'/>
+  </image>
+  <image file='../Brandt_Ledges_Singles_1_10/DSCN3435.JPG'>
+    <box top='318' left='2463' width='172' height='153'/>
+    <box top='392' left='2265' width='171' height='153'/>
+    <box top='414' left='1967' width='143' height='128' ignore='1'/>
+    <box top='169' left='2785' width='172' height='153' ignore='1'/>
+    <box top='45' left='3900' width='171' height='153' ignore='1'/>
+    <box top='390' left='2733' width='172' height='154'/>
+    <box top='474' left='666' width='196' height='178'/>
+  </image>
+</images>
+</dataset>
