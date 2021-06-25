@@ -30,10 +30,12 @@ void split_helper(
     for (int i = 0; i < fold_training_testing_list.size() / 2; i++){
         for (unsigned long j = 0; j < data.images.size(); ++j)
         {
+            dlib::image_dataset_metadata::image current_image = data.images[j];
+            current_image.filename = "../" + current_image.filename; //edit pathing because the training and testing folder is not in the same working directory as the photos
             if (num_test_images * i <= j && j < num_test_images * (i + 1)){
-                fold_training_testing_list[2*i+1].images.push_back(data.images[j]);
+                fold_training_testing_list[2*i+1].images.push_back(current_image);
             } else {
-                fold_training_testing_list[2*i].images.push_back(data.images[j]);
+                fold_training_testing_list[2*i].images.push_back(current_image);
             }
         }
     }

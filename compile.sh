@@ -8,9 +8,6 @@ build(){
     cmake --build . --config Debug
 }
 
-ROOT_DIR = $(pwd)
-BUILD_DIR = $ROOT_DIR/build
-
 # build scripts and move to current working directory
 build
 mv ./trainModel ../

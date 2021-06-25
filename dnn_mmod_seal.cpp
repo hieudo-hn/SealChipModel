@@ -1,5 +1,6 @@
-// The contents of this file are in the public domain. See LICENSE_FOR_EXAMPLE_PROGRAMS.txt
 /*
+    This script code was modified from Davis King's example in http://dlib.net/dnn_mmod_dog_hipsterizer.cpp.html.
+
     This example shows how to train a CNN based object detector using dlib's 
     loss_mmod loss layer.  This loss layer implements the Max-Margin Object
     Detection loss as described in the paper:
@@ -8,16 +9,6 @@
     (see fhog_object_detector_ex.cpp) except here we replace the HOG features
     with a CNN and train the entire detector end-to-end.  This allows us to make
     much more powerful detectors.
-
-    It would be a good idea to become familiar with dlib's DNN tooling before
-    reading this example.  So you should read dnn_introduction_ex.cpp and
-    dnn_introduction2_ex.cpp before reading this example program.
-    
-    Just like in the fhog_object_detector_ex.cpp example, we are going to train
-    a simple face detector based on the very small training dataset in the
-    examples/faces folder.  As we will see, even with this small dataset the
-    MMOD method is able to make a working face detector.  However, for real
-    applications you should train with more data for an even better result.
 */
 
 
@@ -60,37 +51,25 @@ using net_type = loss_mmod<con<1, 9, 9, 1, 1, rcon5<rcon5<rcon5<downsampler<inpu
 
 int main(int argc, char** argv) try
 {
-    // In this example we are going to train a face detector based on the
-    // small faces dataset in the examples/faces directory.  So the first
-    // thing we do is load that dataset.  This means you need to supply the
-    // path to this faces folder as a command line argument so we will know
-    // where it is.
     if (argc != 2)
     {
-        cout << "Give the path to the examples/faces directory as the argument to this" << endl;
-        cout << "program.  For example, if you are in the examples folder then execute " << endl;
-        cout << "this program by running: " << endl;
-        cout << "   ./dnn_mmod_ex faces" << endl;
+        cout << "Give the path to your dataset directory as the argument to this" << endl;
+        cout << "program.  For example, execute this program by running:" << endl;
+        cout << "       ./trainModel ./" << endl;
         cout << endl;
         return 0;
     }
     const std::string faces_directory = argv[1];
-    // The faces directory contains a training dataset and a separate
-    // testing dataset.  The training data consists of 4 images, each
-    // annotated with rectangles that bound each human face.  The idea is 
-    // to use this training data to learn to identify human faces in new
-    // images.  
-    // 
-    // Once you have trained an object detector it is always important to
-    // test it on data it wasn't trained on.  Therefore, we will also load
-    // a separate testing set of 5 images.  Once we have a face detector
-    // created from the training data we will see how well it works by
-    // running it on the testing images. 
+    // The directory passed in the args must contain a training and a separate
+    // testing dataset in the form of an xml file. It must be named training.xml
+    // and testing.xml. 
+    //
     // 
     // So here we create the variables that will hold our dataset.
-    // images_train will hold the 4 training images and face_boxes_train
-    // holds the locations of the faces in the training images.  So for
-    // example, the image images_train[0] has the faces given by the
+    // images_train will hold the training images and face_boxes_train
+    // holds the locations of the faces in the training images. Your boxes
+    // should be labelled using our GUI in https://github.com/hieudo-hn/dlibSealGUI.git.
+    // The image images_train[0] should have the faces given by the
     // rectangles in face_boxes_train[0].
     std::vector<matrix<rgb_pixel>> images_train, images_test;
     std::vector<std::vector<mmod_rect>> face_boxes_train, face_boxes_test;
@@ -98,12 +77,7 @@ int main(int argc, char** argv) try
     // Now we load the data.  These XML files list the images in each dataset
     // and also contain the positions of the face boxes.  Obviously you can use
     // any kind of input format you like so long as you store the data into
-    // images_train and face_boxes_train.  But for convenience dlib comes with
-    // tools for creating and loading XML image datasets.  Here you see how to
-    // load the data.  To create the XML files you can use the imglab tool which
-    // can be found in the tools/imglab folder.  It is a simple graphical tool
-    // for labeling objects in images with boxes.  To see how to use it read the
-    // tools/imglab/README.txt file.
+    // images_train and face_boxes_train.  
     load_image_dataset(images_train, face_boxes_train, faces_directory+"/training.xml");
     load_image_dataset(images_test, face_boxes_test, faces_directory+"/testing.xml");
 
@@ -116,12 +90,12 @@ int main(int argc, char** argv) try
     // you can also call the constructor with your training annotations and a "target
     // object size" and it will automatically configure itself in a reasonable way for your
     // problem.  Here we are saying that faces are still recognizably faces when they are
-    // 40x40 pixels in size.  You should generally pick the smallest size where this is
+    // 80x80 pixels in size.  You should generally pick the smallest size where this is
     // true.  Based on this information the mmod_options constructor will automatically
     // pick a good sliding window width and height.  It will also automatically set the
     // non-max-suppression parameters to something reasonable.  For further details see the
     // mmod_options documentation.
-    mmod_options options(face_boxes_train, 50,50);
+    mmod_options options(face_boxes_train, 80,80);
     // The detector will automatically decide to use multiple sliding windows if needed.
     // For the face data, only one is needed however.
     cout << "num detector windows: "<< options.detector_windows.size() << endl;
@@ -151,7 +125,7 @@ int main(int argc, char** argv) try
     cropper.set_chip_dims(200, 200);
     // Usually you want to give the cropper whatever min sizes you passed to the
     // mmod_options constructor, which is what we do here.
-    cropper.set_min_object_size(40,40);
+    cropper.set_min_object_size(80,80);
     dlib::rand rnd;
     // Run the trainer until the learning rate gets small.  This will probably take several
     // hours.
@@ -190,24 +164,6 @@ int main(int argc, char** argv) try
     // during the training experiment.  This statement will print the settings we used to
     // the screen.
     cout << trainer << cropper << endl;
-
-    // Now lets run the detector on the testing images and look at the outputs.  
-    image_window win;
-    for (auto&& img : images_test)
-    {
-        pyramid_up(img);
-        auto dets = net(img);
-        win.clear_overlay();
-        win.set_image(img);
-        for (auto&& d : dets)
-            win.add_overlay(d);
-        cin.get();
-    }
-    return 0;
-
-    // Now that you finished this example, you should read dnn_mmod_train_find_cars_ex.cpp,
-    // which is a more advanced example.  It discusses many issues surrounding properly
-    // setting the MMOD parameters and creating a good training dataset.
 
 }
 catch(std::exception& e)
