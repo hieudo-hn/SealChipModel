@@ -32,6 +32,7 @@ include(${DLIB_PATH}/dlib/cmake)
 
 
 add_executable(compileModel dnn_mmod_seal.cpp)
+add_executable(cfv cross_fold_validation.cpp)
 
 
 # Finally, you need to tell CMake that this program, assignment_learning_ex,
@@ -39,6 +40,7 @@ add_executable(compileModel dnn_mmod_seal.cpp)
 
 
 target_link_libraries(compileModel dlib::dlib)
+target_link_libraries(cfv dlib::dlib)
 
 
 
