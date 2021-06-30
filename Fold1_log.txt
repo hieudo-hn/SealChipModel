@@ -1,0 +1,6 @@
+Testing ./seal4.dat with threshold at -1 give precision, recall, and average precision: 1 0 0 
+
+Testing ./seal4.dat with threshold at 0 give precision, recall, and average precision: 1 0 0 
+
+Testing ./seal4.dat with threshold at 1 give precision, recall, and average precision: 1 0 0 
+
