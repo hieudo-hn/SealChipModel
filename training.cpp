@@ -15,7 +15,6 @@
 #include <iostream>
 #include <dlib/dnn.h>
 #include <dlib/data_io.h>
-#include <dlib/gui_widgets.h>
 
 using namespace std;
 using namespace dlib;
@@ -71,19 +70,17 @@ int main(int argc, char** argv) try
     // should be labelled using our GUI in https://github.com/hieudo-hn/dlibSealGUI.git.
     // The image images_train[0] should have the faces given by the
     // rectangles in face_boxes_train[0].
-    std::vector<matrix<rgb_pixel>> images_train, images_test;
-    std::vector<std::vector<mmod_rect>> face_boxes_train, face_boxes_test;
+    std::vector<matrix<rgb_pixel>> images_train;
+    std::vector<std::vector<mmod_rect>> face_boxes_train;
 
     // Now we load the data.  These XML files list the images in each dataset
     // and also contain the positions of the face boxes.  Obviously you can use
     // any kind of input format you like so long as you store the data into
     // images_train and face_boxes_train.  
     load_image_dataset(images_train, face_boxes_train, faces_directory+"/training.xml");
-    load_image_dataset(images_test, face_boxes_test, faces_directory+"/testing.xml");
 
 
     cout << "num training images: " << images_train.size() << endl;
-    cout << "num testing images:  " << images_test.size() << endl;
 
 
     // The MMOD algorithm has some options you can set to control its behavior.  However,
@@ -145,7 +142,7 @@ int main(int argc, char** argv) try
 
     // Save the network to disk
     net.clean();
-    serialize("mmod_network.dat") << net;
+    serialize("seal.dat") << net;
 
 
     // Now that we have a face detector we can test it.  The first statement tests it
@@ -153,17 +150,12 @@ int main(int argc, char** argv) try
     // This statement should indicate that the network works perfectly on the
     // training data.
     cout << "training results: " << test_object_detection_function(net, images_train, face_boxes_train) << endl;
-    // However, to get an idea if it really worked without overfitting we need to run
-    // it on images it wasn't trained on.  The next line does this.   Happily,
-    // this statement indicates that the detector finds most of the faces in the
-    // testing data.
-    cout << "testing results:  " << test_object_detection_function(net, images_test, face_boxes_test) << endl;
-
-
     // If you are running many experiments, it's also useful to log the settings used
     // during the training experiment.  This statement will print the settings we used to
     // the screen.
     cout << trainer << cropper << endl;
+
+    cout << "To execute testing, you have to compile testing.cpp and run ./testModel seal.dat ./Foldxx where the third argument contains the testing.xml file" << endl;
 
 }
 catch(std::exception& e)
