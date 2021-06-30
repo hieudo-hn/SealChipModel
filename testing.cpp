@@ -53,7 +53,7 @@ int main(int argc, char** argv) try
     ofstream Output(output);
 
     for (int adjust_threshold = LOWERBOUND; adjust_threshold <= UPPERBOUND; adjust_threshold += INCREMENT){
-        const matrix<double, 1, 3> res = test_object_detection_function(net, images_test, face_boxes_test, test_box_overlap(), 10); 
+        const matrix<double, 1, 3> res = test_object_detection_function(net, images_test, face_boxes_test, test_box_overlap(), adjust_threshold); 
         Output << "Testing " << argv[1] << " with threshold at " << adjust_threshold << " give precision, recall, and average precision: " << res << endl;
     }
 
