@@ -12,4 +12,5 @@ build(){
 build
 mv ./trainModel ../
 mv ./cv ../ 
+mv ./testModel ../
 

@@ -31,7 +31,7 @@ include(${DLIB_PATH}/dlib/cmake)
 # files you would simply list them here in the add_executable() statement.  
 
 
-add_executable(trainModel trainING.cpp)
+add_executable(trainModel training.cpp)
 add_executable(testModel testing.cpp)
 add_executable(cv cross_validation.cpp)
 

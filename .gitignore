@@ -1,5 +1,6 @@
 build
 trainModel
+testModel
 cv
 mmod_sync
 mmod_sync_

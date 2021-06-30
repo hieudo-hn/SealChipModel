@@ -22,8 +22,8 @@ using net_type = loss_mmod<con<1, 9, 9, 1, 1, rcon5<rcon5<rcon5<downsampler<inpu
 
 // ----------------------------------------------------------------------------------------
 
-int LOWERBOUND = -1;
-int UPPERBOUND = 1;
+int LOWERBOUND = 0;
+int UPPERBOUND = 0;
 int INCREMENT = 1;
 
 int main(int argc, char** argv) try
