@@ -1,39 +1,32 @@
 # SealChipModel
-This repository is to train a facial detection model (e.g: seal.dat) used by SealNet Chipping GUI found at: https://github.com/hieudo-hn/dlibSealGUI.git
+This repository is to train a seal facial detection model (output into seal.dat) used by SealNet Chipping GUI found at: https://github.com/hieudo-hn/dlibSealGUI.git
 
 ## Requirements:
 
 Cmake is required to make any changes to or compile the c++ code, and can be found here: https://cmake.org/download/
 
-You also need dlib to run the program. Go to http://dlib.net/ and click download dlib.
+You also need dlib to run the program. Go to http://dlib.net/ and click download dlib. For more info on how to install these dependencies, visit 
+the SealNet Chipping GUI.
 
 Clone this repo: `git clone https://github.com/hieudo-hn/SealChipModel.git`
 
 ## Training the model:
-You need to be in the main directory of this repository to start training. Please move the photo folders from dlib/tools/imglab/build
-as well as training.xml and testing.xml into the main directory.
+Training.cpp is the main script that you will use to train the model. In preparation to train the model, you can use the Chipping GUI to prepare the data.
 
-Replace the path to dlib in CMakeLists.txt:
-```
-if (NOT DEFINED DLIB_PATH)
-   set(DLIB_PATH YOUR_PATH_TO_DLIB)
-endif()
-```
+* Split train-test data:
+- 
 
-In the main directory, run the following to compile the code for gpu usage:
+* N-fold cross-validation:
+- You can either do stratified n-fold cross-validation or normal n-fold cross-validation
+- For stratified n-fold cross-validation, organize your photos into separate folders (each strata) which has a corresponding xml file that contains 
+truth bounding boxes (must be prepared using the GUI). You need to have a text file (for instance, xmlList.txt) that lists all of the stratas' xml file.
+Each of the xml file should be on its own line. See xmlList.txt as a guide.
 
-```
-mkdir build && cd build
+## Testing the model:
+Testing.cpp is the main script for testing your model.
 
-cmake .. -DDLIB_USE_CUDA=1 -DUSE_AVX_INSTRUCTIONS=1
+* Test a model:
 
-cmake --build . --config Release
-```
-
-After you compile dnn_mmod_seal.cpp, the compiled file will be in ./build/, you can move it into the root directory with your mouse or using the command 
-```
-mv compileModel ../
-```
 
 ## Usage:
 Train the model by calling this command 
