@@ -22,9 +22,9 @@ using net_type = loss_mmod<con<1, 9, 9, 1, 1, rcon5<rcon5<rcon5<downsampler<inpu
 
 // ----------------------------------------------------------------------------------------
 
-int LOWERBOUND = -5;
-int UPPERBOUND = 5;
-int INCREMENT = 0.25;
+double LOWERBOUND = -1.5;
+double UPPERBOUND = 1.5;
+double INCREMENT = 0.5;
 
 int main(int argc, char** argv) try
 {
@@ -52,24 +52,12 @@ int main(int argc, char** argv) try
     const std::string output = faces_directory + "_log.txt";
     ofstream Output(output);
 
-    //std::vector<double> precision, recall, average;
     for (double adjust_threshold = LOWERBOUND; adjust_threshold <= UPPERBOUND; adjust_threshold += INCREMENT){
         const matrix<double, 1, 3> res = test_object_detection_function(net, images_test, face_boxes_test, test_box_overlap(), adjust_threshold); 
-        Output << "Testing " << argv[1] << " with threshold at " << adjust_threshold << " give precision, recall, and average precision: " << res << endl;
-        // precision.push_back(res(0));
-        // recall.push_back(res(1));
-        // average.push_back(res(2));
+        Output << adjust_threshold << " " << res << endl;
     }
 
     Output.close();
-
-    //plot data
-    // plt::figure_size(1200, 780);
-    // plt::plot(recall, precision);
-    // plt::xlim(0, 1);
-    // plt::ylim(0, 1);
-    // plt::title("Precision-Recall at various threshold");
-    // plt::save("./precisionRecall.png");
 
 }
 catch(std::exception& e)
