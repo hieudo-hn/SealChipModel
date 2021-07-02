@@ -140,43 +140,59 @@ int main(int argc, char **argv)
 
         parser.add_option("h", "Displays this information.");
 
-        parser.add_option("cross-validation", "Split the data set to prepare for n-fold cross-validation", 1);
+        parser.add_option("file", "Indicate the file you want to split (for cross-validation or train-test split)", 1);
 
         parser.add_option("fold", "Number of folds for cross validation", 1);
+
+        parser.add_option("split", "Number of splits for train-test split. For example, 80-20 split will be 5, 75-25 split will be 4. HAS NOT BEEN IMPLEMENTED");
 
         // Parse the command line
         parser.parse(argc, argv);
 
         // Check that each of these options is only present atmost once
-        const char *singles[] = {"h", "cross-validation", "fold"};
+        const char *singles[] = {"h", "file", "fold", "split"};
         parser.check_one_time_options(singles);
 
         if (parser.option("h"))
         {
-            cout << "Usage: cv [options] [args]\n";
+            cout << "Usage: ./split [options] [args]\n";
             parser.print_options(cout);
             cout << endl
                  << endl;
             return EXIT_SUCCESS;
         }
 
-        if (parser.option("cross-validation"))
+        if (parser.option("file"))
         {
-            //default value of split is 5-fold cross validation
-            int num_split = get_option(parser, "fold", 5);
-            num_split = (num_split < 2) ? 5 : num_split;
-            const string file_read = parser.option("cross-validation").argument();
+            const string file_read = parser.option("file").argument();
 
-            // if you pass an xml file
-            if (file_read.length() > 4 && file_read.compare(file_read.length() - 4, 4, ".xml") == 0)
+            // normal train-test split
+            if (parser.option_is_defined("split"))
             {
-                split_train_test_with_xml(file_read, num_split);
+                int num_split = stoi(parser.option("split").argument());
+                
+                // to be implemented
             }
-            // if you pass a txt file containing the list of all xml folders
-            else if (file_read.length() > 4 && file_read.compare(file_read.length() - 4, 4, ".txt") == 0)
+
+            // cross-validation split 
+            else 
             {
-                split_train_test_with_txt(file_read, num_split);
+                // default value of split is 5-fold cross validation
+                int num_split = get_option(parser, "fold", 5);
+                num_split = (num_split < 2) ? 5 : num_split;
+
+                // if you pass an xml file
+                if (file_read.length() > 4 && file_read.compare(file_read.length() - 4, 4, ".xml") == 0)
+                {
+                    split_train_test_with_xml(file_read, num_split);
+                }
+                // if you pass a txt file containing the list of all xml folders
+                else if (file_read.length() > 4 && file_read.compare(file_read.length() - 4, 4, ".txt") == 0)
+                {
+                    split_train_test_with_txt(file_read, num_split);
+                }
             }
+            return EXIT_SUCCESS;
         }
     }
     catch (exception &e)

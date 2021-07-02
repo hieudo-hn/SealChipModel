@@ -17,8 +17,11 @@ then
         ./trainModel ./$curFold
 
         # Move the output to its respective fold
-        mv ./mmod_network.dat "./$curFold/${curFold}_model.dat"
+        mv ./mmod_network.dat "./$curFold/seal.dat"
     done
+
+    # Run the testing
+    ./testModel $numFold
 else
-    echo "Please run \"./cv --cross-validation [dataFile] --fold [numFolds] first.\""
+    echo "Please run \"./split --file [dataFile] --fold [numFolds] first.\""
 fi

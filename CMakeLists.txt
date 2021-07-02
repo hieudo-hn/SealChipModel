@@ -33,7 +33,7 @@ include(${DLIB_PATH}/dlib/cmake)
 
 add_executable(trainModel training.cpp)
 add_executable(testModel testing.cpp)
-add_executable(cv cross_validation.cpp)
+add_executable(split split.cpp)
 
 
 # Finally, you need to tell CMake that this program, assignment_learning_ex,
@@ -42,7 +42,7 @@ add_executable(cv cross_validation.cpp)
 
 target_link_libraries(trainModel dlib::dlib)
 target_link_libraries(testModel dlib::dlib)
-target_link_libraries(cv dlib::dlib)
+target_link_libraries(split dlib::dlib)
 
 
 

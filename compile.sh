@@ -11,6 +11,6 @@ build(){
 # build scripts and move to current working directory
 build
 mv ./trainModel ../
-mv ./cv ../ 
+mv ./split ../ 
 mv ./testModel ../
 

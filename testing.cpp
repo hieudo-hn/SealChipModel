@@ -26,9 +26,9 @@ using net_type = loss_mmod<con<1, 9, 9, 1, 1, rcon5<rcon5<rcon5<downsampler<inpu
 
 // ----------------------------------------------------------------------------------------
 
-const double LOWERBOUND = -0.5;
-const double UPPERBOUND = 0.5;
-const double INCREMENT = 0.4;
+const double LOWERBOUND = -1.5;
+const double UPPERBOUND = 1.5;
+const double INCREMENT = 0.25;
 const string MODEL_LOG = "Cross_validation_log.txt";
 const string FOLD_LOG = "log.txt";
 
@@ -209,7 +209,7 @@ try
         {
             double adjust_threshold = LOWERBOUND + i * INCREMENT;
             matrix<double, 1, 2> precision_recall = calculate_precision_recall(summary[i][0], summary[i][1], summary[i][2]);
-            Output << adjust_threshold << " " << precision_recall;
+            Output << adjust_threshold << " " << precision_recall(0) << " " << precision_recall(1) << endl;
         }
 
         Output.close();

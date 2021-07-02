@@ -1,7 +1,8 @@
 build
 trainModel
 testModel
-cv
-mmod_sync
-mmod_sync_
+split
+mmod_*
 Fold*
+Cross_validation_log.txt
+precision_recall.png
