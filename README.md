@@ -81,6 +81,16 @@ For example:
 ./testModel ./mmod_network.dat ./Fold1 #if your trained model is in mmod_network.dat and your testing.xml is in the main directory
 ```
 
+## Optional for creating Precision Recall Curve
+
+- You can use plot.py to create a Precision Recall Curve of your model. In order to do this, you need to install matplotlib.
+
+- It is recommended that you set up a virtual environment prior to doing this, you can visit https://www.geeksforgeeks.org/python-virtual-environment/ to know more.
+
+- Run `pip install matplotlib` to install matplotlib within the environment
+
+- Then to draw graph, run `python plot.py NUM_FOLD`. For instance, `python plot.py 10` for 10-fold cross validation. The graph will be stored in 'precision_recall.png'.
+
 ## Summary of scripts:
 1. training.cpp: C++ code for training the model. The code was modified based on Davis King's example for hipsterizing dog: http://blog.dlib.net/2016/10/hipsterize-your-dog-with-deep-learning.html.
 Original source code can be found here: https://github.com/davisking/dlib/blob/master/examples/dnn_mmod_dog_hipsterizer.cpp.
@@ -92,6 +102,8 @@ Original source code can be found here: https://github.com/davisking/dlib/blob/m
 4. compile.sh: Scripts to compile all of the C++ code.
 
 5. runCrossValidation.sh: Scripts to perform n-fold cross validation.
+
+6. plot.py: plot Precision Recall Curve (it is hard-coded and you might need to edit it)
 
 ## Useful resources:
 
