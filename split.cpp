@@ -144,13 +144,11 @@ int main(int argc, char **argv)
 
         parser.add_option("fold", "Number of folds for cross validation", 1);
 
-        parser.add_option("split", "Number of splits for train-test split. For example, 80-20 split will be 5, 75-25 split will be 4. HAS NOT BEEN IMPLEMENTED");
-
         // Parse the command line
         parser.parse(argc, argv);
 
         // Check that each of these options is only present atmost once
-        const char *singles[] = {"h", "file", "fold", "split"};
+        const char *singles[] = {"h", "file", "fold"};
         parser.check_one_time_options(singles);
 
         if (parser.option("h"))
@@ -184,8 +182,6 @@ int main(int argc, char **argv)
                     split_train_test_with_txt(file_read, num_split);
                 }
             }
-
-            // normal train-test split to be implemented
             return EXIT_SUCCESS;
         }
     }
