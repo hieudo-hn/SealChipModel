@@ -166,16 +166,8 @@ int main(int argc, char **argv)
         {
             const string file_read = parser.option("file").argument();
 
-            // normal train-test split
-            if (parser.option_is_defined("split"))
-            {
-                int num_split = stoi(parser.option("split").argument());
-                
-                // to be implemented
-            }
-
             // cross-validation split 
-            else 
+            if (parser.option_is_defined("fold"))
             {
                 // default value of split is 5-fold cross validation
                 int num_split = get_option(parser, "fold", 5);
@@ -192,6 +184,8 @@ int main(int argc, char **argv)
                     split_train_test_with_txt(file_read, num_split);
                 }
             }
+
+            // normal train-test split to be implemented
             return EXIT_SUCCESS;
         }
     }

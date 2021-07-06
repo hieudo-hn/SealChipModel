@@ -48,6 +48,10 @@ using net_type = loss_mmod<con<1, 9, 9, 1, 1, rcon5<rcon5<rcon5<downsampler<inpu
 
 // ----------------------------------------------------------------------------------------
 
+const int NUM_GPUS = 4;
+
+// ----------------------------------------------------------------------------------------
+
 int main(int argc, char** argv) try
 {
     if (argc != 2)
@@ -106,7 +110,15 @@ int main(int argc, char** argv) try
     // The MMOD loss requires that the number of filters in the final network layer equal
     // options.detector_windows.size().  So we set that here as well.
     net.subnet().layer_details().set_num_filters(options.detector_windows.size());
-    dnn_trainer<net_type> trainer(net);
+
+    // set up trainer to use multiple GPUs
+    std::vector<int> gpus(NUM_GPUS);
+    std::iota(gpus.begin(), gpus.end(), 0);
+
+    // we need a solver for our trainer, which is Stochastic Gradient Descent with weight_decay = 0.0005 and momentum = 0.9
+    dlib::sgd solver(0.0005, 0.9);
+
+    dnn_trainer<net_type> trainer(net, solver, gpus);
     trainer.set_learning_rate(0.1);
     trainer.be_verbose();
     trainer.set_synchronization_file("mmod_sync", std::chrono::minutes(5));

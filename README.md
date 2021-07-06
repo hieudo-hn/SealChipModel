@@ -29,6 +29,14 @@ truth bounding boxes (must be prepared using the GUI). You need to have a text f
 Each of the xml file should be on its own line. See xmlList.txt as a guide.
 - For normal n-fold cross-validation, you just need one xmlFile that contains all of the truth bounding box
 
+## Note of training WITH/WITHOUT GPUs:
+
+- The code is currently written to run on AWS machine on a g4dn.12xlarge instance that has 4 GPUs, 48 vCPUs, 192 GiB of memory, 1x900 NVMe SSD, 50 Gbps network performance. 
+If you are running on a machine with 4 GPUS, the code should work fine. However, if you have fewer/more GPUs, you have to update training.cpp on line 51:
+```
+const int NUM_GPUS = how_many_gpus_you_have;
+```
+
 ## Running the script for cross-fold validation:
 
 - First, you need to compile all of the scripts. Make sure that you have all of the prerequisites installed before compiling. You can run `./compile.sh` to compile.
