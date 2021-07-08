@@ -18,17 +18,17 @@ template <long num_filters, typename SUBNET>
 using con5 = con<num_filters, 5, 5, 1, 1, SUBNET>;
 
 template <typename SUBNET>
-using downsampler = relu<bn_con<con5d<32, relu<bn_con<con5d<32, relu<bn_con<con5d<16, SUBNET> > > > > > > > >;
+using downsampler = relu<bn_con<con5d<32, relu<bn_con<con5d<32, relu<bn_con<con5d<16, SUBNET>>>>>>>>>;
 template <typename SUBNET>
-using rcon5 = relu<bn_con<con5<45, SUBNET> > >;
+using rcon5 = relu<bn_con<con5<45, SUBNET>>>;
 
-using net_type = loss_mmod<con<1, 9, 9, 1, 1, rcon5<rcon5<rcon5<downsampler<input_rgb_image_pyramid<pyramid_down<6> > > > > > > >;
+using net_type = loss_mmod<con<1, 9, 9, 1, 1, rcon5<rcon5<rcon5<downsampler<input_rgb_image_pyramid<pyramid_down<6>>>>>>>>;
 
 // ----------------------------------------------------------------------------------------
 
-const double LOWERBOUND = -1.5;
-const double UPPERBOUND = 1.5;
-const double INCREMENT = 0.25;
+const double LOWERBOUND = -5;
+const double UPPERBOUND = 2;
+const double INCREMENT = 0.5;
 const string MODEL_LOG = "Cross_validation_log.txt";
 const string FOLD_LOG = "log.txt";
 
@@ -40,8 +40,8 @@ template <
 const matrix<double, 1, 4> count_correct_hits(
     loss_mmod<SUBNET> &detector,
     const image_array_type &images,
-    const std::vector<std::vector<mmod_rect> > &truth_dets,
-    std::vector<std::pair<double, bool> > &all_dets,
+    const std::vector<std::vector<mmod_rect>> &truth_dets,
+    std::vector<std::pair<double, bool>> &all_dets,
     const test_box_overlap &overlap_tester = test_box_overlap(),
     const double adjust_threshold = 0,
     const test_box_overlap &overlaps_ignore_tester = test_box_overlap())
@@ -71,7 +71,7 @@ const matrix<double, 1, 4> count_correct_hits(
 
         std::vector<full_object_detection> truth_boxes;
         std::vector<rectangle> ignore;
-        std::vector<std::pair<double, rectangle> > boxes;
+        std::vector<std::pair<double, rectangle>> boxes;
 
         // copy hits and truth_dets into the above three objects
         for (auto &&b : truth_dets[i])
@@ -85,9 +85,9 @@ const matrix<double, 1, 4> count_correct_hits(
         {
             boxes.push_back(std::make_pair(b.detection_confidence, b.rect));
         }
-
         // count number of correct_hits, missing_detections, and add all detections with their score + boolean (true/false positive) into all_dets
         correct_hits += dlib::impl::number_of_truth_hits(truth_boxes, ignore, boxes, overlap_tester, all_dets, missing_detections, overlaps_ignore_tester);
+
     }
 
     std::sort(all_dets.rbegin(), all_dets.rend());
@@ -126,7 +126,7 @@ matrix<double, 1, 2> calculate_precision_recall(
 
 // ----------------------------------------------------------------------------------------
 
-std::vector<std::vector<double> > main_test_function(
+std::vector<std::vector<double>> main_test_function(
     const std::string model,
     const std::string faces_directory)
 {
@@ -135,8 +135,8 @@ std::vector<std::vector<double> > main_test_function(
     deserialize(model) >> net;
 
     // load the testing images
-    std::vector<matrix<rgb_pixel> > images_test;
-    std::vector<std::vector<mmod_rect> > face_boxes_test;
+    std::vector<matrix<rgb_pixel>> images_test;
+    std::vector<std::vector<mmod_rect>> face_boxes_test;
     load_image_dataset(images_test, face_boxes_test, faces_directory + "/testing.xml"); // Default testing data must be stored in testing.xml
 
     //log output to files
@@ -144,10 +144,10 @@ std::vector<std::vector<double> > main_test_function(
     const std::string output = faces_directory + "/" + FOLD_LOG;
     ofstream Output(output);
 
-    std::vector<std::vector<double> > summary;
+    std::vector<std::vector<double>> summary;
     for (double adjust_threshold = LOWERBOUND; adjust_threshold <= UPPERBOUND; adjust_threshold += INCREMENT)
     {
-        std::vector<std::pair<double, bool> > all_dets;
+        std::vector<std::pair<double, bool>> all_dets;
 
         const matrix<double, 1, 4> res = count_correct_hits(net, images_test, face_boxes_test, all_dets, test_box_overlap(), adjust_threshold);
 
@@ -184,14 +184,14 @@ try
         int num_fold = stoi(argv[1]);
 
         // summary will contain the total number of hits and other metrics across all folds to calculate the average precision and recall of our model
-        std::vector<std::vector<double> > summary;
+        std::vector<std::vector<double>> summary;
         for (double adjust_threshold = LOWERBOUND; adjust_threshold <= UPPERBOUND; adjust_threshold += INCREMENT)
             summary.push_back({0, 0, 0});
 
         for (int i = 1; i <= num_fold; i++)
         {
             string faces_directory = "Fold" + to_string(i);
-            std::vector<std::vector<double> > metrics = main_test_function(faces_directory + "/seal.dat", faces_directory);
+            std::vector<std::vector<double>> metrics = main_test_function(faces_directory + "/seal.dat", faces_directory);
 
             for (int j = 0; j < metrics.size(); j++)
             {

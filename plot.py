@@ -36,7 +36,7 @@ def main():
             recall.append(float(summary[2]))
         print("Average run ____ Precision: " + str(precision) + "\nRecall: " + str(recall))
 
-        plt.plot(recall, precision, color="navy", label="Average Precision - Recall")
+        plt.plot(recall, precision, color="red", label="Average Precision - Recall")
         
     plt.ylabel("Precision")
     plt.xlabel("Recall")

@@ -17,7 +17,7 @@ then
         ./trainModel ./$curFold
 
         # Move the output to its respective fold
-        mv ./mmod_network.dat "./$curFold/seal.dat"
+        mv ./seal.dat ./$curFold/seal.dat
     done
 
     # Run the testing
