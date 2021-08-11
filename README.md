@@ -2,19 +2,62 @@
 
 This repository is to train a seal facial detection model (output into seal.dat) used by SealNet Chipping GUI found at: https://github.com/hieudo-hn/dlibSealGUI.git
 
-## Requirements:
+# Running on the AWS machine:
 
-Cmake is required to make any changes to or compile the c++ code, and can be found here: https://cmake.org/download/
+## Connecting to AWS
+You can skip step 1,2,8 if this is not your first time using AWS machine with your account.
 
-You also need dlib to run the program. Go to http://dlib.net/ and click download dlib. For more info on how to install these dependencies, visit 
-the SealNet Chipping GUI.
+The instructions assume you are running MacOs or some other Unix-like
+system. If you have
+Windows installed, you may need to download and install OpenSSH
+https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse.
+1. Download the ssh key YOURNAME_id_rsa to your Downloads folder.
+For instance, if your name is Ahmet Ay, it will be aay_id_rsa.txt.
+2. If you are not on the Colgate network, make sure you are connected
+to the VPN
+3. Start the aws instance by visiting http://hpc-aws-launcher.colgate.edu/ and clicking start.
+4. Open terminal application from the applications folder
+5. Run `cd ~/Downloads/` to change the directory
+6. Run `ssh -i YOURNAME_id_rsa.txt YOURNAME@gpu-1.colgate.edu`
 
-Clone this repo: `git clone https://github.com/hieudo-hn/SealChipModel.git`
+NOTE: If you try to log in to AWS and you encounter an error that says:
+    WARNING: UNPROTECTED PRIVATE KEY FILE!
+Run this command `chmod 400 YOURNAME_id_rsa.txt` in the Downloads folder to
+change permissions on your key.
+
+At this step, you are now connected to the AWS cluster. 
+Note: When you are finished using it, visit http://hpc-aws-launcher.colgate.edu/ and click stop to end the session.
+
+The upcoming instructions assume the EC2 instance has been configured by
+Colgate ITS. You will need git and latest python3 installed. 
+7. Run `cd /data` to access the data directory
+8. Run `mkdir YOURNAME_workspace` to create your workspace. This will be
+the primary working directory.
+9. Run `cd YOURNAME_workspace`
+Now you have created your own workspace on the AWS cluster. Whenever you
+connect to AWS next time, please cd to this workspace to run your code.
+
+## Setting SealChipModel for new user
+The following instructions assume that you are currently in your workspace
+on the AWS instance. If you have set up SealChipModel before, you can skip this 
+step.
+
+1. Run `git clone https://github.com/hieudo-hn/SealChipModel.git` to
+download SealChipModel and `cd ./SealChipModel`
+2. You need cmake and dlib for this program. If you are using AWS then this is all set up for you. Otherwise, you can download dlib from http://dlib.net/ and cmake by typing `brew install cmake`.
 
 ## Preparing the data:
 
-- You need to manually draw the truth bounding boxes around the object you are trying to detect. For instance, in this case, we are dealing with seals.
-Please refer to https://github.com/hieudo-hn/dlibSealGUI.git which modifies Davis King's imglab to assist you with preparing the data.
+1. You need to manually draw the truth bounding boxes around the object you are trying to detect. For instance, in this case, we are dealing with seals.
+Please refer to https://github.com/hieudo-hn/dlibSealGUI.git which the GUI that will assist you with preparing the data.
+2. Each folder of photos should have its corresponding xml file that contains information about the boxes for each face. If you are using AWS and it does not have your photos,
+you need to upload them.
+You can do so by opening a separate terminal, and go to the directory that contains the photo folders and the xml file. For instance, if your photo folder's name is Seal and the xml file is seal.xml and both are in the Downloads folder, run:
+```
+cd ~/Downloads
+scp -i YOURNAME_id_rsa.txt -r Seal YOURNAME@gpu-1.colgate.edu:/data/YOURNAME_workspace/SealChipModel
+scp -i YOURNAME_id_rsa.txt -r seal.xml YOURNAME@gpu-1.colgate.edu:/data/YOURNAME_workspace/SealChipModel
+```
 
 ## Training and validation:
 
